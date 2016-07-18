@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки отчета</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>DontShow</AutoShowState>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<CheckBoxField name="СкрыватьЦветЗадач" id="3">
+			<DataPath>Отчет.СкрыватьЦветЗадач</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СкрыватьЦветЗадачКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="СкрыватьЦветЗадачExtendedTooltip" id="13"/>
+		</CheckBoxField>
+		<CheckBoxField name="ИспользоватьКрупныйШрифт" id="1">
+			<DataPath>Отчет.ИспользоватьКрупныйШрифт</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьКрупныйШрифтКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИспользоватьКрупныйШрифтExtendedTooltip" id="14"/>
+		</CheckBoxField>
+		<CheckBoxField name="СкрыватьВыходныеДни" id="5">
+			<DataPath>Отчет.СкрыватьВыходныеДни</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СкрыватьВыходныеДниКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="СкрыватьВыходныеДниExtendedTooltip" id="15"/>
+		</CheckBoxField>
+		<CheckBoxField name="ОтображатьОперативныйПлан" id="9">
+			<DataPath>Отчет.ОтображатьЗадачиОперативногоПлана</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОтображатьОперативныйПланКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ОтображатьОперативныйПланExtendedTooltip" id="16"/>
+		</CheckBoxField>
+		<CheckBoxField name="МонохромнаяЗаливка" id="11">
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="МонохромнаяЗаливкаКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="МонохромнаяЗаливкаExtendedTooltip" id="17"/>
+		</CheckBoxField>
+		<CommandBar name="Панель" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Панель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalLocation>Right</HorizontalLocation>
+			<ExtendedTooltip name="ПанельExtendedTooltip" id="18"/>
+			<ChildItems>
+				<Button name="ФормаКнопкаЗакрыть" id="7">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.StandardCommand.Close</CommandName>
+					<ExtendedTooltip name="ФормаКнопкаЗакрытьExtendedTooltip" id="19"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ReportObject.ПланВыполненияЗадач</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
