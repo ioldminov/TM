@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="c4944a05-6fb0-4a9d-a772-21aed8729703">
+		<Name>ДобавлениеКомментария</Name>
+		<Code>00001</Code>
+		<Description>Добавление комментария</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3a45f8d7-8163-41ce-b065-76985c9419c2">
+		<Name>ИзмененияПолейЗадачи</Name>
+		<Code>00002</Code>
+		<Description>Изменения полей задачи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ba96b61c-21a7-4c38-8bef-d948d791a388">
+		<Name>СозданиеЗадачи</Name>
+		<Code>00003</Code>
+		<Description>Создание задачи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

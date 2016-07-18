@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>База знаний ДТР</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<Group>Horizontal</Group>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ОткрытьСписокСтатей" id="137">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Document.Статья.StandardCommand.OpenList</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Document</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Открыть список всех статей</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ОткрытьСписокСтатейРасширеннаяПодсказка" id="138"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Содержание" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<ExtendedTooltip name="СодержаниеРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="139">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ChildItemsWidth>LeftNarrow</ChildItemsWidth>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="140"/>
+					<ChildItems>
+						<Table name="Каталоги" id="10">
+							<Representation>Tree</Representation>
+							<ReadOnly>true</ReadOnly>
+							<Height>6</Height>
+							<SelectionMode>SingleRow</SelectionMode>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<InitialTreeView>ExpandTopLevel</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ДеревоКаталогов</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Каталог статей</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="КаталогиКонтекстноеМеню" id="11"/>
+							<AutoCommandBar name="КаталогиКоманднаяПанель" id="12">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="КаталогиРасширеннаяПодсказка" id="13"/>
+							<SearchStringAddition name="КаталогиСтрокаПоиска" id="14">
+								<AdditionSource>
+									<Item>Каталоги</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КаталогиСтрокаПоискаКонтекстноеМеню" id="17"/>
+								<ExtendedTooltip name="КаталогиСтрокаПоискаРасширеннаяПодсказка" id="18"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КаталогиСостояниеПросмотра" id="19">
+								<AdditionSource>
+									<Item>Каталоги</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КаталогиСостояниеПросмотраКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="КаталогиСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КаталогиУправлениеПоиском" id="24">
+								<AdditionSource>
+									<Item>Каталоги</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КаталогиУправлениеПоискомКонтекстноеМеню" id="27"/>
+								<ExtendedTooltip name="КаталогиУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">КаталогиВыбор</Event>
+								<Event name="OnActivateRow">КаталогиПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="Каталог" id="29">
+									<DataPath>ДеревоКаталогов.Ref</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Каталог</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КаталогКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="КаталогРасширеннаяПодсказка" id="31"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="ПереченьСтатей" id="60">
+							<ReadOnly>true</ReadOnly>
+							<Height>4</Height>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ПереченьСтатей</DataPath>
+							<RowPictureDataPath>ПереченьСтатей.DefaultPicture</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Статьи каталога</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="ПереченьСтатейКонтекстноеМеню" id="61"/>
+							<AutoCommandBar name="ПереченьСтатейКоманднаяПанель" id="62">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПереченьСтатейРасширеннаяПодсказка" id="63"/>
+							<SearchStringAddition name="ПереченьСтатейСтрокаПоиска" id="64">
+								<AdditionSource>
+									<Item>ПереченьСтатей</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПереченьСтатейСтрокаПоискаКонтекстноеМеню" id="67"/>
+								<ExtendedTooltip name="ПереченьСтатейСтрокаПоискаРасширеннаяПодсказка" id="68"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПереченьСтатейСостояниеПросмотра" id="69">
+								<AdditionSource>
+									<Item>ПереченьСтатей</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПереченьСтатейСостояниеПросмотраКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="ПереченьСтатейСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПереченьСтатейУправлениеПоиском" id="74">
+								<AdditionSource>
+									<Item>ПереченьСтатей</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПереченьСтатейУправлениеПоискомКонтекстноеМеню" id="77"/>
+								<ExtendedTooltip name="ПереченьСтатейУправлениеПоискомРасширеннаяПодсказка" id="78"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ПереченьСтатейВыбор</Event>
+								<Event name="OnActivateRow">ПереченьСтатейПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ПереченьСтатейНаименование" id="79">
+									<DataPath>ПереченьСтатей.Наименование</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Статьи</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПереченьСтатейНаименованиеКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="ПереченьСтатейНаименованиеРасширеннаяПодсказка" id="81"/>
+								</LabelField>
+								<LabelField name="ПереченьСтатейКаталог" id="82">
+									<DataPath>ПереченьСтатей.Каталог</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ПереченьСтатейКаталогКонтекстноеМеню" id="83"/>
+									<ExtendedTooltip name="ПереченьСтатейКаталогРасширеннаяПодсказка" id="84"/>
+								</LabelField>
+								<LabelField name="ПереченьСтатейСодержимое" id="85">
+									<DataPath>ПереченьСтатей.Period</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ПереченьСтатейСодержимоеКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="ПереченьСтатейСодержимоеРасширеннаяПодсказка" id="87"/>
+								</LabelField>
+								<LabelField name="ПереченьСтатейАвтор" id="88">
+									<DataPath>ПереченьСтатей.Автор</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ПереченьСтатейАвторКонтекстноеМеню" id="89"/>
+									<ExtendedTooltip name="ПереченьСтатейАвторРасширеннаяПодсказка" id="90"/>
+								</LabelField>
+								<LabelField name="ПереченьСтатейДата" id="91">
+									<Visible>false</Visible>
+									<ContextMenu name="ПереченьСтатейДатаКонтекстноеМеню" id="92"/>
+									<ExtendedTooltip name="ПереченьСтатейДатаРасширеннаяПодсказка" id="93"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="141">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="142"/>
+			<ChildItems>
+				<Pages name="Страницы" id="94">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="95"/>
+					<ChildItems>
+						<Page name="Основная" id="96">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текст статьи</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основная</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="97"/>
+							<ChildItems>
+								<LabelField name="НазваниеСтатьи" id="154">
+									<DataPath>НазваниеСтатьи</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<TextColor>style:FieldSelectionBackColor</TextColor>
+									<Font ref="sys:DefaultGUIFont" height="10" kind="WindowsFont"/>
+									<ContextMenu name="НазваниеСтатьиКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="НазваниеСтатьиРасширеннаяПодсказка" id="156"/>
+								</LabelField>
+								<CommandBar name="ПанельСтатьи" id="146">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Панель статьи</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Панель статьи</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ПанельСтатьиРасширеннаяПодсказка" id="147"/>
+									<ChildItems>
+										<Button name="ОбновитьДанные" id="152">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ОбновитьДанные</CommandName>
+											<ExtendedTooltip name="ОбновитьДанныеРасширеннаяПодсказка" id="153"/>
+										</Button>
+										<Button name="ДобавитьСтатью" id="150">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ДобавитьСтатью</CommandName>
+											<ExtendedTooltip name="ДобавитьСтатьюРасширеннаяПодсказка" id="151"/>
+										</Button>
+										<Button name="РедактироватьСтатью" id="148">
+											<Type>CommandBarButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>Form.Command.РедактироватьСтатью</CommandName>
+											<Picture>
+												<xr:Ref>StdPicture.Change</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="РедактироватьСтатьюРасширеннаяПодсказка" id="149"/>
+										</Button>
+									</ChildItems>
+								</CommandBar>
+								<HTMLDocumentField name="ПолеHTML" id="57">
+									<DataPath>Документ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Статья</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ПолеHTMLКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ПолеHTMLРасширеннаяПодсказка" id="59"/>
+									<Events>
+										<Event name="DocumentComplete">ПолеHTMLДокументСформирован</Event>
+										<Event name="OnClick">ПолеHTMLПриНажатии</Event>
+									</Events>
+								</HTMLDocumentField>
+							</ChildItems>
+						</Page>
+						<Page name="Допы" id="98">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные файлы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Допы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<TitleDataPath>ДополнительныеФайлыЗаголовок</TitleDataPath>
+							<ExtendedTooltip name="ДопыРасширеннаяПодсказка" id="99"/>
+							<ChildItems>
+								<Table name="НаборФайлов" id="100">
+									<ReadOnly>true</ReadOnly>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>НаборФайлов</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="НаборФайловКонтекстноеМеню" id="101"/>
+									<AutoCommandBar name="НаборФайловКоманднаяПанель" id="102">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="НаборФайловРасширеннаяПодсказка" id="103"/>
+									<SearchStringAddition name="НаборФайловСтрокаПоиска" id="104">
+										<AdditionSource>
+											<Item>НаборФайлов</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НаборФайловСтрокаПоискаКонтекстноеМеню" id="107"/>
+										<ExtendedTooltip name="НаборФайловСтрокаПоискаРасширеннаяПодсказка" id="108"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="НаборФайловСостояниеПросмотра" id="109">
+										<AdditionSource>
+											<Item>НаборФайлов</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="НаборФайловСостояниеПросмотраКонтекстноеМеню" id="112"/>
+										<ExtendedTooltip name="НаборФайловСостояниеПросмотраРасширеннаяПодсказка" id="113"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="НаборФайловУправлениеПоиском" id="114">
+										<AdditionSource>
+											<Item>НаборФайлов</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="НаборФайловУправлениеПоискомКонтекстноеМеню" id="117"/>
+										<ExtendedTooltip name="НаборФайловУправлениеПоискомРасширеннаяПодсказка" id="118"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="Selection">НаборФайловВыбор</Event>
+									</Events>
+									<ChildItems>
+										<InputField name="НаборФайловИмяФайла" id="122">
+											<DataPath>НаборФайлов.ИмяФайла</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НаборФайловИмяФайлаКонтекстноеМеню" id="123"/>
+											<ExtendedTooltip name="НаборФайловИмяФайлаРасширеннаяПодсказка" id="124"/>
+										</InputField>
+										<InputField name="НаборФайловПользователь" id="128">
+											<DataPath>НаборФайлов.Пользователь</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НаборФайловПользовательКонтекстноеМеню" id="129"/>
+											<ExtendedTooltip name="НаборФайловПользовательРасширеннаяПодсказка" id="130"/>
+										</InputField>
+										<InputField name="НаборФайловДобавлен" id="131">
+											<DataPath>НаборФайлов.Добавлен</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НаборФайловДобавленКонтекстноеМеню" id="132"/>
+											<ExtendedTooltip name="НаборФайловДобавленРасширеннаяПодсказка" id="133"/>
+										</InputField>
+										<InputField name="НаборФайловРазмер" id="134">
+											<DataPath>НаборФайлов.Размер</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="НаборФайловРазмерКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="НаборФайловРазмерРасширеннаяПодсказка" id="136"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОтображениеСтатей</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДеревоКаталогов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево каталогов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.Каталоги</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПереченьСтатей" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечень статей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ИсторияСтатейСрезПоследних.Период,
+	ИсторияСтатейСрезПоследних.Наименование,
+	ИсторияСтатейСрезПоследних.Документ,
+	ИсторияСтатейСрезПоследних.Каталог,
+	ИсторияСтатейСрезПоследних.ТекстHTML,
+	ИсторияСтатейСрезПоследних.Автор
+ИЗ
+	РегистрСведений.ИсторияСтатей.СрезПоследних(, ) КАК ИсторияСтатейСрезПоследних</QueryText>
+				<MainTable>InformationRegister.ИсторияСтатей.SliceLast</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Документ" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрТекстHTML" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметр текст HTML</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НаборФайлов" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор файлов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ФайлыСтатей</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НазваниеСтатьи" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Название статьи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДополнительныеФайлыЗаголовок" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные файлы заголовок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Реквизит1" id="9">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РедактироватьСтатью" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать статью</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать статью</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РедактироватьСтатью</Action>
+		</Command>
+		<Command name="ДобавитьСтатью" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить статью</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить статью</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьСтатью</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбновитьДанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьДанные</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>
