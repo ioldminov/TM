@@ -200,8 +200,10 @@
 					<v8:content>Данные о заявке</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<Behavior>Collapsible</Behavior>
+			<Representation>None</Representation>
 			<ShowLeftMargin>false</ShowLeftMargin>
 			<ChildItemsWidth>LeftWidest</ChildItemsWidth>
 			<ExtendedTooltip name="ДанныеОЗаявкеРасширеннаяПодсказка" id="163"/>
@@ -219,21 +221,23 @@
 							<v8:content>Пользователи</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>13</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
 					<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="164"/>
 					<ChildItems>
 						<InputField name="Автор" id="5">
 							<DataPath>Объект.Автор</DataPath>
 							<ReadOnly>true</ReadOnly>
+							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="АвторКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="165"/>
 						</InputField>
 						<InputField name="Ответственный" id="11">
 							<DataPath>Объект.Ответственный</DataPath>
+							<TitleLocation>Left</TitleLocation>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="12"/>
@@ -241,6 +245,7 @@
 						</InputField>
 						<InputField name="Исполнитель" id="79">
 							<DataPath>Объект.Исполнитель</DataPath>
+							<TitleLocation>Left</TitleLocation>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ИсполнительКонтекстноеМеню" id="80"/>
 							<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="167"/>
@@ -260,6 +265,8 @@
 							<v8:content>Параметры</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>25</Width>
+					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
@@ -269,6 +276,7 @@
 						<InputField name="Статус" id="25">
 							<DataPath>Объект.Статус</DataPath>
 							<Width>1</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="СтатусКонтекстноеМеню" id="26"/>
 							<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="169"/>
 						</InputField>
@@ -280,7 +288,7 @@
 									<v8:content>Дата план</v8:content>
 								</v8:item>
 							</Title>
-							<Width>1</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ПлановаяДатаИсполненияКонтекстноеМеню" id="78"/>
 							<ExtendedTooltip name="ПлановаяДатаИсполненияРасширеннаяПодсказка" id="170"/>
@@ -326,7 +334,6 @@
 											</Title>
 											<Width>1</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
-											<HorizontalStretch>true</HorizontalStretch>
 											<DropListButton>true</DropListButton>
 											<ChoiceButton>false</ChoiceButton>
 											<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
@@ -335,52 +342,9 @@
 											<OpenButton>false</OpenButton>
 											<CreateButton>false</CreateButton>
 											<ListChoiceMode>true</ListChoiceMode>
-											<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+											<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
 											<QuickChoice>true</QuickChoice>
 											<AutoMarkIncomplete>true</AutoMarkIncomplete>
-											<IncompleteChoiceMode>OnActivate</IncompleteChoiceMode>
-											<ChoiceList>
-												<xr:Item>
-													<xr:Presentation/>
-													<xr:CheckState>0</xr:CheckState>
-													<xr:Value xsi:type="FormChoiceListDesTimeValue">
-														<Presentation/>
-														<Value xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.Назначена</Value>
-													</xr:Value>
-												</xr:Item>
-												<xr:Item>
-													<xr:Presentation/>
-													<xr:CheckState>0</xr:CheckState>
-													<xr:Value xsi:type="FormChoiceListDesTimeValue">
-														<Presentation/>
-														<Value xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.ВРаботе</Value>
-													</xr:Value>
-												</xr:Item>
-												<xr:Item>
-													<xr:Presentation/>
-													<xr:CheckState>0</xr:CheckState>
-													<xr:Value xsi:type="FormChoiceListDesTimeValue">
-														<Presentation/>
-														<Value xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.НуженОтклик</Value>
-													</xr:Value>
-												</xr:Item>
-												<xr:Item>
-													<xr:Presentation/>
-													<xr:CheckState>0</xr:CheckState>
-													<xr:Value xsi:type="FormChoiceListDesTimeValue">
-														<Presentation/>
-														<Value xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.Отработана</Value>
-													</xr:Value>
-												</xr:Item>
-												<xr:Item>
-													<xr:Presentation/>
-													<xr:CheckState>0</xr:CheckState>
-													<xr:Value xsi:type="FormChoiceListDesTimeValue">
-														<Presentation/>
-														<Value xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.Закрыта</Value>
-													</xr:Value>
-												</xr:Item>
-											</ChoiceList>
 											<ChoiceListButton>true</ChoiceListButton>
 											<DropListWidth>10</DropListWidth>
 											<ContextMenu name="СостояниеЗадачиКонтекстноеМеню" id="62"/>
@@ -404,11 +368,13 @@
 											<v8:content>Страница быстрое изменение состояния</v8:content>
 										</v8:item>
 									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
 									<Group>Horizontal</Group>
 									<ChildItemsWidth>LeftWidest</ChildItemsWidth>
 									<ExtendedTooltip name="СтраницаБыстроеИзменениеСостоянияРасширеннаяПодсказка" id="331"/>
 									<ChildItems>
 										<LabelDecoration name="ИзменитьСостояние" id="334">
+											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>true</HorizontalStretch>
 											<TextColor>style:FieldSelectionBackColor</TextColor>
 											<Title formatted="false">
@@ -484,15 +450,12 @@
 					<ChildItems>
 						<InputField name="Проект" id="68">
 							<DataPath>Объект.Проект</DataPath>
-							<Width>1</Width>
-							<Height>1</Height>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="ПроектКонтекстноеМеню" id="69"/>
 							<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="173"/>
 						</InputField>
 						<InputField name="Модуль" id="74">
 							<DataPath>Объект.Модуль</DataPath>
-							<Width>1</Width>
 							<AutoMarkIncomplete>true</AutoMarkIncomplete>
 							<ContextMenu name="МодульКонтекстноеМеню" id="75"/>
 							<ExtendedTooltip name="МодульРасширеннаяПодсказка" id="174"/>
@@ -502,7 +465,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>         от</v8:content>
+									<v8:content>от</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ИсполнительОткликКонтекстноеМеню" id="122"/>
@@ -517,6 +480,7 @@
 							<v8:content>Прочие параметры</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>28</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
@@ -545,6 +509,12 @@
 								</Title>
 							</ExtendedTooltip>
 						</InputField>
+						<InputField name="ТипЗадачи" id="357">
+							<DataPath>Объект.ТипЗадачи</DataPath>
+							<TitleLocation>Left</TitleLocation>
+							<ContextMenu name="ТипЗадачиКонтекстноеМеню" id="358"/>
+							<ExtendedTooltip name="ТипЗадачиРасширеннаяПодсказка" id="359"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -562,14 +532,17 @@
 					<v8:content>Группа основные</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
+			<United>false</United>
 			<ChildItemsWidth>LeftWidest</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОсновныеРасширеннаяПодсказка" id="179"/>
 			<ChildItems>
 				<InputField name="Суть" id="53">
 					<DataPath>Объект.Суть</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<InputHint>
 						<v8:item>
@@ -1039,6 +1012,8 @@
 										<InputField name="ПодробностиИстории" id="147">
 											<DataPath>Items.ИсторияИзменений.CurrentData.Подробности</DataPath>
 											<TitleLocation>Top</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
 											<VerticalStretch>false</VerticalStretch>
 											<MultiLine>true</MultiLine>
 											<ContextMenu name="ПодробностиИсторииКонтекстноеМеню" id="148"/>

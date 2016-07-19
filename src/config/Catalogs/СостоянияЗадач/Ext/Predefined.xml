@@ -21,7 +21,7 @@
 	<Item id="f04f3929-d06f-4a81-9395-0aff270995e2">
 		<Name>Новая</Name>
 		<Code>00006</Code>
-		<Description>Новая</Description>
+		<Description>Новая / Подготавливается ТЗ</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="72f2e8e1-6b72-4b34-8c7a-d740a47530eb">
@@ -34,6 +34,12 @@
 		<Name>Отработана</Name>
 		<Code>00003</Code>
 		<Description>Отработана</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5aaeddbd-ecfa-436c-a349-d67756a1dfff">
+		<Name>Приостановлена</Name>
+		<Code>00007</Code>
+		<Description>Приостановлена / Отложена</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>
