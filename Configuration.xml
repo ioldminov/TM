@@ -143,10 +143,12 @@
 			<Subsystem>Основная</Subsystem>
 			<Subsystem>Doku1c</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<StyleItem>ЦветНовая</StyleItem>
 			<StyleItem>ЦветНазначена</StyleItem>
 			<StyleItem>ЦветВРаботе</StyleItem>
 			<StyleItem>ЦветНуженОткликБледный</StyleItem>
 			<StyleItem>ЦветНуженОткликЯркий</StyleItem>
+			<StyleItem>ЦветПриостановлена</StyleItem>
 			<StyleItem>ЦветОтработана</StyleItem>
 			<StyleItem>ЦветЗакрыта</StyleItem>
 			<StyleItem>ШрифтТекстовыхПолей</StyleItem>
@@ -201,6 +203,7 @@
 			<Catalog>РелизыКонфигураций</Catalog>
 			<Catalog>СобытияИстории</Catalog>
 			<Catalog>Каталоги</Catalog>
+			<Catalog>ТипыЗадач</Catalog>
 			<Document>Задача</Document>
 			<Document>Статья</Document>
 			<Document>Спринт</Document>
