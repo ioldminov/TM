@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="6dea53e6-559f-49b6-9577-f4cc3b7eb534">
+		<Name>АльфаАвто</Name>
+		<Code>000000001</Code>
+		<Description>Альфа-авто</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc7ab0d3-e6e9-4a8b-b9f4-c62ab8cb84d6">
+		<Name>КонсолидацияКПЭ</Name>
+		<Code>000000002</Code>
+		<Description>Консолидация КПЭ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
