@@ -38,8 +38,10 @@ Catalogs\РелизыКонфигураций\Forms\ФормаВыбора.xml--
 Catalogs\РелизыКонфигураций\Forms\ФормаСписка.xml-->Catalogs\РелизыКонфигураций\Forms\ФормаСписка.xml
 Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента.xml-->Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента.xml
 Catalogs\РелизыКонфигураций\Forms\ФормаВыбора\Ext\Form.xml-->Catalogs\РелизыКонфигураций\Forms\ФормаВыбора\Ext\Form.xml
+Catalogs\РелизыКонфигураций\Forms\ФормаВыбора\Ext\Form\Module.bsl-->Catalogs\РелизыКонфигураций\Forms\ФормаВыбора\Ext\Form\Module.bsl
 Catalogs\РелизыКонфигураций\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\РелизыКонфигураций\Forms\ФормаСписка\Ext\Form.xml
 Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента\Ext\Form.xml
+Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\РелизыКонфигураций\Forms\ФормаЭлемента\Ext\Form\Module.bsl
 Catalogs\СобытияИстории\Ext\Predefined.xml-->Catalogs\СобытияИстории\Ext\Predefined.xml
 Catalogs\СостоянияЗадач\Ext\Predefined.xml-->Catalogs\СостоянияЗадач\Ext\Predefined.xml
 Catalogs\СостоянияЗадач\Forms\ФормаСписка.xml-->Catalogs\СостоянияЗадач\Forms\ФормаСписка.xml

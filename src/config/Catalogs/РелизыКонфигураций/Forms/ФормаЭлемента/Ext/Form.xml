@@ -33,6 +33,9 @@
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ВыпущенКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="ВыпущенРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">ВыпущенПриИзменении</Event>
+			</Events>
 		</CheckBoxField>
 		<InputField name="ДатаВыпуска" id="16">
 			<DataPath>Объект.ДатаВыпуска</DataPath>
