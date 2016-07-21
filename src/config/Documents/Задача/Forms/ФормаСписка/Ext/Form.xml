@@ -282,6 +282,7 @@
 				<Table name="Список" id="1">
 					<SkipOnInput>false</SkipOnInput>
 					<DefaultItem>true</DefaultItem>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<SelectionMode>SingleRow</SelectionMode>
 					<UseAlternationRowColor>true</UseAlternationRowColor>
 					<InitialTreeView>ExpandTopLevel</InitialTreeView>
@@ -531,6 +532,7 @@
 							<v8:content>Группа новости история комментарии</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>40</Width>
 					<ExtendedTooltip name="ГруппаНовостиИсторияКомментарииРасширеннаяПодсказка" id="217"/>
 					<Events>
 						<Event name="OnCurrentPageChange">ГруппаНовостиИсторияКомментарииПриСменеСтраницы</Event>
@@ -553,6 +555,7 @@
 							<ChildItems>
 								<Table name="Новости" id="109">
 									<Representation>List</Representation>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<InitialListView>Beginning</InitialListView>
 									<DataPath>Новости</DataPath>
 									<Font ref="style:ШрифтСтандартный" kind="StyleItem"/>
@@ -840,6 +843,7 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
+													<AutoMaxWidth>false</AutoMaxWidth>
 													<MultiLine>true</MultiLine>
 													<ContextMenu name="ПодробностиНовостиКонтекстноеМеню" id="126"/>
 													<ExtendedTooltip name="ПодробностиНовостиExtendedTooltip" id="245"/>
@@ -904,6 +908,7 @@
 							</ChildItems>
 						</Page>
 						<Page name="ГруппаИстория" id="141">
+							<Visible>false</Visible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1082,6 +1087,7 @@
 									<CommandBarLocation>None</CommandBarLocation>
 									<Autofill>true</Autofill>
 									<SkipOnInput>false</SkipOnInput>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>5</Height>
 									<InitialTreeView>ExpandAllLevels</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
@@ -1131,6 +1137,7 @@
 									<TitleLocation>Top</TitleLocation>
 									<Autofill>true</Autofill>
 									<SkipOnInput>false</SkipOnInput>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>Список.Group</DataPath>
@@ -1198,6 +1205,7 @@
 							<ChildItems>
 								<Table name="Избранное" id="291">
 									<CommandBarLocation>None</CommandBarLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>Избранное</DataPath>
@@ -1302,6 +1310,7 @@
 							<ExtendedTooltip name="ГруппаСоставСпринтаРасширеннаяПодсказка" id="355"/>
 						</Page>
 						<Page name="ГруппаКомментарииТекущейЗадачи" id="392">
+							<Visible>false</Visible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1421,6 +1430,7 @@
 				</InputField>
 				<InputField name="ОписаниеРешения" id="35">
 					<DataPath>Items.Список.CurrentData.ОписаниеРешения</DataPath>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ContextMenu name="ОписаниеРешенияКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ОписаниеРешенияExtendedTooltip" id="267"/>
 				</InputField>
