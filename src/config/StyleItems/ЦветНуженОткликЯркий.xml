@@ -11,7 +11,7 @@
 			</Synonym>
 			<Comment/>
 			<Type>Color</Type>
-			<Value xsi:type="v8ui:Color">web:Violet</Value>
+			<Value xsi:type="v8ui:Color">#EE96EE</Value>
 		</Properties>
 	</StyleItem>
 </MetaDataObject>

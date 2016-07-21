@@ -183,15 +183,18 @@
 			<CommonPicture>БазаЗнаний</CommonPicture>
 			<CommonPicture>Внимание</CommonPicture>
 			<CommonPicture>Новости</CommonPicture>
+			<CommonPicture>ДеревоОбъектов</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Пользователь</Role>
 			<Role>Администратор</Role>
 			<Role>Разработчик</Role>
 			<Role>ПользовательВнешний</Role>
 			<CommonTemplate>CbToJPEG</CommonTemplate>
+			<FilterCriterion>Задачи</FilterCriterion>
 			<CommonModule>Общий</CommonModule>
 			<CommonModule>ксНастройкаСервер</CommonModule>
 			<CommonModule>уоУсловноеОформление</CommonModule>
+			<CommonModule>доДеревоСвязаныхОбъектов</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
@@ -217,6 +220,7 @@
 			<DataProcessor>ИмпортЗадач</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ОтображениеСтатей</DataProcessor>
+			<DataProcessor>ДеревоСвязанныхОбъектов</DataProcessor>
 			<InformationRegister>ОперативныйПланЗадач</InformationRegister>
 			<InformationRegister>Коментарии</InformationRegister>
 			<InformationRegister>СвязанныеЗадачи</InformationRegister>
