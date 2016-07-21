@@ -397,11 +397,11 @@
 		<Metadata name="StyleItem.ЦветВРаботе" id="b9c583f1-db34-4c95-8c49-e9b68c2a7e48" configVersion="35960aa07fe35c4185233ec6ccaff30300000000"/>
 		<Metadata name="StyleItem.ЦветЗакрыта" id="1adc4737-4ea6-4ed7-9481-88e704fd05b6" configVersion="0b940c24875e0d4db9dd9cda1092689300000000"/>
 		<Metadata name="StyleItem.ЦветНазначена" id="471500f5-5e01-43c2-a23c-554e4f4d51b5" configVersion="d6cb6d844516614e89c7ccfe51b3cdda00000000"/>
-		<Metadata name="StyleItem.ЦветНовая" id="cf839501-d12d-4b41-9ccc-5e2e74a09c1c" configVersion="0bf1581867b88c498c30c8d8bb92986400000000"/>
+		<Metadata name="StyleItem.ЦветНовая" id="cf839501-d12d-4b41-9ccc-5e2e74a09c1c" configVersion="6515307fd67f324aa52d081547956a4800000000"/>
 		<Metadata name="StyleItem.ЦветНуженОткликБледный" id="48d79a26-cd1b-42fa-a9af-2d44348a2ef3" configVersion="337af984d25456438838c7637350b15800000000"/>
 		<Metadata name="StyleItem.ЦветНуженОткликЯркий" id="ce030d5e-a763-4421-8b1f-b6df598a8864" configVersion="4eee652a714fd54c88803b1df0a40f6200000000"/>
 		<Metadata name="StyleItem.ЦветОтработана" id="625e2f43-9bc1-453f-a481-dc14c32d4187" configVersion="e72341a0fb08684293ce0cd03b833dd300000000"/>
-		<Metadata name="StyleItem.ЦветПриостановлена" id="1667d71e-57ab-4712-914e-e8a8ae93c5dc" configVersion="86653547f5e75a49a3c2ab22b2862d0500000000"/>
+		<Metadata name="StyleItem.ЦветПриостановлена" id="1667d71e-57ab-4712-914e-e8a8ae93c5dc" configVersion="e0bcc31cfc7d524da0fd270436cac36400000000"/>
 		<Metadata name="StyleItem.ШрифтСтандартный" id="67c346cc-d567-4dca-bc63-f781a2ec78ff" configVersion="2ad7f3f371a9b34da6a78848363ac70100000000"/>
 		<Metadata name="StyleItem.ШрифтТекстовыхПолей" id="d2bb4705-b168-45bb-9d99-89d172cf4d05" configVersion="e7679402ee58404e9685401544ebe75300000000"/>
 		<Metadata name="Subsystem.Doku1c" id="4dd9853a-fd81-4731-bff2-fd44f7ed325b" configVersion="855a44b5c4b4d34e82bbcec54dbb753b00000000"/>
