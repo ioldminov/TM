@@ -556,6 +556,12 @@
 						</UsualGroup>
 						<InputField name="ТипЗадачи" id="357">
 							<DataPath>Объект.ТипЗадачи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>Left</TitleLocation>
 							<ContextMenu name="ТипЗадачиКонтекстноеМеню" id="358"/>
 							<ExtendedTooltip name="ТипЗадачиРасширеннаяПодсказка" id="359"/>
