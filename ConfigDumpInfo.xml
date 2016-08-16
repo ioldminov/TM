@@ -248,8 +248,8 @@
 		<Metadata name="Document.Задача.Help" id="dada5f0a-08f2-4aad-a108-e5b7e3d748d9.1" configVersion="68995dc555016d46b3592a813c9e01c000000000"/>
 		<Metadata name="Document.Задача.ManagerModule" id="dada5f0a-08f2-4aad-a108-e5b7e3d748d9.2" configVersion="3fff4ca13731374699e2ad500f9713c900000000"/>
 		<Metadata name="Document.Задача.ObjectModule" id="dada5f0a-08f2-4aad-a108-e5b7e3d748d9.0" configVersion="7298e5722cbcec41a7d857bd44c2d76800000000"/>
-		<Metadata name="Document.Задача.Template.Задача" id="f6cf2d02-2702-482b-b350-fde2ab0d8140" configVersion="e596f0b2f6d06249b1dac7773ea51c9400000000"/>
-		<Metadata name="Document.Задача.Template.Задача.Template" id="f6cf2d02-2702-482b-b350-fde2ab0d8140.0" configVersion="fba6859a7dafa046b555f3eafa227d4a00000000"/>
+		<Metadata name="Document.Задача.Template.Задача" id="f6cf2d02-2702-482b-b350-fde2ab0d8140" configVersion="5684399fec20c343baafeb79cd3d003300000000"/>
+		<Metadata name="Document.Задача.Template.Задача.Template" id="f6cf2d02-2702-482b-b350-fde2ab0d8140.0" configVersion="cceb4a2940e7eb478f287f7a62910faa00000000"/>
 		<Metadata name="Document.Задача.Template.Стиль" id="1c59ba76-6013-47a9-ada7-0d2d8f14a3f5" configVersion="f5bb155da528544f8cce51a5bfd2d06100000000"/>
 		<Metadata name="Document.Задача.Template.Стиль.Template" id="1c59ba76-6013-47a9-ada7-0d2d8f14a3f5.0" configVersion="44d2bf66b527b244a73b3d9f9c51ebb000000000"/>
 		<Metadata name="Document.Спринт" id="7cb4be34-0b50-4642-81c4-c3bf79df38b1" configVersion="d0bc5864a6026e428e0fa1741cead23800000000">
