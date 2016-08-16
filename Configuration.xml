@@ -195,6 +195,7 @@
 			<CommonModule>ксНастройкаСервер</CommonModule>
 			<CommonModule>уоУсловноеОформление</CommonModule>
 			<CommonModule>доДеревоСвязаныхОбъектов</CommonModule>
+			<CommonModule>ОбщийКлиент</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>

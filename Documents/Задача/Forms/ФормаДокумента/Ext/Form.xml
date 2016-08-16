@@ -83,6 +83,12 @@
 								</Button>
 							</ChildItems>
 						</Popup>
+						<Button name="ФормаПечатьЗадачи" id="379">
+							<Type>CommandBarButton</Type>
+							<OnlyInAllActions>true</OnlyInAllActions>
+							<CommandName>Form.Command.ПечатьЗадачи</CommandName>
+							<ExtendedTooltip name="ФормаПечатьЗадачиРасширеннаяПодсказка" id="380"/>
+						</Button>
 					</ChildItems>
 				</CommandBar>
 				<InputField name="Номер" id="55">
@@ -733,7 +739,7 @@
 											<ExtendedTooltip name="КП_ФД_Подробности_РасширеннаяПодсказка" id="185"/>
 											<ChildItems>
 												<Button name="ВставитьКартинкуИзБуфера" id="120">
-													<Type>UsualButton</Type>
+													<Type>Hyperlink</Type>
 													<Representation>Picture</Representation>
 													<CommandName>Form.Command.ВставитьКартинкуИзБуфера</CommandName>
 													<Picture>
@@ -928,11 +934,12 @@
 												</ColumnGroup>
 												<InputField name="КоментарииКЗадачеКомментарий" id="91">
 													<DataPath>КоментарииКЗадаче.Комментарий</DataPath>
-													<EditMode>Directly</EditMode>
+													<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 													<AutoCellHeight>true</AutoCellHeight>
 													<Height>20</Height>
 													<MultiLine>true</MultiLine>
 													<ChooseType>false</ChooseType>
+													<TextEdit>false</TextEdit>
 													<ContextMenu name="КоментарииКЗадачеКомментарийКонтекстноеМеню" id="92"/>
 													<ExtendedTooltip name="КоментарииКЗадачеКомментарийРасширеннаяПодсказка" id="204"/>
 												</InputField>
@@ -2239,6 +2246,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПоказатьДеревоСвязанныхОбъектов</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПечатьЗадачи" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать задачи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать задачи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Print</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПечатьЗадачи</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>

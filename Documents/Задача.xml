@@ -141,7 +141,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.Назначена</FillValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Catalog.СостоянияЗадач.EmptyRef</FillValue>
 					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -1097,6 +1097,7 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСписка</Form>
+			<Form>ФормаПечатьHTML</Form>
 			<TabularSection uuid="b3a6f752-4e85-4c93-b5a1-3f00b6719688">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.Задача.Приложения" category="TabularSection">
@@ -1439,6 +1440,8 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>Задача</Template>
+			<Template>Стиль</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
