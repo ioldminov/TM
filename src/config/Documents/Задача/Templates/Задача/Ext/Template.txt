@@ -1,0 +1,106 @@
+﻿<html>
+   <head>
+      <style>
+  			@import url("[ИмяФайлаСтиля]");
+	  </style>
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Cache-Control" content="no-cache" />
+      <meta http-equiv="Pragma-directive" content="no-cache" />
+      <meta http-equiv="Cache-Directive" content="no-cache" />
+   </head>
+   <body>
+      <table class="width100" style="height: 332px;" width="832" cellspacing="1">
+         <tbody>
+            <tr>
+               <td class="form-title" colspan="6">Задача № [НомерЗадачи] от [ДатаЗадачи]</td>
+            </tr>
+            <tr>
+               <td class="print-spacer" colspan="6">
+                  <hr size="1" />
+               </td>
+            </tr>
+            <tr class="print-category">
+               <td class="print" width="16%">&nbsp;</td>
+               <td class="print" width="16%">&nbsp;</td>
+               <td class="print" width="16%">&nbsp;</td>
+               <td class="print" width="16%">&nbsp;</td>
+               <td class="print" width="16%">&nbsp;</td>
+               <td class="print" width="16%">&nbsp;</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Автор:</td>
+               <td class="print">[Автор]</td>
+               <td class="print-category">Статус:</td>
+               <td class="print">[Статус]</td>
+               <td class="print-category">Проект:</td>
+               <td class="print">[Проект]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Ответственный:</td>
+               <td class="print">[Ответственный]</td>
+               <td class="print-category">Дата план:</td>
+               <td class="print">[ДатаПлан]</td>
+               <td class="print-category">Модуль:</td>
+               <td class="print">[Модуль]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Исполнитель:</td>
+               <td class="print">[Исполнитель]</td>
+               <td class="print-category">Состояние:</td>
+               <td class="print">[Состояние]</td>
+               <td class="print-category">[ТекстОтклик]</td>
+               <td class="print">[ОткликОт]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Основание:</td>
+               <td class="print" colspan="4">[Основание]</td>
+            </tr>
+            <tr>
+               <td class="print-spacer" colspan="6">
+                  <hr size="1" />
+               </td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Суть:</td>
+               <td class="print" colspan="5">[Суть]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Подробности:</td>
+               <td class="print" colspan="5">[Подробности]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Вложенные файлы:</td>
+               <td class="print" colspan="5">[Вложения]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Описание к релизу:</td>
+               <td class="print" colspan="5">[ОписаниеКРелизу]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Описание решения:</td>
+               <td class="print" colspan="5">[ОписаниеРешения]</td>
+            </tr>
+            <tr class="print">
+               <td class="print-category">Отслеживающие:</td>
+               <td class="print" colspan="5">[Отслеживающие]</td>
+            </tr>
+         </tbody>
+      </table>
+      <table class="width100" cellspacing="1">
+         <tbody>
+            <tr>
+               <td class="form-title" colspan="2">Комментарии</td>
+            </tr>
+            <tr>
+               <td class="print-spacer" colspan="2">
+                  <hr size="1" />
+               </td>
+            </tr>
+            
+            [Комментарии]
+            
+         </tbody>
+      </table>
+   </body>
+</html>
