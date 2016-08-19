@@ -161,8 +161,48 @@
 &НаСервере
 Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
 	
+	
+	ТекстHTML = Неопределено;
+	Вложения = Неопределено;
+	ФД_Подробности.ПолучитьHTML(ТекстHTML, Вложения);
+	
 	мЭтоНовыйДокумент = ЭтоНовыйДокумент();
 	Если мЭтоНовыйДокумент Тогда
+		
+		// Для установки межстрочного интервала в 1.3 п нужно установить текст HTML.
+		ТекстHTML = 
+		"<html>
+		|  <head>
+		|    <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+		|    <meta http-equiv=""X-UA-Compatible"" content=""IE=Edge"" />
+		|    <meta name=""format-detection"" content=""telephone=no"" />
+		|    <style type=""text/css"">
+		|      body{
+		|        margin:0;
+		|        padding:8px;
+		|        overflow:auto;
+		|        width:100%;
+		|        height:100%;
+		|      }
+		|      p{
+		|        line-height: 1.3;
+		|        margin:0;
+		|      }
+		|      ol,ul{
+		|        margin-top:0;
+		|        margin-bottom:0;
+		|      }
+		|      img{
+		|        border:none;
+		|      }
+		|    </style>
+		|  </head>
+		|<body>
+		|<p style='line-height: 1.3;text-align: left'><font size=""2""></font></p>
+		|</body>
+		|</html>";
+		ФД_Подробности.УстановитьHTML(ТекстHTML, Вложения);
+		
 		Объект.Автор = ПараметрыСеанса.ТекущийПользователь;
 		Объект.Ответственный = ПараметрыСеанса.ТекущийПользователь;
 		Объект.Дата = ТекущаяДата();
