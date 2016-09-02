@@ -186,6 +186,8 @@
 		|      }
 		|      p{
 		|        line-height: 1.3;
+		|        font-family: Verdana;
+		|        font-size: 10pt;
 		|        margin:0;
 		|      }
 		|      ol,ul{
@@ -198,7 +200,8 @@
 		|    </style>
 		|  </head>
 		|<body>
-		|<p style='line-height: 1.3;text-align: left'><font size=""2""></font></p>
+		//|<p style='line-height: 1.3;text-align: left'><font size=""2""></font></p>
+		|<p style='line-height: 1.3'><span style='font-family: Verdana; font-size: 10pt;'> </span></p>
 		|</body>
 		|</html>";
 		ФД_Подробности.УстановитьHTML(ТекстHTML, Вложения);
