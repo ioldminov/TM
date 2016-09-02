@@ -772,7 +772,6 @@
 											<Width>1</Width>
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
-											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
 											<ContextMenu name="ФД_ПодробностиКонтекстноеМеню" id="28"/>
 											<ExtendedTooltip name="ФД_ПодробностиРасширеннаяПодсказка" id="189"/>
 											<Events>
