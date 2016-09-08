@@ -1231,8 +1231,10 @@
 										<ExtendedTooltip name="ПриложенияУправлениеПоискомРасширеннаяПодсказка" id="237"/>
 									</SearchControlAddition>
 									<Events>
+										<Event name="DragCheck">ПриложенияПроверкаПеретаскивания</Event>
 										<Event name="Selection">ПриложенияВыбор</Event>
 										<Event name="BeforeAddRow">ПриложенияПередНачаломДобавления</Event>
+										<Event name="Drag">ПриложенияПеретаскивание</Event>
 									</Events>
 									<ChildItems>
 										<LabelField name="ПриложенияНомерСтроки" id="41">
