@@ -396,8 +396,8 @@
 		</Metadata>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек" id="91d2bea8-d271-456d-9a2f-f2a49a067a00" configVersion="1d57ed7684c50f40bc031a8114e0ea2b00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек.Form" id="91d2bea8-d271-456d-9a2f-f2a49a067a00.0" configVersion="8dee6bcdb7b27b4e986bfb15e8a2262400000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="02e1cdcd16a86649a4f707b9b224ee5400000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="b5e658db153dc44183fd6d78259c5f1f00000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="c41b5cc5c7644443b0b53177518bca4100000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="f88a14ee126adc4e8c8866286254fdb800000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.ObjectModule" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa.0" configVersion="edfcbd1750386345a6be9a68ccfe4c4500000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения" id="338b46b8-e205-4d63-9a22-73fd956c7b86" configVersion="53f1d8cb9ae7cf4997599154810eb09500000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения.Template" id="338b46b8-e205-4d63-9a22-73fd956c7b86.0" configVersion="21398f8e89bdcd4780be36d5eecf7d2e00000000"/>
