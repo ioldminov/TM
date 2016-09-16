@@ -386,7 +386,7 @@
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ДоскаЗадач.Template" id="3389cbd2-b244-4389-9dcc-94770354e2e5.0" configVersion="4d59e40f10b4da4aa55671539bdd5b3800000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239" configVersion="22699a9e85df3a438524371f82194b2600000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач.Template" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239.0" configVersion="dfc00d0a21e8a944bf3a564d914cad2d00000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa" configVersion="8db147c675c4b447b66ac955b36c31de00000000">
+		<Metadata name="Report.ПланВыполненияЗадач" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa" configVersion="acc499acc4de824782dcad6cd8e3b9fc00000000">
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ИспользоватьКрупныйШрифт" id="1c5e1e84-7853-4a2e-bb9d-d8f083bda3dc"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ОтображатьЗадачиОперативногоПлана" id="345f8e57-8abe-4270-bda3-9385669642e0"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.СкрыватьЦветЗадач" id="7e1331a1-2d51-435e-aa25-89d26af5bca5"/>
@@ -396,9 +396,9 @@
 		</Metadata>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек" id="91d2bea8-d271-456d-9a2f-f2a49a067a00" configVersion="1d57ed7684c50f40bc031a8114e0ea2b00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек.Form" id="91d2bea8-d271-456d-9a2f-f2a49a067a00.0" configVersion="8dee6bcdb7b27b4e986bfb15e8a2262400000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="a6ffb7f24a442140870698ff6a3fcb3a00000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="e32d0481bb4f6a42b4196708cccb4c7800000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.ObjectModule" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa.0" configVersion="89da4b0e51cb4245945607364588256b00000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="02e1cdcd16a86649a4f707b9b224ee5400000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="b5e658db153dc44183fd6d78259c5f1f00000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.ObjectModule" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa.0" configVersion="740b1c3a16a798478371fa8b12d5380700000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения" id="338b46b8-e205-4d63-9a22-73fd956c7b86" configVersion="53f1d8cb9ae7cf4997599154810eb09500000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения.Template" id="338b46b8-e205-4d63-9a22-73fd956c7b86.0" configVersion="21398f8e89bdcd4780be36d5eecf7d2e00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполненияКрупныйШрифт" id="e8d90e76-ae30-453a-bf10-5999e1afd973" configVersion="0cc62b19dbb80e45bc76bd2150fcf64900000000"/>

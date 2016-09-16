@@ -28,7 +28,7 @@
 			<Representation>None</Representation>
 			<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="36"/>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="36"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаКнопки" id="21">
 					<Title>
@@ -46,7 +46,7 @@
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаКнопкиExtendedTooltip" id="37"/>
+					<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="37"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаВыборПериода" id="6">
 							<ToolTip>
@@ -58,7 +58,7 @@
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаВыборПериодаExtendedTooltip" id="38"/>
+							<ExtendedTooltip name="ГруппаВыборПериодаРасширеннаяПодсказка" id="38"/>
 							<ChildItems>
 								<InputField name="ДатаНачала" id="4">
 									<DataPath>Отчет.ДатаНачала</DataPath>
@@ -69,7 +69,7 @@
 										</v8:item>
 									</Title>
 									<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="5"/>
-									<ExtendedTooltip name="ДатаНачалаExtendedTooltip" id="39"/>
+									<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="39"/>
 								</InputField>
 								<InputField name="ДатаОкончания" id="7">
 									<DataPath>Отчет.ДатаОкончания</DataPath>
@@ -81,7 +81,7 @@
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="8"/>
-									<ExtendedTooltip name="ДатаОкончанияExtendedTooltip" id="40"/>
+									<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="40"/>
 								</InputField>
 								<Button name="кнВыбораПериода" id="16">
 									<Type>UsualButton</Type>
@@ -98,7 +98,7 @@
 											<v8:content>...</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="кнВыбораПериодаExtendedTooltip" id="41"/>
+									<ExtendedTooltip name="кнВыбораПериодаРасширеннаяПодсказка" id="41"/>
 								</Button>
 								<Button name="КнопкаМесяцНазад" id="17">
 									<Type>UsualButton</Type>
@@ -108,7 +108,7 @@
 										<xr:Ref>StdPicture.MoveLeft</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="КнопкаМесяцНазадExtendedTooltip" id="42"/>
+									<ExtendedTooltip name="КнопкаМесяцНазадРасширеннаяПодсказка" id="42"/>
 								</Button>
 								<Button name="КнопкаТекущийМесяц" id="19">
 									<Type>UsualButton</Type>
@@ -124,7 +124,7 @@
 											<v8:content>Центрировать отчет</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="КнопкаТекущийМесяцExtendedTooltip" id="43"/>
+									<ExtendedTooltip name="КнопкаТекущийМесяцРасширеннаяПодсказка" id="43"/>
 								</Button>
 								<Button name="КнопкаМесяцаВперед" id="18">
 									<Type>UsualButton</Type>
@@ -134,7 +134,7 @@
 										<xr:Ref>StdPicture.MoveRight</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="КнопкаМесяцаВпередExtendedTooltip" id="44"/>
+									<ExtendedTooltip name="КнопкаМесяцаВпередРасширеннаяПодсказка" id="44"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -151,7 +151,7 @@
 									<v8:content>Командная панель</v8:content>
 								</v8:item>
 							</ToolTip>
-							<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="45"/>
+							<ExtendedTooltip name="КоманднаяПанельРасширеннаяПодсказка" id="45"/>
 							<ChildItems>
 								<Button name="Сформировать" id="22">
 									<Type>CommandBarButton</Type>
@@ -162,7 +162,7 @@
 										<xr:Ref>StdPicture.GenerateReport</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="СформироватьExtendedTooltip" id="46"/>
+									<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="46"/>
 								</Button>
 								<Button name="ПредварительныйПросмотр" id="35">
 									<Type>CommandBarButton</Type>
@@ -175,7 +175,7 @@
 											<v8:content>Предварительный просмотр</v8:content>
 										</v8:item>
 									</Title>
-									<ExtendedTooltip name="ПредварительныйПросмотрExtendedTooltip" id="47"/>
+									<ExtendedTooltip name="ПредварительныйПросмотрРасширеннаяПодсказка" id="47"/>
 								</Button>
 								<Button name="кнОткрытьНастройки" id="31">
 									<Type>CommandBarButton</Type>
@@ -185,7 +185,7 @@
 										<xr:Ref>StdPicture.ReportSettings</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
-									<ExtendedTooltip name="кнОткрытьНастройкиExtendedTooltip" id="48"/>
+									<ExtendedTooltip name="кнОткрытьНастройкиРасширеннаяПодсказка" id="48"/>
 								</Button>
 							</ChildItems>
 						</CommandBar>
@@ -209,7 +209,7 @@
 							<xr:Ref>StdPicture.Change</xr:Ref>
 							<xr:LoadTransparent>true</xr:LoadTransparent>
 						</Picture>
-						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмОткрытьЗадачуExtendedTooltip" id="49"/>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмОткрытьЗадачуРасширеннаяПодсказка" id="49"/>
 					</Button>
 					<Button name="ТабДокКонтекстноеМенюкмИзменитьЗаписьПланаВыполнения" id="32">
 						<Type>CommandBarButton</Type>
@@ -224,16 +224,21 @@
 								<v8:content>Изменить запись</v8:content>
 							</v8:item>
 						</Title>
-						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмИзменитьЗаписьПланаВыполненияExtendedTooltip" id="50"/>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмИзменитьЗаписьПланаВыполненияРасширеннаяПодсказка" id="50"/>
 					</Button>
 					<Button name="ТабДокКонтекстноеМенюкмУдалитьЗаписьПланаВыполнения" id="33">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.кмУдалитьЗаписьПланаВыполнения</CommandName>
-						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмУдалитьЗаписьПланаВыполненияExtendedTooltip" id="51"/>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмУдалитьЗаписьПланаВыполненияРасширеннаяПодсказка" id="51"/>
+					</Button>
+					<Button name="ТабДокКонтекстноеМенюкмРазместитьЗадачу" id="53">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.кмРазместитьЗадачу</CommandName>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмРазместитьЗадачуРасширеннаяПодсказка" id="54"/>
 					</Button>
 				</ChildItems>
 			</ContextMenu>
-			<ExtendedTooltip name="ТабДокExtendedTooltip" id="52"/>
+			<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="52"/>
 			<Events>
 				<Event name="DetailProcessing">ТабДокОбработкаРасшифровки</Event>
 			</Events>
@@ -402,6 +407,10 @@
 					<v8:content>Км разместить задачу</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DataCompositionNewNestedScheme</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>кмРазместитьЗадачу</Action>
 		</Command>
 		<Command name="кмУдалитьЗаписьПланаВыполнения" id="10">
