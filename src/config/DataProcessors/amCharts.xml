@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<DataProcessor uuid="0f630e0f-2cf4-42b7-a787-bbc7f765059b">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.amCharts" category="Object">
+				<xr:TypeId>6aea8f24-e1aa-4179-a843-baa03aee6b93</xr:TypeId>
+				<xr:ValueId>3b394204-5972-4673-9345-bca20c6c56ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.amCharts" category="Manager">
+				<xr:TypeId>cf51b0c1-0103-4798-90b5-df8b6d993bb9</xr:TypeId>
+				<xr:ValueId>e402a094-00c3-4c7f-a04e-12fbb0ddd3f1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>amCharts</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>amcharts.com 3.2.0</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.amCharts.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Template>бсМакетДиаграммыJS</Template>
+			<Template>бсDragIcon</Template>
+			<Template>бсDragIconH</Template>
+			<Template>бсLens</Template>
+			<Template>бсДлительнаяОперация</Template>
+			<Template>бсAmchartsJS</Template>
+			<Template>бсSerialJS</Template>
+			<Template>бсXYJS</Template>
+			<Template>бсFunnelJS</Template>
+			<Template>бсGaugeJS</Template>
+			<Template>бсPieJS</Template>
+			<Template>бсRadarJS</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
