@@ -148,7 +148,7 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="de141c65efbaca4189406ed74919b1a300000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="2c899d3cfb1d5b468d813f95b3c4291900000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="ca0cf68085319746a0f33e2d5d76ea3c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="7aa2d86f32f4a64bb1af03e18efbc8b600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="096367bd054fd942a01dcb01061097df00000000"/>
@@ -160,6 +160,34 @@
 		<Metadata name="Configuration.МенеджерЗадач.ParentConfigurations" id="2af09197-39c6-4606-b3fb-327dca5d80f9.4" configVersion="65ee43f71125744188e20aa8e05f540c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.SessionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.7" configVersion="516272f2b0829b48918160a627541d0c00000000"/>
 		<Metadata name="Constant.ШагПорядкаЗадач" id="0a7debde-b06c-406b-aa86-b9a5c62d2b1f" configVersion="7b250b3ba785eb43833aee15f46d769900000000"/>
+		<Metadata name="DataProcessor.amCharts" id="0f630e0f-2cf4-42b7-a787-bbc7f765059b" configVersion="28663c09b4589249b254f8ec9dfe0bd800000000"/>
+		<Metadata name="DataProcessor.amCharts.Form.Форма" id="6f447796-b49b-4b90-91a5-cdc9bc5d68d9" configVersion="aecb7a171525ef4b8fc8450a600e6a0300000000"/>
+		<Metadata name="DataProcessor.amCharts.Form.Форма.Form" id="6f447796-b49b-4b90-91a5-cdc9bc5d68d9.0" configVersion="b83457846de3474a8b2d834692637a1700000000"/>
+		<Metadata name="DataProcessor.amCharts.ObjectModule" id="0f630e0f-2cf4-42b7-a787-bbc7f765059b.0" configVersion="c023c50884494949ae0214145c5fda2a00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсAmchartsJS" id="1d7bce0e-bd19-4a3f-aa27-4494f9de41fb" configVersion="dbe4dc97c138164496689f9ea1d3823b00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсAmchartsJS.Template" id="1d7bce0e-bd19-4a3f-aa27-4494f9de41fb.0" configVersion="74792c5d267e774ab6c332b28516bb0d00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсDragIcon" id="b15e5e30-79dc-497f-b523-7cfb55f3760d" configVersion="4abefdb567088140b908ff1574ac29d200000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсDragIcon.Template" id="b15e5e30-79dc-497f-b523-7cfb55f3760d.0" configVersion="48da8ef02e890a48ad304837502cb50900000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсDragIconH" id="d19c9262-7396-436d-a501-8766ba16cd35" configVersion="b9562582c6d9b94f8b244012d1eadcd500000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсDragIconH.Template" id="d19c9262-7396-436d-a501-8766ba16cd35.0" configVersion="a38f2cf9822f314192f17af2e46f73e700000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсFunnelJS" id="ffe0e502-a1b6-410d-a493-34589f5f1c6e" configVersion="5b85a05489c031458702b0b146d2ed8500000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсFunnelJS.Template" id="ffe0e502-a1b6-410d-a493-34589f5f1c6e.0" configVersion="f75120121b1c014dabc75a427f69058200000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсGaugeJS" id="616697c3-44b1-42fe-96bb-5575b4d45af6" configVersion="d6c47cdf5bc7aa429cfc2eec40f5c6b700000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсGaugeJS.Template" id="616697c3-44b1-42fe-96bb-5575b4d45af6.0" configVersion="2bd9e350643d524b93b92499766d3a0900000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсLens" id="bd4ea479-c461-417f-84d0-78530f270267" configVersion="95d87fe0febc864ca3b10f52fdb73bd500000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсLens.Template" id="bd4ea479-c461-417f-84d0-78530f270267.0" configVersion="c9b1834072d824439dd5762f53fd8e5e00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсPieJS" id="3190a0d7-c97e-41c7-9fb4-3e1463e3c648" configVersion="134f43d4e686bd429ecb4d29e88fa00600000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсPieJS.Template" id="3190a0d7-c97e-41c7-9fb4-3e1463e3c648.0" configVersion="fb4d8d38047df54a969b3a67a70d7c8100000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсRadarJS" id="1b4295d1-42dc-477c-b9d3-06ad3241654c" configVersion="87a7d9283898e64f8c9344db8f942eed00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсRadarJS.Template" id="1b4295d1-42dc-477c-b9d3-06ad3241654c.0" configVersion="232ecde11476d746ad3bbe5787d27fd100000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсSerialJS" id="9f95f790-831a-4e36-9449-eb946a8d035b" configVersion="2151378149fe3b4dab40b11b07f780cf00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсSerialJS.Template" id="9f95f790-831a-4e36-9449-eb946a8d035b.0" configVersion="78ad7f2e0b7e9e40afa5b3ee9f9650d400000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсXYJS" id="58309fd7-8705-422c-ac50-87bd3e158b24" configVersion="62dc3d0ab9d45548bb12a1525cb81ae200000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсXYJS.Template" id="58309fd7-8705-422c-ac50-87bd3e158b24.0" configVersion="f30afb1ae48d8449921c86cded9033ec00000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсДлительнаяОперация" id="11a55748-4a78-4e70-ab18-bc12a633adc2" configVersion="dbf609e8e68eec42894f02b8e4fc2dd300000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсДлительнаяОперация.Template" id="11a55748-4a78-4e70-ab18-bc12a633adc2.0" configVersion="96ea3e275ac67e448c9cfaab331ed39900000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсМакетДиаграммыJS" id="5def091c-83c5-47e3-b458-4b8aedaf961b" configVersion="6255e0f06f2f4145b2e7c9d7b9a9645000000000"/>
+		<Metadata name="DataProcessor.amCharts.Template.бсМакетДиаграммыJS.Template" id="5def091c-83c5-47e3-b458-4b8aedaf961b.0" configVersion="d09133c1550c7349a3850808e616b20a00000000"/>
 		<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов" id="36d53185-9709-4a4a-a324-9121a39977d4" configVersion="2d18f1a08ee9314a9245eaae3d68b9c900000000">
 			<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов.Attribute.ДеревоДокументов" id="0043d31c-dbee-4972-a78d-63a59877b40e"/>
 			<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов.Attribute.ВыбДокумент" id="47be3947-0752-4243-9dec-39490cb13c5d"/>

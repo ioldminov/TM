@@ -222,6 +222,7 @@
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ОтображениеСтатей</DataProcessor>
 			<DataProcessor>ДеревоСвязанныхОбъектов</DataProcessor>
+			<DataProcessor>amCharts</DataProcessor>
 			<InformationRegister>ОперативныйПланЗадач</InformationRegister>
 			<InformationRegister>Коментарии</InformationRegister>
 			<InformationRegister>СвязанныеЗадачи</InformationRegister>
