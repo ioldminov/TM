@@ -659,7 +659,6 @@
 										<PictureField name="НовостиИндексКартинки" id="421">
 											<DataPath>Новости.ИндексКартинки</DataPath>
 											<TitleLocation>None</TitleLocation>
-											<Shortcut>F5</Shortcut>
 											<FixingInTable>Left</FixingInTable>
 											<Width>2</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -687,6 +686,11 @@
 											<ChildItems>
 												<LabelField name="НовостиПользователь" id="118">
 													<DataPath>Новости.Пользователь</DataPath>
+													<ShowInFooter>false</ShowInFooter>
+													<Width>1</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>1</MaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
 													<Border width="1">
 														<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
 													</Border>
@@ -702,6 +706,11 @@
 														</v8:item>
 													</Title>
 													<HorizontalAlign>Right</HorizontalAlign>
+													<ShowInFooter>false</ShowInFooter>
+													<Width>1</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>1</MaxWidth>
+													<HorizontalStretch>false</HorizontalStretch>
 													<Border width="1">
 														<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
 													</Border>
@@ -755,6 +764,11 @@
 													<Group>Horizontal</Group>
 													<ExtendedTooltip name="НовостиОбъектСостояниеExtendedTooltip" id="240"/>
 													<ChildItems>
+														<LabelField name="НовостиСостояниеЗадачи" id="164">
+															<DataPath>Новости.СостояниеЗадачи</DataPath>
+															<ContextMenu name="НовостиСостояниеЗадачиКонтекстноеМеню" id="165"/>
+															<ExtendedTooltip name="НовостиСостояниеЗадачиExtendedTooltip" id="242"/>
+														</LabelField>
 														<LabelField name="НовостиОбъект" id="114">
 															<DataPath>Новости.Объект</DataPath>
 															<Title>
@@ -763,14 +777,11 @@
 																	<v8:content>Задача</v8:content>
 																</v8:item>
 															</Title>
-															<Height>1</Height>
+															<Width>2</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>2</MaxWidth>
 															<ContextMenu name="НовостиОбъектКонтекстноеМеню" id="115"/>
 															<ExtendedTooltip name="НовостиОбъектExtendedTooltip" id="241"/>
-														</LabelField>
-														<LabelField name="НовостиСостояниеЗадачи" id="164">
-															<DataPath>Новости.СостояниеЗадачи</DataPath>
-															<ContextMenu name="НовостиСостояниеЗадачиКонтекстноеМеню" id="165"/>
-															<ExtendedTooltip name="НовостиСостояниеЗадачиExtendedTooltip" id="242"/>
 														</LabelField>
 													</ChildItems>
 												</ColumnGroup>
@@ -817,6 +828,7 @@
 										</LabelField>
 										<LabelField name="НовостиАдресат" id="137">
 											<DataPath>Новости.Адресат</DataPath>
+											<Visible>false</Visible>
 											<ContextMenu name="НовостиАдресатКонтекстноеМеню" id="138"/>
 											<ExtendedTooltip name="НовостиАдресатExtendedTooltip" id="244"/>
 										</LabelField>
