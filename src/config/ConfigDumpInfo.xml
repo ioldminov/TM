@@ -72,8 +72,8 @@
 		<Metadata name="Catalog.ТипыЗадач.Predefined" id="4d0b04b5-c5dd-4968-9a8e-0b20af0648c2.1c" configVersion="d53ecfcb3ce2b845a67b7a9a411708ec00000000"/>
 		<Metadata name="CommonForm.БыстрыйВыборСтандартногоПериода" id="875fa95c-29c7-41fe-8e15-8374e42ea5b4" configVersion="51400eb0e2007b48806615ec8a414fc300000000"/>
 		<Metadata name="CommonForm.БыстрыйВыборСтандартногоПериода.Form" id="875fa95c-29c7-41fe-8e15-8374e42ea5b4.0" configVersion="72a22ba5e3c17d4db1b52b0e60e4594700000000"/>
-		<Metadata name="CommonForm.ФормаКонстант" id="b8b29304-9888-4ace-a87e-60ce542b6f4e" configVersion="6d0eb58949ad5842adb30746c48010bd00000000"/>
-		<Metadata name="CommonForm.ФормаКонстант.Form" id="b8b29304-9888-4ace-a87e-60ce542b6f4e.0" configVersion="ca16f37fca880346b28b46b3cad1be1000000000"/>
+		<Metadata name="CommonForm.ФормаКонстант" id="b8b29304-9888-4ace-a87e-60ce542b6f4e" configVersion="4a83930c2fa8a4498a83d63d7fc012b400000000"/>
+		<Metadata name="CommonForm.ФормаКонстант.Form" id="b8b29304-9888-4ace-a87e-60ce542b6f4e.0" configVersion="825e1613c9c8924db23ed8fda3154bbf00000000"/>
 		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="a0fb4af51d1fcf43bec28856b2c3240a00000000"/>
 		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="cacebfb43836cf49b707884a57a6eed200000000"/>
 		<Metadata name="CommonModule.ОбщийКлиент" id="bf15b115-165a-4724-b9be-fa8d4b21d470" configVersion="29a3005a36a0004281943aa02004a94e00000000"/>
