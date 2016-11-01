@@ -1263,6 +1263,7 @@
 										<Event name="DragCheck">ПриложенияПроверкаПеретаскивания</Event>
 										<Event name="Selection">ПриложенияВыбор</Event>
 										<Event name="BeforeAddRow">ПриложенияПередНачаломДобавления</Event>
+										<Event name="DragStart">ПриложенияНачалоПеретаскивания</Event>
 										<Event name="Drag">ПриложенияПеретаскивание</Event>
 									</Events>
 									<ChildItems>
