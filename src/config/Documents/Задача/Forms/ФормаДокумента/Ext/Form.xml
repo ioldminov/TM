@@ -1209,14 +1209,28 @@
 									<ViewStatusLocation>None</ViewStatusLocation>
 									<SearchControlLocation>None</SearchControlLocation>
 									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="ПриложенияКонтекстноеМеню" id="39"/>
-									<AutoCommandBar name="ПриложенияКоманднаяПанель" id="40">
+									<ContextMenu name="ПриложенияКонтекстноеМеню" id="39">
 										<ChildItems>
+											<Button name="ПриложенияПереименоватьФайл" id="385">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПереименоватьФайл</CommandName>
+												<ExtendedTooltip name="ПриложенияПереименоватьФайлРасширеннаяПодсказка" id="386"/>
+											</Button>
 											<Button name="ПриложенияДобавитьКартинкуИзБуфераВПриложения" id="381">
 												<Type>CommandBarButton</Type>
 												<OnlyInAllActions>true</OnlyInAllActions>
 												<CommandName>Form.Command.ДобавитьКартинкуИзБуфераВПриложения</CommandName>
 												<ExtendedTooltip name="ПриложенияДобавитьКартинкуИзБуфераВПриложенияРасширеннаяПодсказка" id="382"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<AutoCommandBar name="ПриложенияКоманднаяПанель" id="40">
+										<ChildItems>
+											<Button name="ПриложенияДобавитьКартинкуИзБуфераВПриложения1" id="387">
+												<Type>CommandBarButton</Type>
+												<OnlyInAllActions>true</OnlyInAllActions>
+												<CommandName>Form.Command.ДобавитьКартинкуИзБуфераВПриложения</CommandName>
+												<ExtendedTooltip name="ПриложенияДобавитьКартинкуИзБуфераВПриложения1РасширеннаяПодсказка" id="388"/>
 											</Button>
 										</ChildItems>
 									</AutoCommandBar>
@@ -2302,6 +2316,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ДобавитьКартинкуИзБуфераВПриложения</Action>
+		</Command>
+		<Command name="ПереименоватьФайл" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПереименоватьФайл</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 	<CommandInterface>
