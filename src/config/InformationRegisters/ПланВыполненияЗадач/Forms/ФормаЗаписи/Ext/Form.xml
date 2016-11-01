@@ -4,28 +4,48 @@
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="Период" id="1">
 			<DataPath>Запись.Period</DataPath>
 			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ПериодExtendedTooltip" id="11"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="11"/>
 		</InputField>
-		<InputField name="Задача" id="3">
-			<DataPath>Запись.Задача</DataPath>
-			<ContextMenu name="ЗадачаКонтекстноеМеню" id="4"/>
-			<ExtendedTooltip name="ЗадачаExtendedTooltip" id="12"/>
-		</InputField>
+		<UsualGroup name="Группа1" id="16">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<InputField name="Задача" id="3">
+					<DataPath>Запись.Задача</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ClearButton>true</ClearButton>
+					<ContextMenu name="ЗадачаКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ЗадачаРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="Clearing">ЗадачаОчистка</Event>
+					</Events>
+				</InputField>
+				<Button name="НайтиЗадачу" id="18">
+					<Type>UsualButton</Type>
+					<SkipOnInput>false</SkipOnInput>
+					<CommandName>Form.Command.НайтиЗадачу</CommandName>
+					<ExtendedTooltip name="НайтиЗадачуРасширеннаяПодсказка" id="19"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<InputField name="Исполнитель" id="5">
 			<DataPath>Запись.Исполнитель</DataPath>
 			<ContextMenu name="ИсполнительКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="ИсполнительExtendedTooltip" id="13"/>
+			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="13"/>
 		</InputField>
 		<InputField name="ДатаНачалаПлан" id="7">
 			<DataPath>Запись.ДатаНачалаПлан</DataPath>
 			<ContextMenu name="ДатаНачалаПланКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ДатаНачалаПланExtendedTooltip" id="14"/>
+			<ExtendedTooltip name="ДатаНачалаПланРасширеннаяПодсказка" id="14"/>
 			<Events>
 				<Event name="OnChange">ДатаНачалаПланПриИзменении</Event>
 			</Events>
@@ -33,7 +53,7 @@
 		<InputField name="ДатаОкончанияПлан" id="9">
 			<DataPath>Запись.ДатаОкончанияПлан</DataPath>
 			<ContextMenu name="ДатаОкончанияПланКонтекстноеМеню" id="10"/>
-			<ExtendedTooltip name="ДатаОкончанияПланExtendedTooltip" id="15"/>
+			<ExtendedTooltip name="ДатаОкончанияПланРасширеннаяПодсказка" id="15"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
@@ -45,4 +65,26 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="НайтиЗадачу" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти задачу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти задачу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.FindByNumber</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НайтиЗадачу</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
 </Form>
