@@ -5,6 +5,7 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -337,6 +338,7 @@
 					<v8:content>Статистика</v8:content>
 				</v8:item>
 			</Title>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -351,12 +353,47 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество задач</v8:content>
+							<v8:content>Всего задач</v8:content>
 						</v8:item>
 					</Title>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 					<ContextMenu name="СоставСпринтаКоличествоСтрокКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="СоставСпринтаКоличествоСтрокРасширеннаяПодсказка" id="47"/>
 				</LabelField>
+				<LabelDecoration name="СоставСпринтаОткрытых" id="108">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открыто:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СоставСпринтаОткрытыхКонтекстноеМеню" id="109"/>
+					<ExtendedTooltip name="СоставСпринтаОткрытыхРасширеннаяПодсказка" id="110"/>
+				</LabelDecoration>
+				<LabelDecoration name="СоставСпринтаЗакрытых" id="111">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закрыто:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СоставСпринтаЗакрытыхКонтекстноеМеню" id="112"/>
+					<ExtendedTooltip name="СоставСпринтаЗакрытыхРасширеннаяПодсказка" id="113"/>
+				</LabelDecoration>
+				<LabelDecoration name="СоставСпринтаПроцентВыполнения" id="114">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>% выполнения:</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СоставСпринтаПроцентВыполненияКонтекстноеМеню" id="115"/>
+					<ExtendedTooltip name="СоставСпринтаПроцентВыполненияРасширеннаяПодсказка" id="116"/>
+				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
