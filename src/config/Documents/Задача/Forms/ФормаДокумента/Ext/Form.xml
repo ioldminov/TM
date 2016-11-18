@@ -610,6 +610,7 @@
 									</ExtendedTooltip>
 									<Events>
 										<Event name="OnChange">ЗадачаОснованиеПриИзменении</Event>
+										<Event name="TextEditEnd">ЗадачаОснованиеОкончаниеВводаТекста</Event>
 									</Events>
 								</InputField>
 								<Button name="ПоказатьДеревоСвязанныхОбъектов" id="365">
