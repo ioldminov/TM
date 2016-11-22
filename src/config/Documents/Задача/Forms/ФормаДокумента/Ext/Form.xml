@@ -1410,6 +1410,7 @@
 																		</v8:item>
 																	</Title>
 																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<TextEdit>false</TextEdit>
 																	<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="124"/>
 																	<ExtendedTooltip name="РелизКонфигурацииРасширеннаяПодсказка" id="245">
 																		<Title formatted="false">
