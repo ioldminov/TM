@@ -76,8 +76,12 @@
 		<Metadata name="CommonForm.ФормаКонстант.Form" id="b8b29304-9888-4ace-a87e-60ce542b6f4e.0" configVersion="825e1613c9c8924db23ed8fda3154bbf00000000"/>
 		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="51b2686321aa4e49be7519e57e5a52c500000000"/>
 		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="341685bb16fc0043a03277ae8763c17000000000"/>
-		<Metadata name="CommonModule.ОбщийКлиент" id="bf15b115-165a-4724-b9be-fa8d4b21d470" configVersion="29a3005a36a0004281943aa02004a94e00000000"/>
-		<Metadata name="CommonModule.ОбщийКлиент.Module" id="bf15b115-165a-4724-b9be-fa8d4b21d470.0" configVersion="f2e9bd877dc25b46854f94e06b0bf2ec00000000"/>
+		<Metadata name="CommonModule.ОбщийКлиент" id="bf15b115-165a-4724-b9be-fa8d4b21d470" configVersion="350d8f68515fe247a7c02382b1743aa000000000"/>
+		<Metadata name="CommonModule.ОбщийКлиент.Module" id="bf15b115-165a-4724-b9be-fa8d4b21d470.0" configVersion="a6ef26fb350b2743a86fdbdd3fb20c0700000000"/>
+		<Metadata name="CommonModule.СтандартныеПодсистемыГлобальный" id="10e1b6dc-84dd-42f7-aec6-37538a81174f" configVersion="b4829cf7c99ff644b8784ed9c005d51b00000000"/>
+		<Metadata name="CommonModule.СтандартныеПодсистемыГлобальный.Module" id="10e1b6dc-84dd-42f7-aec6-37538a81174f.0" configVersion="a510dcedac94694896325c0f178da9f400000000"/>
+		<Metadata name="CommonModule.СтандартныеПодсистемыКлиент" id="321612f3-f23a-4f02-9df6-cf32dbdf4bba" configVersion="5fd3fe51b4837b4da01c7510a507bbd100000000"/>
+		<Metadata name="CommonModule.СтандартныеПодсистемыКлиент.Module" id="321612f3-f23a-4f02-9df6-cf32dbdf4bba.0" configVersion="c08ebdab28fca044a99909449d16955a00000000"/>
 		<Metadata name="CommonModule.доДеревоСвязаныхОбъектов" id="84dbca2d-2f86-47d4-8591-d63cb5e9d987" configVersion="80a4c6d6615a63419721cf1fab457d1c00000000"/>
 		<Metadata name="CommonModule.доДеревоСвязаныхОбъектов.Module" id="84dbca2d-2f86-47d4-8591-d63cb5e9d987.0" configVersion="c8e51de46393664c829b8f55b63499e700000000"/>
 		<Metadata name="CommonModule.ксНастройкаСервер" id="1eadd5bc-0857-4096-9715-808f7e02c038" configVersion="6b36464d04d2834cba9201514ec160f100000000"/>
@@ -148,14 +152,14 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="abe025cbd466d84f80d5d9a4b72e8a2600000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="c4f3a46970878f41923e5934d785af8600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="ca0cf68085319746a0f33e2d5d76ea3c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="7aa2d86f32f4a64bb1af03e18efbc8b600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="52dd0a248786814f9aebc170e069f3d000000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.Help" id="2af09197-39c6-4606-b3fb-327dca5d80f9.3" configVersion="b601b496b874f04a892e1bb93248953000000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.HomePageWorkArea" id="2af09197-39c6-4606-b3fb-327dca5d80f9.8" configVersion="fae36a8a89ae01498bce545f4accfa5d00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.MainSectionCommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.9" configVersion="9aeeee299ac4be40b7bd332542742f7300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач.ManagedApplicationModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.6" configVersion="c470e3481b8a1349ba247869af50812000000000"/>
+		<Metadata name="Configuration.МенеджерЗадач.ManagedApplicationModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.6" configVersion="f6ea45c8eb9b404e927774c1afbc06ab00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.OrdinaryApplicationModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.0" configVersion="2e690f3b7e01d548a0c1198dcf03fb7900000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ParentConfigurations" id="2af09197-39c6-4606-b3fb-327dca5d80f9.4" configVersion="65ee43f71125744188e20aa8e05f540c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.SessionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.7" configVersion="516272f2b0829b48918160a627541d0c00000000"/>
@@ -267,8 +271,8 @@
 			<Metadata name="Document.Задача.Attribute.Статус" id="eb5b4eae-372b-432d-a549-7810e479bb7f"/>
 			<Metadata name="Document.Задача.TabularSection.Приложения.Attribute.ХЗ" id="f43e750f-5141-4c75-8508-c74175950c2f"/>
 		</Metadata>
-		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="3097d7793c57b04ea2bd56456750ba3e00000000"/>
-		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="93b36cab9db1c44e98cfd0b114af630400000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="e9ff2d216b0b034f9e92c58aa008943700000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="9fc366f8b30c6646829a04658cbad9c500000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML" id="a99840af-9603-472f-90fc-d9f1bc4c56fa" configVersion="f42a76444b776a45a8ab422e615164e700000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML.Form" id="a99840af-9603-472f-90fc-d9f1bc4c56fa.0" configVersion="de313eece3c7ef4e836f327187815b5a00000000"/>
 		<Metadata name="Document.Задача.Form.ФормаСписка" id="7e95255a-48dd-48da-b7f3-26550b5246b3" configVersion="4f4e5489c8b36a4f823903fc37861e0f00000000"/>

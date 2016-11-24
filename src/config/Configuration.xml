@@ -196,6 +196,8 @@
 			<CommonModule>уоУсловноеОформление</CommonModule>
 			<CommonModule>доДеревоСвязаныхОбъектов</CommonModule>
 			<CommonModule>ОбщийКлиент</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
+			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
