@@ -135,7 +135,7 @@
 			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Version8_2EnableTaxi</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_7</CompatibilityMode>
+			<CompatibilityMode>Version8_3_9</CompatibilityMode>
 			<DefaultConstantsForm>CommonForm.ФормаКонстант</DefaultConstantsForm>
 		</Properties>
 		<ChildObjects>
