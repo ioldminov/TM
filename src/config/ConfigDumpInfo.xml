@@ -381,8 +381,8 @@
 			<Metadata name="InformationRegister.ПланВыполненияЗадач.Dimension.Задача" id="75a7be1f-545a-427a-bb7a-c406ba83b262"/>
 			<Metadata name="InformationRegister.ПланВыполненияЗадач.Resource.ДатаНачалаПлан" id="97dfeb82-9574-44c2-af51-43b2c98086b5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ПланВыполненияЗадач.Form.ФормаЗаписи" id="72a16739-04ab-4e98-bf3c-a99ac2bd4b7c" configVersion="777cda2a4e43904186262a6d7964770900000000"/>
-		<Metadata name="InformationRegister.ПланВыполненияЗадач.Form.ФормаЗаписи.Form" id="72a16739-04ab-4e98-bf3c-a99ac2bd4b7c.0" configVersion="68e5c9f5a748b649bddc8376cdc78a4300000000"/>
+		<Metadata name="InformationRegister.ПланВыполненияЗадач.Form.ФормаЗаписи" id="72a16739-04ab-4e98-bf3c-a99ac2bd4b7c" configVersion="f749f131a5ae994692ea9c2f6489fad700000000"/>
+		<Metadata name="InformationRegister.ПланВыполненияЗадач.Form.ФормаЗаписи.Form" id="72a16739-04ab-4e98-bf3c-a99ac2bd4b7c.0" configVersion="c7dd481c08b9ba419a6a2c7a4e1100a100000000"/>
 		<Metadata name="InformationRegister.СвязанныеЗадачи" id="19413074-e899-4c08-b23d-f47048a7c57c" configVersion="4188449229502441ae327a926397c44000000000">
 			<Metadata name="InformationRegister.СвязанныеЗадачи.Dimension.Задача2" id="17e020a8-d1af-486e-b613-63859b7260f2"/>
 			<Metadata name="InformationRegister.СвязанныеЗадачи.Resource.ВидСвязи" id="2879049f-ed2b-42c0-97a9-75a48b993490"/>
