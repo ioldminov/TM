@@ -828,7 +828,6 @@
 										</LabelField>
 										<LabelField name="НовостиАдресат" id="137">
 											<DataPath>Новости.Адресат</DataPath>
-											<Visible>false</Visible>
 											<ContextMenu name="НовостиАдресатКонтекстноеМеню" id="138"/>
 											<ExtendedTooltip name="НовостиАдресатExtendedTooltip" id="244"/>
 										</LabelField>
@@ -2423,4 +2422,15 @@
 			<Action>КнопкаОтображатьТолькоСвежиеНовости</Action>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="ДлительнаяОперация">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>
