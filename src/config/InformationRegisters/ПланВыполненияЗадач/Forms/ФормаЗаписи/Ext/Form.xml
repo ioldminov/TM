@@ -27,6 +27,7 @@
 					<ExtendedTooltip name="ЗадачаРасширеннаяПодсказка" id="12"/>
 					<Events>
 						<Event name="Clearing">ЗадачаОчистка</Event>
+						<Event name="TextEditEnd">ЗадачаОкончаниеВводаТекста</Event>
 					</Events>
 				</InputField>
 				<Button name="НайтиЗадачу" id="18">
