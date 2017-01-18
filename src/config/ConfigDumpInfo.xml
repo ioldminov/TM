@@ -136,12 +136,16 @@
 		<Metadata name="CommonPicture.Полужирный.Picture" id="e7eea0b6-3285-4008-bdf5-71b4b8e17468.0" configVersion="be9ec8e2e9080b49900b29ef9145a51c00000000"/>
 		<Metadata name="CommonPicture.Предпросмотр" id="bb8e6550-4b0f-4c08-81b3-da3b154ba3ad" configVersion="1deee7e4bcb91042982b72b86312b29000000000"/>
 		<Metadata name="CommonPicture.Предпросмотр.Picture" id="bb8e6550-4b0f-4c08-81b3-da3b154ba3ad.0" configVersion="130919917da57243aa4f0f4a1cc04e4700000000"/>
+		<Metadata name="CommonPicture.Расширить" id="807f7b62-ab09-40f9-8e28-aa7d7c71627c" configVersion="d35fb638d73a5546907ef6c58972bdcd00000000"/>
+		<Metadata name="CommonPicture.Расширить.Picture" id="807f7b62-ab09-40f9-8e28-aa7d7c71627c.0" configVersion="dcd6891825da0143af230f161ea2bb9000000000"/>
 		<Metadata name="CommonPicture.Редактирование" id="7fd120fc-59ae-4897-a100-26fe69e5b6ce" configVersion="55dc1481d5e04c41a62d291ead39078d00000000"/>
 		<Metadata name="CommonPicture.Редактирование.Picture" id="7fd120fc-59ae-4897-a100-26fe69e5b6ce.0" configVersion="6e2c2e3c20cd5547a1b96cc0cf7abac700000000"/>
 		<Metadata name="CommonPicture.СкопироватьВБуфер" id="aa57f942-ea1f-4a44-bbc2-8ea42ceaf470" configVersion="e4974b21e34ecd47a04ad91a73712dcf00000000"/>
 		<Metadata name="CommonPicture.СкопироватьВБуфер.Picture" id="aa57f942-ea1f-4a44-bbc2-8ea42ceaf470.0" configVersion="c11db991d801f14aa3b0896b734a81eb00000000"/>
 		<Metadata name="CommonPicture.Ссылка" id="bc87ae35-4c5e-4914-b148-776cc0fb46e9" configVersion="c81e5a0b347b3d4b9fe6758503142fba00000000"/>
 		<Metadata name="CommonPicture.Ссылка.Picture" id="bc87ae35-4c5e-4914-b148-776cc0fb46e9.0" configVersion="95dc9d9e9a3f054e81553623c0d6504800000000"/>
+		<Metadata name="CommonPicture.Сузить" id="73915329-ac22-49b9-9c99-f25dbe3550d3" configVersion="df8a4bcd4b471541baf4c8acf869bdfe00000000"/>
+		<Metadata name="CommonPicture.Сузить.Picture" id="73915329-ac22-49b9-9c99-f25dbe3550d3.0" configVersion="6b9ab000d6ce684d9fd18c96627ae70a00000000"/>
 		<Metadata name="CommonPicture.Текст" id="55d74b9b-a706-4b13-a8d9-b48ff0337a65" configVersion="5f40ea072adb094eabe23577aff122d000000000"/>
 		<Metadata name="CommonPicture.Текст.Picture" id="55d74b9b-a706-4b13-a8d9-b48ff0337a65.0" configVersion="90d303382e5bfc46981a29150ddd84d500000000"/>
 		<Metadata name="CommonPicture.УвеличитьОтступ" id="9894411a-6ce6-4ce0-9665-4cbbb521f957" configVersion="258f421d0afa274dbdad17778633cbf700000000"/>
@@ -152,7 +156,7 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="c882149c4f65b247b5e9895406cdc4af00000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="a311784ba47bf343a86a62a271623ace00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="ca0cf68085319746a0f33e2d5d76ea3c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="7aa2d86f32f4a64bb1af03e18efbc8b600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="52dd0a248786814f9aebc170e069f3d000000000"/>
@@ -418,19 +422,28 @@
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ДоскаЗадач.Template" id="3389cbd2-b244-4389-9dcc-94770354e2e5.0" configVersion="3f2ee6e73ec26e499fe9824daf72d0e200000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239" configVersion="22699a9e85df3a438524371f82194b2600000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач.Template" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239.0" configVersion="dfc00d0a21e8a944bf3a564d914cad2d00000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa" configVersion="c9e83b9116b0a44aace0baa5ab391df800000000">
+		<Metadata name="Report.ПланВыполненияЗадач" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa" configVersion="f14f7b30e8531342ba6607d6e39c7a1200000000">
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.Задача" id="026e338d-f01f-49e2-91c9-677f033ffc1d"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ИспользоватьКрупныйШрифт" id="1c5e1e84-7853-4a2e-bb9d-d8f083bda3dc"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ОтображатьЗадачиОперативногоПлана" id="345f8e57-8abe-4270-bda3-9385669642e0"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок" id="48638a59-dfe7-43ef-add5-13cd2638cc8b"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.Период" id="55c6e7c3-ea27-4a44-88c0-98bb70c121b7"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.ИмяСтруктуры" id="61bc8320-5473-4441-a24a-09f1d082a89c"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.СкрыватьЦветЗадач" id="7e1331a1-2d51-435e-aa25-89d26af5bca5"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.СкрыватьВыходныеДни" id="a7716d6d-f646-4d87-8566-d5bfec0a7449"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.ColL" id="ad224931-471e-4ba1-9fd5-8b8b2ea25e0c"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.ColR" id="c4a66a5d-580f-4dba-9e49-f86b9446a980"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.RowT" id="d92f9bb9-81cb-4f87-b887-82977c441d27"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.RowB" id="da7409b2-3099-44a1-b4cc-d92e1049c197"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ДатаНачала" id="e79f2154-1ec6-4de5-97a2-63af1c63d3be"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ДатаОкончания" id="f81da531-40a6-4318-a3f3-7f172f2f0a12"/>
+			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.Исполнитель" id="fb587951-7e45-4f68-9306-5ed1323f83fd"/>
 		</Metadata>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек" id="91d2bea8-d271-456d-9a2f-f2a49a067a00" configVersion="1d57ed7684c50f40bc031a8114e0ea2b00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаНастроек.Form" id="91d2bea8-d271-456d-9a2f-f2a49a067a00.0" configVersion="8dee6bcdb7b27b4e986bfb15e8a2262400000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="34832ccaf719214d8c0fd65a875f3d9100000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="80d9891543641c40a68a4736b23e899800000000"/>
-		<Metadata name="Report.ПланВыполненияЗадач.ObjectModule" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa.0" configVersion="edfcbd1750386345a6be9a68ccfe4c4500000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета" id="2a620856-e3ee-4c8d-84fc-a63173ac275e" configVersion="120973aa7817cc4e86d2f2adb4569a0000000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.Form.ФормаОтчета.Form" id="2a620856-e3ee-4c8d-84fc-a63173ac275e.0" configVersion="7e1e1176775b2e43bccaff1b84599df900000000"/>
+		<Metadata name="Report.ПланВыполненияЗадач.ObjectModule" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa.0" configVersion="c8a5208d3401ef4eb3ab5736719b514900000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения" id="338b46b8-e205-4d63-9a22-73fd956c7b86" configVersion="53f1d8cb9ae7cf4997599154810eb09500000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполнения.Template" id="338b46b8-e205-4d63-9a22-73fd956c7b86.0" configVersion="21398f8e89bdcd4780be36d5eecf7d2e00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач.Template.МакетПланаВыполненияКрупныйШрифт" id="e8d90e76-ae30-453a-bf10-5999e1afd973" configVersion="0cc62b19dbb80e45bc76bd2150fcf64900000000"/>

@@ -184,6 +184,8 @@
 			<CommonPicture>Внимание</CommonPicture>
 			<CommonPicture>Новости</CommonPicture>
 			<CommonPicture>ДеревоОбъектов</CommonPicture>
+			<CommonPicture>Расширить</CommonPicture>
+			<CommonPicture>Сузить</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Пользователь</Role>
 			<Role>Администратор</Role>
