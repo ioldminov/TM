@@ -238,6 +238,34 @@
 						<CommandName>Form.Command.кмРазместитьЗадачу</CommandName>
 						<ExtendedTooltip name="ТабДокКонтекстноеМенюкмРазместитьЗадачуРасширеннаяПодсказка" id="54"/>
 					</Button>
+					<Button name="ТабДокКонтекстноеМенюкнПередвинутьНаДеньВперед" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.кнПередвинутьНаДеньВперед</CommandName>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкнПередвинутьНаДеньВпередРасширеннаяПодсказка" id="56"/>
+					</Button>
+					<Button name="ТабДокКонтекстноеМенюкнПередвинутьНаДеньНазад" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.кнПередвинутьНаДеньНазад</CommandName>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкнПередвинутьНаДеньНазадРасширеннаяПодсказка" id="58"/>
+					</Button>
+					<Button name="ТабДокКонтекстноеМенюкнУвеличитьВремяНаДень" id="59">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.кнУвеличитьВремяНаДень</CommandName>
+						<Picture>
+							<xr:Ref>CommonPicture.Расширить</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкнУвеличитьВремяНаДеньРасширеннаяПодсказка" id="60"/>
+					</Button>
+					<Button name="ТабДокКонтекстноеМенюкнУменьшитьВремяНаДень" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.кнУменьшитьВремяНаДень</CommandName>
+						<Picture>
+							<xr:Ref>CommonPicture.Сузить</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="ТабДокКонтекстноеМенюкнУменьшитьВремяНаДеньРасширеннаяПодсказка" id="62"/>
+					</Button>
 				</ChildItems>
 			</ContextMenu>
 			<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="52"/>
@@ -454,6 +482,86 @@
 				</v8:item>
 			</ToolTip>
 			<Action>кмОткрытьЗадачу</Action>
+		</Command>
+		<Command name="кнПередвинутьНаДеньВперед" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сместить вправо</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передвинуть на день вперед</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+Num +</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>кнПередвинутьНаДеньВперед</Action>
+		</Command>
+		<Command name="кнПередвинутьНаДеньНазад" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сместить влево</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Передвинуть на день назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+Num -</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.GoBack</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>кнПередвинутьНаДеньНазад</Action>
+		</Command>
+		<Command name="кнУвеличитьВремяНаДень" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить время на день</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кн увеличить время на день</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Shift+Num +</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.Расширить</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>кнУвеличитьВремяНаДень</Action>
+		</Command>
+		<Command name="кнУменьшитьВремяНаДень" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить время на день</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кн уменьшить время на день</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Shift+Num -</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.Сузить</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>кнУменьшитьВремяНаДень</Action>
 		</Command>
 	</Commands>
 </Form>
