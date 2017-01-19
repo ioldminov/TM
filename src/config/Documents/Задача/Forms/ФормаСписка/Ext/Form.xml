@@ -467,28 +467,6 @@
 							<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="13"/>
 							<ExtendedTooltip name="ДатаЗакрытияExtendedTooltip" id="211"/>
 						</LabelField>
-						<LabelField name="КолВоПриложений" id="41">
-							<DataPath>~Список.КолВоПриложений</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Кол-во приложений</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="КолВоПриложенийКонтекстноеМеню" id="42"/>
-							<ExtendedTooltip name="КолВоПриложенийExtendedTooltip" id="212"/>
-						</LabelField>
-						<LabelField name="РазмерПриложений" id="43">
-							<DataPath>~Список.РазмерПриложений</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Размер приложений (КБ)</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="РазмерПриложенийКонтекстноеМеню" id="44"/>
-							<ExtendedTooltip name="РазмерПриложенийExtendedTooltip" id="213"/>
-						</LabelField>
 						<LabelField name="СписокПодробности" id="31">
 							<Width>1</Width>
 							<Height>1</Height>
@@ -512,6 +490,11 @@
 							<Height>1</Height>
 							<ContextMenu name="ОписаниеРешенияСпКонтекстноеМеню" id="88"/>
 							<ExtendedTooltip name="ОписаниеРешенияСпExtendedTooltip" id="216"/>
+						</LabelField>
+						<LabelField name="СостояниеЗадачи" id="424">
+							<DataPath>Список.СостояниеЗадачи</DataPath>
+							<ContextMenu name="СостояниеЗадачиКонтекстноеМеню" id="425"/>
+							<ExtendedTooltip name="СостояниеЗадачиРасширеннаяПодсказка" id="426"/>
 						</LabelField>
 					</ChildItems>
 				</Table>
@@ -1470,8 +1453,6 @@
 	ДокументЗадача.Ответственный,
 	ДокументЗадача.ОписаниеРешения,
 	ДокументЗадача.Статус,
-	ДокументЗадача.ХЗ_Подробности,
-	ДокументЗадача.ХЗ_ОписаниеРешения,
 	ДокументЗадача.МоментВремени,
 	ДокументЗадача.ДатаИзменения,
 	ДокументЗадача.Проект,
