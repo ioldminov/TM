@@ -10,6 +10,7 @@
 	<ChildItems>
 		<InputField name="Период" id="1">
 			<DataPath>Запись.Period</DataPath>
+			<Enabled>false</Enabled>
 			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="11"/>
 		</InputField>
