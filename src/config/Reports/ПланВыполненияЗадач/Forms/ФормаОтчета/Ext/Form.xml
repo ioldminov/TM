@@ -443,6 +443,7 @@
 					<v8:content>Км разместить задачу</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Alt+R</Shortcut>
 			<Picture>
 				<xr:Ref>StdPicture.DataCompositionNewNestedScheme</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
