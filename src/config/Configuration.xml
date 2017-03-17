@@ -200,6 +200,7 @@
 			<CommonModule>ОбщийКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
+			<CommonModule>рсРегламентноеОбслуживание</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
@@ -227,6 +228,7 @@
 			<DataProcessor>ОтображениеСтатей</DataProcessor>
 			<DataProcessor>ДеревоСвязанныхОбъектов</DataProcessor>
 			<DataProcessor>amCharts</DataProcessor>
+			<DataProcessor>РегламентноеОбслуживание</DataProcessor>
 			<InformationRegister>ОперативныйПланЗадач</InformationRegister>
 			<InformationRegister>Коментарии</InformationRegister>
 			<InformationRegister>СвязанныеЗадачи</InformationRegister>

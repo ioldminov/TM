@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ШагПорядкаЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаКонстант</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РегламентноеОбслуживание</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
