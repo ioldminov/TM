@@ -60,6 +60,7 @@ CommonModules\доДеревоСвязаныхОбъектов.xml-->CommonModul
 CommonModules\ксНастройкаСервер.xml-->CommonModules\ксНастройкаСервер.xml
 CommonModules\Общий.xml-->CommonModules\Общий.xml
 CommonModules\ОбщийКлиент.xml-->CommonModules\ОбщийКлиент.xml
+CommonModules\рсРегламентноеОбслуживание.xml-->CommonModules\рсРегламентноеОбслуживание.xml
 CommonModules\СтандартныеПодсистемыГлобальный.xml-->CommonModules\СтандартныеПодсистемыГлобальный.xml
 CommonModules\СтандартныеПодсистемыКлиент.xml-->CommonModules\СтандартныеПодсистемыКлиент.xml
 CommonModules\уоУсловноеОформление.xml-->CommonModules\уоУсловноеОформление.xml
@@ -67,6 +68,7 @@ CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl-->
 CommonModules\ксНастройкаСервер\Ext\Module.bsl-->CommonModules\ксНастройкаСервер\Ext\Module.bsl
 CommonModules\Общий\Ext\Module.bsl-->CommonModules\Общий\Ext\Module.bsl
 CommonModules\ОбщийКлиент\Ext\Module.bsl-->CommonModules\ОбщийКлиент\Ext\Module.bsl
+CommonModules\рсРегламентноеОбслуживание\Ext\Module.bsl-->CommonModules\рсРегламентноеОбслуживание\Ext\Module.bsl
 CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl
 CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl
 CommonModules\уоУсловноеОформление\Ext\Module.bsl-->CommonModules\уоУсловноеОформление\Ext\Module.bsl
@@ -178,6 +180,7 @@ DataProcessors\ЗагрузитьСписокПользователей.xml-->Da
 DataProcessors\ИмпортЗадач.xml-->DataProcessors\ИмпортЗадач.xml
 DataProcessors\КонсольЗапросов.xml-->DataProcessors\КонсольЗапросов.xml
 DataProcessors\ОтображениеСтатей.xml-->DataProcessors\ОтображениеСтатей.xml
+DataProcessors\РегламентноеОбслуживание.xml-->DataProcessors\РегламентноеОбслуживание.xml
 DataProcessors\amCharts\Ext\ObjectModule.bsl-->DataProcessors\amCharts\Ext\ObjectModule.bsl
 DataProcessors\amCharts\Forms\Форма.xml-->DataProcessors\amCharts\Forms\Форма.xml
 DataProcessors\amCharts\Forms\Форма\Ext\Form.xml-->DataProcessors\amCharts\Forms\Форма\Ext\Form.xml
@@ -249,6 +252,9 @@ DataProcessors\КонсольЗапросов\Templates\МакетРезульт
 DataProcessors\ОтображениеСтатей\Forms\Форма.xml-->DataProcessors\ОтображениеСтатей\Forms\Форма.xml
 DataProcessors\ОтображениеСтатей\Forms\Форма\Ext\Form.xml-->DataProcessors\ОтображениеСтатей\Forms\Форма\Ext\Form.xml
 DataProcessors\ОтображениеСтатей\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ОтображениеСтатей\Forms\Форма\Ext\Form\Module.bsl
+DataProcessors\РегламентноеОбслуживание\Forms\Форма.xml-->DataProcessors\РегламентноеОбслуживание\Forms\Форма.xml
+DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form.xml-->DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form.xml
+DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form\Module.bsl
 Documents\Задача.xml-->Documents\Задача.xml
 Documents\Спринт.xml-->Documents\Спринт.xml
 Documents\Статья.xml-->Documents\Статья.xml
