@@ -280,8 +280,8 @@
 			<Metadata name="Document.Задача.Attribute.Статус" id="eb5b4eae-372b-432d-a549-7810e479bb7f"/>
 			<Metadata name="Document.Задача.TabularSection.Приложения.Attribute.ХЗ" id="f43e750f-5141-4c75-8508-c74175950c2f"/>
 		</Metadata>
-		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="f0c90a9b3dcbd943a3e593aa393a412500000000"/>
-		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="c120476ec1dc964eade831601db928a200000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="1aa92f796c1fe940af0e18d2b5466c0300000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="4a94c1236ed8834e94d7ed3d9141bd7e00000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML" id="a99840af-9603-472f-90fc-d9f1bc4c56fa" configVersion="f42a76444b776a45a8ab422e615164e700000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML.Form" id="a99840af-9603-472f-90fc-d9f1bc4c56fa.0" configVersion="de313eece3c7ef4e836f327187815b5a00000000"/>
 		<Metadata name="Document.Задача.Form.ФормаСписка" id="7e95255a-48dd-48da-b7f3-26550b5246b3" configVersion="e8ffe770c12b7f4a9433b348a42061db00000000"/>
