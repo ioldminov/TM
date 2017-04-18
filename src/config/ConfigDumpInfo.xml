@@ -300,8 +300,8 @@
 			<Metadata name="Document.Спринт.Attribute.ДатаНачала" id="99cdb689-19f8-41d9-9468-8a7307feb9cf"/>
 			<Metadata name="Document.Спринт.TabularSection.СоставСпринта" id="d72dc77e-a820-4fc2-b897-4d1bbc3ea0c6"/>
 		</Metadata>
-		<Metadata name="Document.Спринт.Form.ФормаДокумента" id="26933abb-e6ab-4d61-b289-0c527410fc2d" configVersion="3a3efaf7dfbffd40b62a103c5800cf8400000000"/>
-		<Metadata name="Document.Спринт.Form.ФормаДокумента.Form" id="26933abb-e6ab-4d61-b289-0c527410fc2d.0" configVersion="9e63b9c55a408c4e89dab2de29d3843a00000000"/>
+		<Metadata name="Document.Спринт.Form.ФормаДокумента" id="26933abb-e6ab-4d61-b289-0c527410fc2d" configVersion="5ec6a0018c7e434c81f269bc02bc0c2800000000"/>
+		<Metadata name="Document.Спринт.Form.ФормаДокумента.Form" id="26933abb-e6ab-4d61-b289-0c527410fc2d.0" configVersion="ed7146e3297b464c823433d0cce5b0f700000000"/>
 		<Metadata name="Document.Статья" id="6569cc10-d72f-4c3c-b214-a6e8c17d8e84" configVersion="7721d1238cef64459854dc5e6183d6ea00000000">
 			<Metadata name="Document.Статья.Attribute.Каталог" id="0d06498d-d2a3-4150-b136-d923ef7fda45"/>
 			<Metadata name="Document.Статья.Attribute.ТекстHTML" id="18afc226-a833-489d-84b9-52328d59d20d"/>
