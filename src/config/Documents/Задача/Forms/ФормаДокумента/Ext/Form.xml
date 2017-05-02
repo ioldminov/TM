@@ -782,6 +782,172 @@
 										</FormattedDocumentField>
 									</ChildItems>
 								</Page>
+								<Page name="СтраницаОписаниеРелиза" id="314">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Описание для релиза</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница описание релиза</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаОписаниеРелизаРасширеннаяПодсказка" id="315"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПараметрыРешения" id="127">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа параметры решения</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ChildItemsWidth>LeftWide</ChildItemsWidth>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПараметрыРешенияРасширеннаяПодсказка" id="243"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаДатаЗакрытия" id="299">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа дата закрытия</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа дата закрытия</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ChildItemsWidth>LeftWide</ChildItemsWidth>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаДатаЗакрытияРасширеннаяПодсказка" id="300"/>
+													<ChildItems>
+														<InputField name="ДатаЗакрытия" id="9">
+															<DataPath>Объект.ДатаЗакрытия</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="10"/>
+															<ExtendedTooltip name="ДатаЗакрытияРасширеннаяПодсказка" id="244"/>
+															<Events>
+																<Event name="StartChoice">ДатаЗакрытияНачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<CheckBoxField name="ВключатьВОписаниеПоставки" id="125">
+															<DataPath>Объект.ВключатьВОписаниеПоставки</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Вкл. в описание</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Включать в описание поставки</v8:content>
+																</v8:item>
+															</ToolTip>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ВключатьВОписаниеПоставкиКонтекстноеМеню" id="126"/>
+															<ExtendedTooltip name="ВключатьВОписаниеПоставкиРасширеннаяПодсказка" id="246"/>
+														</CheckBoxField>
+														<InputField name="РелизКонфигурации" id="123">
+															<DataPath>Объект.РелизКонфигурации</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Релиз</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<TextEdit>false</TextEdit>
+															<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="124"/>
+															<ExtendedTooltip name="РелизКонфигурацииРасширеннаяПодсказка" id="245">
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Релиз конфигурации, в котором данная проблема решена.
+Т.е. если в настоящее время пользователи работают на релизе № 24, то в этом поле необходимо указать релиз № 25.</v8:content>
+																	</v8:item>
+																</Title>
+															</ExtendedTooltip>
+															<Events>
+																<Event name="StartChoice">РелизКонфигурацииНачалоВыбора</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="КП_ФД_ОписаниеРешения_" id="34">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Описание решения</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="КП_ФД_ОписаниеРешения_РасширеннаяПодсказка" id="247"/>
+											<ChildItems>
+												<Button name="ФД_ОписаниеРешенияКартинка" id="33">
+													<Type>Hyperlink</Type>
+													<Representation>Picture</Representation>
+													<CommandName>Form.Item.ФД_ОписаниеРешения.StandardCommand.Picture</CommandName>
+													<ExtendedTooltip name="ФД_ОписаниеРешенияКартинкаРасширеннаяПодсказка" id="248"/>
+												</Button>
+												<CommandBar name="КП_ФД_ОписаниеРешения" id="32">
+													<CommandSource>Item.ФД_ОписаниеРешения</CommandSource>
+													<ExtendedTooltip name="КП_ФД_ОписаниеРешенияРасширеннаяПодсказка" id="249"/>
+												</CommandBar>
+											</ChildItems>
+										</UsualGroup>
+										<FormattedDocumentField name="ФД_ОписаниеРешения" id="30">
+											<DataPath>ФД_ОписаниеРешения</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>1</Width>
+											<Height>1</Height>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
+											<ContextMenu name="ФД_ОписаниеРешенияКонтекстноеМеню" id="31"/>
+											<ExtendedTooltip name="ФД_ОписаниеРешенияРасширеннаяПодсказка" id="250"/>
+											<Events>
+												<Event name="OnChange">ФД_ОписаниеРешенияПриИзменении</Event>
+											</Events>
+										</FormattedDocumentField>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаОписаниеРешения" id="316">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Описание решения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница описание решения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаОписаниеРешенияРасширеннаяПодсказка" id="317"/>
+									<ChildItems>
+										<InputField name="СутьРешенияЗадачи" id="318">
+											<DataPath>Объект.СутьРешенияЗадачи</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<Font ref="style:ШрифтСтандартный" kind="StyleItem"/>
+											<ContextMenu name="СутьРешенияЗадачиКонтекстноеМеню" id="319"/>
+											<ExtendedTooltip name="СутьРешенияЗадачиРасширеннаяПодсказка" id="320"/>
+										</InputField>
+									</ChildItems>
+								</Page>
 								<Page name="Комментарии" id="85">
 									<Title>
 										<v8:item>
@@ -1326,174 +1492,6 @@
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="ПанельОписаниеРешенияРасширеннаяПодсказка" id="313"/>
-									<ChildItems>
-										<Page name="СтраницаОписаниеРелиза" id="314">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Описание для релиза</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница описание релиза</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ExtendedTooltip name="СтраницаОписаниеРелизаРасширеннаяПодсказка" id="315"/>
-											<ChildItems>
-												<UsualGroup name="ГруппаПараметрыРешения" id="127">
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа параметры решения</v8:content>
-														</v8:item>
-													</ToolTip>
-													<Group>Vertical</Group>
-													<Representation>None</Representation>
-													<ChildItemsWidth>LeftWide</ChildItemsWidth>
-													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаПараметрыРешенияРасширеннаяПодсказка" id="243"/>
-													<ChildItems>
-														<UsualGroup name="ГруппаДатаЗакрытия" id="299">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа дата закрытия</v8:content>
-																</v8:item>
-															</Title>
-															<ToolTip>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа дата закрытия</v8:content>
-																</v8:item>
-															</ToolTip>
-															<Group>Horizontal</Group>
-															<Representation>None</Representation>
-															<ChildItemsWidth>LeftWide</ChildItemsWidth>
-															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ГруппаДатаЗакрытияРасширеннаяПодсказка" id="300"/>
-															<ChildItems>
-																<InputField name="ДатаЗакрытия" id="9">
-																	<DataPath>Объект.ДатаЗакрытия</DataPath>
-																	<EditMode>EnterOnInput</EditMode>
-																	<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="10"/>
-																	<ExtendedTooltip name="ДатаЗакрытияРасширеннаяПодсказка" id="244"/>
-																	<Events>
-																		<Event name="StartChoice">ДатаЗакрытияНачалоВыбора</Event>
-																	</Events>
-																</InputField>
-																<CheckBoxField name="ВключатьВОписаниеПоставки" id="125">
-																	<DataPath>Объект.ВключатьВОписаниеПоставки</DataPath>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Вкл. в описание</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ToolTip>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Включать в описание поставки</v8:content>
-																		</v8:item>
-																	</ToolTip>
-																	<CheckBoxType>Auto</CheckBoxType>
-																	<ContextMenu name="ВключатьВОписаниеПоставкиКонтекстноеМеню" id="126"/>
-																	<ExtendedTooltip name="ВключатьВОписаниеПоставкиРасширеннаяПодсказка" id="246"/>
-																</CheckBoxField>
-																<InputField name="РелизКонфигурации" id="123">
-																	<DataPath>Объект.РелизКонфигурации</DataPath>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Релиз</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
-																	<TextEdit>false</TextEdit>
-																	<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="124"/>
-																	<ExtendedTooltip name="РелизКонфигурацииРасширеннаяПодсказка" id="245">
-																		<Title formatted="false">
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>Релиз конфигурации, в котором данная проблема решена.
-Т.е. если в настоящее время пользователи работают на релизе № 24, то в этом поле необходимо указать релиз № 25.</v8:content>
-																			</v8:item>
-																		</Title>
-																	</ExtendedTooltip>
-																	<Events>
-																		<Event name="StartChoice">РелизКонфигурацииНачалоВыбора</Event>
-																	</Events>
-																</InputField>
-															</ChildItems>
-														</UsualGroup>
-													</ChildItems>
-												</UsualGroup>
-												<UsualGroup name="КП_ФД_ОписаниеРешения_" id="34">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Описание решения</v8:content>
-														</v8:item>
-													</Title>
-													<Group>Horizontal</Group>
-													<Representation>None</Representation>
-													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="КП_ФД_ОписаниеРешения_РасширеннаяПодсказка" id="247"/>
-													<ChildItems>
-														<Button name="ФД_ОписаниеРешенияКартинка" id="33">
-															<Type>Hyperlink</Type>
-															<Representation>Picture</Representation>
-															<CommandName>Form.Item.ФД_ОписаниеРешения.StandardCommand.Picture</CommandName>
-															<ExtendedTooltip name="ФД_ОписаниеРешенияКартинкаРасширеннаяПодсказка" id="248"/>
-														</Button>
-														<CommandBar name="КП_ФД_ОписаниеРешения" id="32">
-															<CommandSource>Item.ФД_ОписаниеРешения</CommandSource>
-															<ExtendedTooltip name="КП_ФД_ОписаниеРешенияРасширеннаяПодсказка" id="249"/>
-														</CommandBar>
-													</ChildItems>
-												</UsualGroup>
-												<FormattedDocumentField name="ФД_ОписаниеРешения" id="30">
-													<DataPath>ФД_ОписаниеРешения</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<Width>1</Width>
-													<Height>1</Height>
-													<AutoMaxHeight>false</AutoMaxHeight>
-													<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
-													<ContextMenu name="ФД_ОписаниеРешенияКонтекстноеМеню" id="31"/>
-													<ExtendedTooltip name="ФД_ОписаниеРешенияРасширеннаяПодсказка" id="250"/>
-													<Events>
-														<Event name="OnChange">ФД_ОписаниеРешенияПриИзменении</Event>
-													</Events>
-												</FormattedDocumentField>
-											</ChildItems>
-										</Page>
-										<Page name="СтраницаОписаниеРешения" id="316">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Описание решения</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Страница описание решения</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ExtendedTooltip name="СтраницаОписаниеРешенияРасширеннаяПодсказка" id="317"/>
-											<ChildItems>
-												<InputField name="СутьРешенияЗадачи" id="318">
-													<DataPath>Объект.СутьРешенияЗадачи</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<AutoMaxWidth>false</AutoMaxWidth>
-													<Font ref="style:ШрифтСтандартный" kind="StyleItem"/>
-													<ContextMenu name="СутьРешенияЗадачиКонтекстноеМеню" id="319"/>
-													<ExtendedTooltip name="СутьРешенияЗадачиРасширеннаяПодсказка" id="320"/>
-												</InputField>
-											</ChildItems>
-										</Page>
-									</ChildItems>
 								</Pages>
 							</ChildItems>
 						</Page>
