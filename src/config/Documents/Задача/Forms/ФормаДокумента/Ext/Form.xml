@@ -795,6 +795,7 @@
 											<v8:content>Страница описание релиза</v8:content>
 										</v8:item>
 									</ToolTip>
+									<TitleDataPath>ЗаголовокСутьРешенияЗадачи</TitleDataPath>
 									<ExtendedTooltip name="СтраницаОписаниеРелизаРасширеннаяПодсказка" id="315"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаПараметрыРешения" id="127">
@@ -884,7 +885,7 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
-										<UsualGroup name="КП_ФД_ОписаниеРешения_" id="34">
+										<UsualGroup name="КП_ФД_ОписаниеДляРелиза_" id="34">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -894,36 +895,36 @@
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="КП_ФД_ОписаниеРешения_РасширеннаяПодсказка" id="247"/>
+											<ExtendedTooltip name="КП_ФД_ОписаниеДляРелиза_РасширеннаяПодсказка" id="247"/>
 											<ChildItems>
-												<Button name="ФД_ОписаниеРешенияКартинка" id="33">
+												<Button name="ФД_ОписаниеДляРелизаКартинка" id="33">
 													<Type>Hyperlink</Type>
 													<Representation>Picture</Representation>
-													<CommandName>Form.Item.ФД_ОписаниеРешения.StandardCommand.Picture</CommandName>
-													<ExtendedTooltip name="ФД_ОписаниеРешенияКартинкаРасширеннаяПодсказка" id="248"/>
+													<CommandName>Form.Item.ФД_ОписаниеДляРелиза.StandardCommand.Picture</CommandName>
+													<ExtendedTooltip name="ФД_ОписаниеДляРелизаКартинкаРасширеннаяПодсказка" id="248"/>
 												</Button>
-												<CommandBar name="КП_ФД_ОписаниеРешения" id="32">
-													<CommandSource>Item.ФД_ОписаниеРешения</CommandSource>
-													<ExtendedTooltip name="КП_ФД_ОписаниеРешенияРасширеннаяПодсказка" id="249"/>
+												<CommandBar name="КП_ФД_ОписаниеДляРелиза" id="32">
+													<CommandSource>Item.ФД_ОписаниеДляРелиза</CommandSource>
+													<ExtendedTooltip name="КП_ФД_ОписаниеДляРелизаРасширеннаяПодсказка" id="249"/>
 												</CommandBar>
 											</ChildItems>
 										</UsualGroup>
-										<FormattedDocumentField name="ФД_ОписаниеРешения" id="30">
-											<DataPath>ФД_ОписаниеРешения</DataPath>
+										<FormattedDocumentField name="ФД_ОписаниеДляРелиза" id="30">
+											<DataPath>ФД_ОписаниеДляРелиза</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<Width>1</Width>
 											<Height>1</Height>
 											<AutoMaxHeight>false</AutoMaxHeight>
 											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
-											<ContextMenu name="ФД_ОписаниеРешенияКонтекстноеМеню" id="31"/>
-											<ExtendedTooltip name="ФД_ОписаниеРешенияРасширеннаяПодсказка" id="250"/>
+											<ContextMenu name="ФД_ОписаниеДляРелизаКонтекстноеМеню" id="31"/>
+											<ExtendedTooltip name="ФД_ОписаниеДляРелизаРасширеннаяПодсказка" id="250"/>
 											<Events>
-												<Event name="OnChange">ФД_ОписаниеРешенияПриИзменении</Event>
+												<Event name="OnChange">ФД_ОписаниеДляРелизаПриИзменении</Event>
 											</Events>
 										</FormattedDocumentField>
 									</ChildItems>
 								</Page>
-								<Page name="СтраницаОписаниеРешения" id="316">
+								<Page name="СтраницаСутьРешенияЗадачи" id="316">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -933,10 +934,11 @@
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Страница описание решения</v8:content>
+											<v8:content>Страница суть решения задачи</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="СтраницаОписаниеРешенияРасширеннаяПодсказка" id="317"/>
+									<TitleDataPath>ЗаголовокСутьРешенияЗадачи</TitleDataPath>
+									<ExtendedTooltip name="СтраницаСутьРешенияЗадачиРасширеннаяПодсказка" id="317"/>
 									<ChildItems>
 										<InputField name="СутьРешенияЗадачи" id="318">
 											<DataPath>Объект.СутьРешенияЗадачи</DataPath>
@@ -1478,7 +1480,7 @@
 										</InputField>
 									</ChildItems>
 								</Table>
-								<Pages name="ПанельОписаниеРешения" id="312">
+								<Pages name="ПанельОписаниеДляРелиза" id="312">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1491,7 +1493,7 @@
 											<v8:content>Панель описание решения</v8:content>
 										</v8:item>
 									</ToolTip>
-									<ExtendedTooltip name="ПанельОписаниеРешенияРасширеннаяПодсказка" id="313"/>
+									<ExtendedTooltip name="ПанельОписаниеДляРелизаРасширеннаяПодсказка" id="313"/>
 								</Pages>
 							</ChildItems>
 						</Page>
@@ -1774,11 +1776,11 @@
 				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ФД_ОписаниеРешения" id="3">
+		<Attribute name="ФД_ОписаниеДляРелиза" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ФД_ОписаниеРешения</v8:content>
+					<v8:content>ФД_ОписаниеДляРелиза</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2126,6 +2128,36 @@
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="ЗаголовокСутьРешенияЗадачи" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Суть решения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаголовокОписаниеДляРелиза" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание для решения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

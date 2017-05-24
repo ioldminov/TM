@@ -485,11 +485,11 @@
 							<ContextMenu name="ОткликОтКонтекстноеМеню" id="386"/>
 							<ExtendedTooltip name="ОткликОтРасширеннаяПодсказка" id="387"/>
 						</LabelField>
-						<LabelField name="ОписаниеРешенияСп" id="87">
-							<DataPath>Список.ОписаниеРешения</DataPath>
+						<LabelField name="ОписаниеДляРелизаСп" id="87">
+							<DataPath>~Список.ОписаниеРешения</DataPath>
 							<Height>1</Height>
-							<ContextMenu name="ОписаниеРешенияСпКонтекстноеМеню" id="88"/>
-							<ExtendedTooltip name="ОписаниеРешенияСпExtendedTooltip" id="216"/>
+							<ContextMenu name="ОписаниеДляРелизаСпКонтекстноеМеню" id="88"/>
+							<ExtendedTooltip name="ОписаниеДляРелизаСпРасширеннаяПодсказка" id="216"/>
 						</LabelField>
 						<LabelField name="СостояниеЗадачи" id="424">
 							<DataPath>Список.СостояниеЗадачи</DataPath>
@@ -1422,11 +1422,11 @@
 					<ContextMenu name="ПодробностиКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ПодробностиExtendedTooltip" id="266"/>
 				</InputField>
-				<InputField name="ОписаниеРешения" id="35">
-					<DataPath>Items.Список.CurrentData.ОписаниеРешения</DataPath>
+				<InputField name="ОписаниеДляРелиза" id="35">
+					<DataPath>~Items.Список.CurrentData.ОписаниеРешения</DataPath>
 					<AutoMaxWidth>false</AutoMaxWidth>
-					<ContextMenu name="ОписаниеРешенияКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ОписаниеРешенияExtendedTooltip" id="267"/>
+					<ContextMenu name="ОписаниеДляРелизаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ОписаниеДляРелизаРасширеннаяПодсказка" id="267"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -1451,7 +1451,7 @@
 	ДокументЗадача.Подробности,
 	ДокументЗадача.ДатаЗакрытия,
 	ДокументЗадача.Ответственный,
-	ДокументЗадача.ОписаниеРешения,
+	ДокументЗадача.ОписаниеДляРелиза,
 	ДокументЗадача.Статус,
 	ДокументЗадача.МоментВремени,
 	ДокументЗадача.ДатаИзменения,

@@ -60,6 +60,7 @@ CommonModules\доДеревоСвязаныхОбъектов.xml-->CommonModul
 CommonModules\ксНастройкаСервер.xml-->CommonModules\ксНастройкаСервер.xml
 CommonModules\Общий.xml-->CommonModules\Общий.xml
 CommonModules\ОбщийКлиент.xml-->CommonModules\ОбщийКлиент.xml
+CommonModules\ОбщийКлиентПовтИсп.xml-->CommonModules\ОбщийКлиентПовтИсп.xml
 CommonModules\рсРегламентноеОбслуживание.xml-->CommonModules\рсРегламентноеОбслуживание.xml
 CommonModules\СтандартныеПодсистемыГлобальный.xml-->CommonModules\СтандартныеПодсистемыГлобальный.xml
 CommonModules\СтандартныеПодсистемыКлиент.xml-->CommonModules\СтандартныеПодсистемыКлиент.xml
@@ -68,6 +69,7 @@ CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl-->
 CommonModules\ксНастройкаСервер\Ext\Module.bsl-->CommonModules\ксНастройкаСервер\Ext\Module.bsl
 CommonModules\Общий\Ext\Module.bsl-->CommonModules\Общий\Ext\Module.bsl
 CommonModules\ОбщийКлиент\Ext\Module.bsl-->CommonModules\ОбщийКлиент\Ext\Module.bsl
+CommonModules\ОбщийКлиентПовтИсп\Ext\Module.bsl-->CommonModules\ОбщийКлиентПовтИсп\Ext\Module.bsl
 CommonModules\рсРегламентноеОбслуживание\Ext\Module.bsl-->CommonModules\рсРегламентноеОбслуживание\Ext\Module.bsl
 CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl
 CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl

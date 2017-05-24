@@ -79,7 +79,7 @@
             </tr>
             <tr class="print">
                <td class="print-category">Описание решения:</td>
-               <td class="print" colspan="5">[ОписаниеРешения]</td>
+               <td class="print" colspan="5">[СутьРешенияЗадачи]</td>
             </tr>
             <tr class="print">
                <td class="print-category">Отслеживающие:</td>

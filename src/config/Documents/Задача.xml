@@ -402,7 +402,7 @@
 			</Attribute>
 			<Attribute uuid="90b84dc1-fdbf-4ef2-8fc8-7c84a1c5047b">
 				<Properties>
-					<Name>ОписаниеРешения</Name>
+					<Name>ОписаниеДляРелиза</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -610,11 +610,11 @@
 			</Attribute>
 			<Attribute uuid="b73614e4-1dfa-41db-a891-0040a742cf6f">
 				<Properties>
-					<Name>ХЗ_ОписаниеРешения</Name>
+					<Name>ХЗ_ОписаниеДляРелиза</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ХЗ_ОписаниеРешения</v8:content>
+							<v8:content>ХЗ_ОписаниеДляРелиза</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
