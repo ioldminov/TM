@@ -201,6 +201,7 @@
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>рсРегламентноеОбслуживание</CommonModule>
+			<CommonModule>ОбщийКлиентПовтИсп</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>

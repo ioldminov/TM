@@ -17,8 +17,8 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОписаниеРешения</dataPath>
-			<field>ОписаниеРешения</field>
+			<dataPath>ОписаниеДляРелиза</dataPath>
+			<field>ОписаниеДляРелиза</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Суть</dataPath>
@@ -32,7 +32,7 @@
 		<query>ВЫБРАТЬ
 	Задача.Ссылка,
 	Задача.Суть,
-	Задача.ОписаниеРешения,
+	Задача.ОписаниеДляРелиза,
 	Задача.Модуль
 ИЗ
 	Документ.Задача КАК Задача
@@ -88,7 +88,7 @@
 					<dcsset:field>Суть</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОписаниеРешения</dcsset:field>
+					<dcsset:field>ОписаниеДляРелиза</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -153,7 +153,7 @@
 					<dcsset:field>Суть</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОписаниеРешения</dcsset:field>
+					<dcsset:field>ОписаниеДляРелиза</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
