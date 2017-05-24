@@ -74,8 +74,8 @@
 		<Metadata name="CommonForm.БыстрыйВыборСтандартногоПериода.Form" id="875fa95c-29c7-41fe-8e15-8374e42ea5b4.0" configVersion="72a22ba5e3c17d4db1b52b0e60e4594700000000"/>
 		<Metadata name="CommonForm.ФормаКонстант" id="b8b29304-9888-4ace-a87e-60ce542b6f4e" configVersion="4a83930c2fa8a4498a83d63d7fc012b400000000"/>
 		<Metadata name="CommonForm.ФормаКонстант.Form" id="b8b29304-9888-4ace-a87e-60ce542b6f4e.0" configVersion="825e1613c9c8924db23ed8fda3154bbf00000000"/>
-		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="9b96de265811384f85a06085c5c9036a00000000"/>
-		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="c7a37aa6016c534791a856b28542a46200000000"/>
+		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="6802e7732f038848a88b2dbe5e5564f400000000"/>
+		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="93df40b8031ae641ade148fcd1d8382800000000"/>
 		<Metadata name="CommonModule.ОбщийКлиент" id="bf15b115-165a-4724-b9be-fa8d4b21d470" configVersion="350d8f68515fe247a7c02382b1743aa000000000"/>
 		<Metadata name="CommonModule.ОбщийКлиент.Module" id="bf15b115-165a-4724-b9be-fa8d4b21d470.0" configVersion="a6ef26fb350b2743a86fdbdd3fb20c0700000000"/>
 		<Metadata name="CommonModule.СтандартныеПодсистемыГлобальный" id="10e1b6dc-84dd-42f7-aec6-37538a81174f" configVersion="b4829cf7c99ff644b8784ed9c005d51b00000000"/>
@@ -377,8 +377,9 @@
 		</Metadata>
 		<Metadata name="InformationRegister.Коментарии.Form.ФормаЗаписи" id="81bf0a21-57ba-4550-a48d-3f3083447c4c" configVersion="76bd117a89672d4083b14ed28ac2c4fe00000000"/>
 		<Metadata name="InformationRegister.Коментарии.Form.ФормаЗаписи.Form" id="81bf0a21-57ba-4550-a48d-3f3083447c4c.0" configVersion="5b68b200bca87f47ab0a764bfb1ad95500000000"/>
-		<Metadata name="InformationRegister.ОперативныйПланЗадач" id="e3a28a21-de7e-46b8-b4ca-81350081807d" configVersion="a8f8bc381d6ac8449ed6ec199a480c0200000000">
+		<Metadata name="InformationRegister.ОперативныйПланЗадач" id="e3a28a21-de7e-46b8-b4ca-81350081807d" configVersion="58077924a778784cb35f73c0ef9ea4f700000000">
 			<Metadata name="InformationRegister.ОперативныйПланЗадач.Dimension.Задача" id="53d20453-14aa-48bc-bd4b-83ecbe04e234"/>
+			<Metadata name="InformationRegister.ОперативныйПланЗадач.Resource.Исполнитель" id="886c220a-2e49-4764-b25b-b0a9c0a83bf1"/>
 			<Metadata name="InformationRegister.ОперативныйПланЗадач.Resource.Порядок" id="e29a98dd-057e-4457-9a6d-fddcae798dd5"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ОтслеживающиеПользователиПоУмолчанию" id="2345963b-b8af-41ea-8452-7612103f6a1b" configVersion="485158b918ebc0488fe1b4d08eaa820900000000">
