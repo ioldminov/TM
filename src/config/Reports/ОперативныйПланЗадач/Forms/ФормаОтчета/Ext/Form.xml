@@ -86,21 +86,6 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ОтчетРасширеннаяПодсказка" id="110"/>
 									<ChildItems>
-										<CheckBoxField name="РазрешитьПеретаскивание" id="179">
-											<DataPath>РазрешитьПеретаскивание</DataPath>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Разрешить перетаскивание задач из другиф форм</v8:content>
-												</v8:item>
-											</ToolTip>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="РазрешитьПеретаскиваниеКонтекстноеМеню" id="180"/>
-											<ExtendedTooltip name="РазрешитьПеретаскиваниеРасширеннаяПодсказка" id="181"/>
-											<Events>
-												<Event name="OnChange">РазрешитьПеретаскиваниеПриИзменении</Event>
-											</Events>
-										</CheckBoxField>
 										<CommandBar name="Кнопки" id="87">
 											<Title>
 												<v8:item>
@@ -142,6 +127,11 @@
 													</Picture>
 													<ExtendedTooltip name="ИзменитьВидимостьНастроекРасширеннаяПодсказка" id="113"/>
 												</Button>
+												<Button name="УдалитьЗадачуИзПлана" id="196">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.УдалитьЗадачуИзПлана</CommandName>
+													<ExtendedTooltip name="УдалитьЗадачуИзПланаРасширеннаяПодсказка" id="197"/>
+												</Button>
 											</ChildItems>
 										</CommandBar>
 										<SpreadSheetDocumentField name="ПолеТабличногоДокумента" id="4">
@@ -161,6 +151,21 @@
 												<Event name="DragEnd">ПолеТабличногоДокументаОкончаниеПеретаскивания</Event>
 											</Events>
 										</SpreadSheetDocumentField>
+										<UsualGroup name="ГруппаНастройки" id="185">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа настройки</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа настройки</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="186"/>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="Список" id="73">
@@ -325,6 +330,85 @@
 														</InputField>
 													</ChildItems>
 												</Page>
+												<Page name="НастройкаОтбораПлана" id="92">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка отбора плана</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка отбора плана</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="НастройкаОтбораПланаРасширеннаяПодсказка" id="160"/>
+													<ChildItems>
+														<Table name="ОтчетСписокПользователей" id="93">
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<DataPath>Отчет.СписокПользователей</DataPath>
+															<SearchStringLocation>None</SearchStringLocation>
+															<ViewStatusLocation>None</ViewStatusLocation>
+															<SearchControlLocation>None</SearchControlLocation>
+															<RowFilter xsi:nil="true"/>
+															<ContextMenu name="ОтчетСписокПользователейКонтекстноеМеню" id="94"/>
+															<AutoCommandBar name="ОтчетСписокПользователейКоманднаяПанель" id="95"/>
+															<ExtendedTooltip name="ОтчетСписокПользователейРасширеннаяПодсказка" id="161"/>
+															<SearchStringAddition name="ОтчетСписокПользователейСтрокаПоиска" id="162">
+																<AdditionSource>
+																	<Item>ОтчетСписокПользователей</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ОтчетСписокПользователейСтрокаПоискаКонтекстноеМеню" id="163"/>
+																<ExtendedTooltip name="ОтчетСписокПользователейСтрокаПоискаРасширеннаяПодсказка" id="164"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="ОтчетСписокПользователейСостояниеПросмотра" id="165">
+																<AdditionSource>
+																	<Item>ОтчетСписокПользователей</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ОтчетСписокПользователейСостояниеПросмотраКонтекстноеМеню" id="166"/>
+																<ExtendedTooltip name="ОтчетСписокПользователейСостояниеПросмотраРасширеннаяПодсказка" id="167"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="ОтчетСписокПользователейУправлениеПоиском" id="168">
+																<AdditionSource>
+																	<Item>ОтчетСписокПользователей</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="ОтчетСписокПользователейУправлениеПоискомКонтекстноеМеню" id="169"/>
+																<ExtendedTooltip name="ОтчетСписокПользователейУправлениеПоискомРасширеннаяПодсказка" id="170"/>
+															</SearchControlAddition>
+															<ChildItems>
+																<InputField name="ОтчетСписокПользователейПользователь" id="98">
+																	<DataPath>Отчет.СписокПользователей.Пользователь</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<ContextMenu name="ОтчетСписокПользователейПользовательКонтекстноеМеню" id="99"/>
+																	<ExtendedTooltip name="ОтчетСписокПользователейПользовательРасширеннаяПодсказка" id="171"/>
+																</InputField>
+															</ChildItems>
+														</Table>
+														<CheckBoxField name="ОтчетВыводитьВРаботеИОтработанные" id="187">
+															<DataPath>Отчет.ВыводитьВРаботеИОтработанные</DataPath>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ОтчетВыводитьВРаботеИОтработанныеКонтекстноеМеню" id="188"/>
+															<ExtendedTooltip name="ОтчетВыводитьВРаботеИОтработанныеРасширеннаяПодсказка" id="189"/>
+														</CheckBoxField>
+														<CheckBoxField name="ОтчетВыводитьНуженОтклик" id="190">
+															<DataPath>Отчет.ВыводитьНуженОтклик</DataPath>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ОтчетВыводитьНуженОткликКонтекстноеМеню" id="191"/>
+															<ExtendedTooltip name="ОтчетВыводитьНуженОткликРасширеннаяПодсказка" id="192"/>
+														</CheckBoxField>
+														<CheckBoxField name="РазрешитьПеретаскивание" id="193">
+															<DataPath>РазрешитьПеретаскивание</DataPath>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="РазрешитьПеретаскиваниеКонтекстноеМеню" id="194"/>
+															<ExtendedTooltip name="РазрешитьПеретаскиваниеРасширеннаяПодсказка" id="195"/>
+														</CheckBoxField>
+													</ChildItems>
+												</Page>
 												<Page name="СтрОтбор" id="80">
 													<Title>
 														<v8:item>
@@ -437,67 +521,6 @@
 														</Table>
 													</ChildItems>
 												</Page>
-												<Page name="НастройкаОтбораПлана" id="92">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Настройка отбора плана</v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Настройка отбора плана</v8:content>
-														</v8:item>
-													</ToolTip>
-													<ExtendedTooltip name="НастройкаОтбораПланаРасширеннаяПодсказка" id="160"/>
-													<ChildItems>
-														<Table name="ОтчетСписокПользователей" id="93">
-															<EnableStartDrag>true</EnableStartDrag>
-															<EnableDrag>true</EnableDrag>
-															<DataPath>Отчет.СписокПользователей</DataPath>
-															<SearchStringLocation>None</SearchStringLocation>
-															<ViewStatusLocation>None</ViewStatusLocation>
-															<SearchControlLocation>None</SearchControlLocation>
-															<RowFilter xsi:nil="true"/>
-															<ContextMenu name="ОтчетСписокПользователейКонтекстноеМеню" id="94"/>
-															<AutoCommandBar name="ОтчетСписокПользователейКоманднаяПанель" id="95"/>
-															<ExtendedTooltip name="ОтчетСписокПользователейРасширеннаяПодсказка" id="161"/>
-															<SearchStringAddition name="ОтчетСписокПользователейСтрокаПоиска" id="162">
-																<AdditionSource>
-																	<Item>ОтчетСписокПользователей</Item>
-																	<Type>SearchStringRepresentation</Type>
-																</AdditionSource>
-																<ContextMenu name="ОтчетСписокПользователейСтрокаПоискаКонтекстноеМеню" id="163"/>
-																<ExtendedTooltip name="ОтчетСписокПользователейСтрокаПоискаРасширеннаяПодсказка" id="164"/>
-															</SearchStringAddition>
-															<ViewStatusAddition name="ОтчетСписокПользователейСостояниеПросмотра" id="165">
-																<AdditionSource>
-																	<Item>ОтчетСписокПользователей</Item>
-																	<Type>ViewStatusRepresentation</Type>
-																</AdditionSource>
-																<ContextMenu name="ОтчетСписокПользователейСостояниеПросмотраКонтекстноеМеню" id="166"/>
-																<ExtendedTooltip name="ОтчетСписокПользователейСостояниеПросмотраРасширеннаяПодсказка" id="167"/>
-															</ViewStatusAddition>
-															<SearchControlAddition name="ОтчетСписокПользователейУправлениеПоиском" id="168">
-																<AdditionSource>
-																	<Item>ОтчетСписокПользователей</Item>
-																	<Type>SearchControl</Type>
-																</AdditionSource>
-																<ContextMenu name="ОтчетСписокПользователейУправлениеПоискомКонтекстноеМеню" id="169"/>
-																<ExtendedTooltip name="ОтчетСписокПользователейУправлениеПоискомРасширеннаяПодсказка" id="170"/>
-															</SearchControlAddition>
-															<ChildItems>
-																<InputField name="ОтчетСписокПользователейПользователь" id="98">
-																	<DataPath>Отчет.СписокПользователей.Пользователь</DataPath>
-																	<EditMode>EnterOnInput</EditMode>
-																	<ContextMenu name="ОтчетСписокПользователейПользовательКонтекстноеМеню" id="99"/>
-																	<ExtendedTooltip name="ОтчетСписокПользователейПользовательРасширеннаяПодсказка" id="171"/>
-																</InputField>
-															</ChildItems>
-														</Table>
-													</ChildItems>
-												</Page>
 											</ChildItems>
 										</Pages>
 									</ChildItems>
@@ -554,6 +577,11 @@
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СформироватьДоскуЗадачРасширеннаяПодсказка" id="174"/>
+										</Button>
+										<Button name="НазначитьЗадачуИсполнителю" id="198">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.НазначитьЗадачуИсполнителю</CommandName>
+											<ExtendedTooltip name="НазначитьЗадачуИсполнителюРасширеннаяПодсказка" id="199"/>
 										</Button>
 									</ChildItems>
 								</CommandBar>
@@ -781,6 +809,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СформироватьДоскуЗадач</Action>
+		</Command>
+		<Command name="УдалитьЗадачуИзПлана" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить задачу из плана</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить задачу из плана</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьЗадачуИзПлана</Action>
+		</Command>
+		<Command name="НазначитьЗадачуИсполнителю" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить задачу исполнителю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить задачу исполнителю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НазначитьЗадачуИсполнителю</Action>
 		</Command>
 	</Commands>
 </Form>
