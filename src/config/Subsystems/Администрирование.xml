@@ -20,7 +20,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузитьСписокПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИмпортЗадач</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросовУФ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ШагПорядкаЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаКонстант</xr:Item>

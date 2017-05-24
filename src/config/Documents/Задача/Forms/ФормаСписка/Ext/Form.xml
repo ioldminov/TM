@@ -218,6 +218,11 @@
 									</Title>
 									<ExtendedTooltip name="СтатьиРасширеннаяПодсказка" id="353"/>
 								</Button>
+								<Button name="ОбработкаКонсольЗапросовУФОткрыть" id="427">
+									<Type>CommandBarButton</Type>
+									<CommandName>DataProcessor.КонсольЗапросовУФ.StandardCommand.Open</CommandName>
+									<ExtendedTooltip name="ОбработкаКонсольЗапросовУФОткрытьРасширеннаяПодсказка" id="428"/>
+								</Button>
 								<Button name="ОтчетДоработкиКРелизуОткрыть" id="390">
 									<Type>CommandBarButton</Type>
 									<CommandName>Report.ДоработкиКРелизу.StandardCommand.Open</CommandName>

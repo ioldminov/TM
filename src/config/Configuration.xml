@@ -225,7 +225,7 @@
 			<Report>СтатистикаПоЗадачам</Report>
 			<DataProcessor>ЗагрузитьСписокПользователей</DataProcessor>
 			<DataProcessor>ИмпортЗадач</DataProcessor>
-			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<DataProcessor>КонсольЗапросовУФ</DataProcessor>
 			<DataProcessor>ОтображениеСтатей</DataProcessor>
 			<DataProcessor>ДеревоСвязанныхОбъектов</DataProcessor>
 			<DataProcessor>amCharts</DataProcessor>
