@@ -321,7 +321,6 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Form>ФормаСписка</Form>
 			<Form>ФормаСпискаУправляемая</Form>
 			<Form>ФормаВыбораУправляемая</Form>
 		</ChildObjects>

@@ -4,6 +4,7 @@
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ScalingMode>Compact</ScalingMode>
 	<ReportFormType>Main</ReportFormType>
 	<AutoShowState>Auto</AutoShowState>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">

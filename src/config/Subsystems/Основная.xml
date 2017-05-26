@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Основная</v8:content>
+					<v8:content>Менеджер задач</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -14,12 +14,11 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
 			<Picture>
-				<xr:Ref>CommonPicture.Задачи</xr:Ref>
+				<xr:Ref>CommonPicture.РазделОсновная16</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МодулиСистемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РелизыКонфигураций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СобытияИстории</xr:Item>
@@ -69,6 +68,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДеревоСвязанныхОбъектов</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Subsystem>ОсновнаяСправочники</Subsystem>
+			<Subsystem>ОсновнаяДокументы</Subsystem>
+			<Subsystem>ОсновнаяРегистры</Subsystem>
+		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
