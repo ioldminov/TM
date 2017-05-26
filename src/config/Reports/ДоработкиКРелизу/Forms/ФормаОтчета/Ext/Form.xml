@@ -2,6 +2,7 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ScalingMode>Compact</ScalingMode>
 	<ReportResult>Результат</ReportResult>
 	<DetailsData>ДанныеРасшифровки</DetailsData>
 	<ReportFormType>Main</ReportFormType>
@@ -21,19 +22,19 @@
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаВариантаExtendedTooltip" id="12"/>
+			<ExtendedTooltip name="ГруппаВариантаРасширеннаяПодсказка" id="12"/>
 			<ChildItems>
 				<InputField name="НаименованиеТекущегоВарианта" id="2">
 					<DataPath>НаименованиеТекущегоВарианта</DataPath>
 					<ReadOnly>true</ReadOnly>
 					<TitleLocation>Left</TitleLocation>
 					<ContextMenu name="НаименованиеТекущегоВариантаКонтекстноеМеню" id="3"/>
-					<ExtendedTooltip name="НаименованиеТекущегоВариантаExtendedTooltip" id="13"/>
+					<ExtendedTooltip name="НаименованиеТекущегоВариантаРасширеннаяПодсказка" id="13"/>
 				</InputField>
 				<Button name="ЗагрузитьВариант" id="4">
 					<Type>UsualButton</Type>
 					<CommandName>Form.StandardCommand.LoadVariant</CommandName>
-					<ExtendedTooltip name="ЗагрузитьВариантExtendedTooltip" id="14"/>
+					<ExtendedTooltip name="ЗагрузитьВариантРасширеннаяПодсказка" id="14"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -45,14 +46,14 @@
 				</v8:item>
 			</Title>
 			<CommandSource>Form</CommandSource>
-			<ExtendedTooltip name="ОсновнаяКоманднаяПанельExtendedTooltip" id="15"/>
+			<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="15"/>
 		</CommandBar>
 		<UsualGroup name="Группа1" id="11">
 			<Width>50</Width>
 			<Height>3</Height>
 			<Group>Vertical</Group>
 			<ChildItemsWidth>LeftNarrowest</ChildItemsWidth>
-			<ExtendedTooltip name="Группа1ExtendedTooltip" id="16"/>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="16"/>
 			<ChildItems>
 				<Table name="КомпоновщикНастроекПользовательскиеНастройки" id="6">
 					<CommandBarLocation>None</CommandBarLocation>
@@ -78,30 +79,30 @@
 					<ViewMode>QuickAccess</ViewMode>
 					<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиКонтекстноеМеню" id="7"/>
 					<AutoCommandBar name="КомпоновщикНастроекПользовательскиеНастройкиКоманднаяПанель" id="8"/>
-					<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиExtendedTooltip" id="17"/>
-					<SearchStringAddition name="КомпоновщикНастроекПользовательскиеНастройкиSearchString" id="18">
+					<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="17"/>
+					<SearchStringAddition name="КомпоновщикНастроекПользовательскиеНастройкиСтрокаПоиска" id="18">
 						<AdditionSource>
 							<Item>КомпоновщикНастроекПользовательскиеНастройки</Item>
 							<Type>SearchStringRepresentation</Type>
 						</AdditionSource>
-						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиSearchStringContextMenu" id="19"/>
-						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиSearchStringExtendedTooltip" id="20"/>
+						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиСтрокаПоискаКонтекстноеМеню" id="19"/>
+						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиСтрокаПоискаРасширеннаяПодсказка" id="20"/>
 					</SearchStringAddition>
-					<ViewStatusAddition name="КомпоновщикНастроекПользовательскиеНастройкиViewStatus" id="21">
+					<ViewStatusAddition name="КомпоновщикНастроекПользовательскиеНастройкиСостояниеПросмотра" id="21">
 						<AdditionSource>
 							<Item>КомпоновщикНастроекПользовательскиеНастройки</Item>
 							<Type>ViewStatusRepresentation</Type>
 						</AdditionSource>
-						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиViewStatusContextMenu" id="22"/>
-						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиViewStatusExtendedTooltip" id="23"/>
+						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиСостояниеПросмотраКонтекстноеМеню" id="22"/>
+						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
 					</ViewStatusAddition>
-					<SearchControlAddition name="КомпоновщикНастроекПользовательскиеНастройкиSearchControl" id="24">
+					<SearchControlAddition name="КомпоновщикНастроекПользовательскиеНастройкиУправлениеПоиском" id="24">
 						<AdditionSource>
 							<Item>КомпоновщикНастроекПользовательскиеНастройки</Item>
 							<Type>SearchControl</Type>
 						</AdditionSource>
-						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиSearchControlContextMenu" id="25"/>
-						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиSearchControlExtendedTooltip" id="26"/>
+						<ContextMenu name="КомпоновщикНастроекПользовательскиеНастройкиУправлениеПоискомКонтекстноеМеню" id="25"/>
+						<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиУправлениеПоискомРасширеннаяПодсказка" id="26"/>
 					</SearchControlAddition>
 				</Table>
 			</ChildItems>
@@ -114,7 +115,7 @@
 			<VerticalScrollBar>true</VerticalScrollBar>
 			<HorizontalScrollBar>true</HorizontalScrollBar>
 			<ContextMenu name="РезультатКонтекстноеМеню" id="10"/>
-			<ExtendedTooltip name="РезультатExtendedTooltip" id="27"/>
+			<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="27"/>
 		</SpreadSheetDocumentField>
 	</ChildItems>
 	<Attributes>

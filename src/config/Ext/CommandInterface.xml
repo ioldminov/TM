@@ -9,6 +9,9 @@
 		<Subsystem name="Subsystem.Doku1c">
 			<Visibility>
 				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Пользователь">true</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.Разработчик">true</xr:Value>
 			</Visibility>
 		</Subsystem>
 		<Subsystem name="Subsystem.Администрирование">
@@ -19,6 +22,7 @@
 	</SubsystemsVisibility>
 	<SubsystemsOrder>
 		<Subsystem>Subsystem.Основная</Subsystem>
+		<Subsystem>Subsystem.Отчеты</Subsystem>
 		<Subsystem>Subsystem.Doku1c</Subsystem>
 		<Subsystem>Subsystem.Администрирование</Subsystem>
 	</SubsystemsOrder>

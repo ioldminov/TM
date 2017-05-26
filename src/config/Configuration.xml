@@ -134,7 +134,7 @@
 			<ObjectAutonumerationMode>AutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
-			<InterfaceCompatibilityMode>Version8_2EnableTaxi</InterfaceCompatibilityMode>
+			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_7</CompatibilityMode>
 			<DefaultConstantsForm>CommonForm.ФормаКонстант</DefaultConstantsForm>
 		</Properties>
@@ -143,6 +143,7 @@
 			<Subsystem>Основная</Subsystem>
 			<Subsystem>Doku1c</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
 			<StyleItem>ЦветНовая</StyleItem>
 			<StyleItem>ЦветНазначена</StyleItem>
 			<StyleItem>ЦветВРаботе</StyleItem>
@@ -186,6 +187,10 @@
 			<CommonPicture>ДеревоОбъектов</CommonPicture>
 			<CommonPicture>Расширить</CommonPicture>
 			<CommonPicture>Сузить</CommonPicture>
+			<CommonPicture>РазделАдминистрирование16</CommonPicture>
+			<CommonPicture>РазделОтчетыИМониторинг16</CommonPicture>
+			<CommonPicture>РазделБазаЗнаний16</CommonPicture>
+			<CommonPicture>РазделОсновная16</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Пользователь</Role>
 			<Role>Администратор</Role>

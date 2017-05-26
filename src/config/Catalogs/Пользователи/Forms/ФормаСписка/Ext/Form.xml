@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ScalingMode>Compact</ScalingMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<Table name="Список" id="1">
@@ -33,30 +34,30 @@
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
-			<ExtendedTooltip name="СписокExtendedTooltip" id="20"/>
-			<SearchStringAddition name="СписокSearchString" id="21">
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="20"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="21">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокSearchStringContextMenu" id="22"/>
-				<ExtendedTooltip name="СписокSearchStringExtendedTooltip" id="23"/>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="23"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СписокViewStatus" id="24">
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="24">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокViewStatusContextMenu" id="25"/>
-				<ExtendedTooltip name="СписокViewStatusExtendedTooltip" id="26"/>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СписокSearchControl" id="27">
+			<SearchControlAddition name="СписокУправлениеПоиском" id="27">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокSearchControlContextMenu" id="28"/>
-				<ExtendedTooltip name="СписокSearchControlExtendedTooltip" id="29"/>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="29"/>
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Наименование" id="4">
@@ -64,31 +65,31 @@
 					<DefaultItem>true</DefaultItem>
 					<Width>40</Width>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="30"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="ТелефонВнутренний" id="12">
 					<DataPath>Список.ТелефонВнутренний</DataPath>
 					<Width>10</Width>
 					<ContextMenu name="ТелефонВнутреннийКонтекстноеМеню" id="13"/>
-					<ExtendedTooltip name="ТелефонВнутреннийExtendedTooltip" id="31"/>
+					<ExtendedTooltip name="ТелефонВнутреннийРасширеннаяПодсказка" id="31"/>
 				</LabelField>
 				<LabelField name="ТелефонСотовый" id="14">
 					<DataPath>Список.ТелефонСотовый</DataPath>
 					<Width>20</Width>
 					<ContextMenu name="ТелефонСотовыйКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="ТелефонСотовыйExtendedTooltip" id="32"/>
+					<ExtendedTooltip name="ТелефонСотовыйРасширеннаяПодсказка" id="32"/>
 				</LabelField>
 				<LabelField name="ЭлПочта" id="16">
 					<DataPath>Список.ЭлПочта</DataPath>
 					<Width>25</Width>
 					<ContextMenu name="ЭлПочтаКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="ЭлПочтаExtendedTooltip" id="33"/>
+					<ExtendedTooltip name="ЭлПочтаРасширеннаяПодсказка" id="33"/>
 				</LabelField>
 				<LabelField name="ICQ" id="18">
 					<DataPath>Список.ICQ</DataPath>
 					<Width>15</Width>
 					<ContextMenu name="ICQКонтекстноеМеню" id="19"/>
-					<ExtendedTooltip name="ICQExtendedTooltip" id="34"/>
+					<ExtendedTooltip name="ICQРасширеннаяПодсказка" id="34"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -96,7 +97,7 @@
 			<DataPath>Items.Список.CurrentData.Комментарий</DataPath>
 			<MultiLine>true</MultiLine>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="КомментарийExtendedTooltip" id="35"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="35"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
