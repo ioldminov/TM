@@ -1,25 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<CommandsVisibility>
-		<Command name="Report.ДоработкиКРелизу.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
+	<CommandsOrder>
+		<Command name="Report.ОперативныйПланЗадач.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="Report.СтатистикаПоЗадачам.StandardCommand.Open">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
+		<Command name="Report.ПланВыполненияЗадач.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-	</CommandsVisibility>
-	<CommandsPlacement>
 		<Command name="Report.ДоработкиКРелизу.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
-			<Placement>Manual</Placement>
 		</Command>
 		<Command name="Report.СтатистикаПоЗадачам.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
-			<Placement>Manual</Placement>
 		</Command>
-	</CommandsPlacement>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>ActionsPanelReports</Group>
+	</GroupsOrder>
 </CommandInterface>

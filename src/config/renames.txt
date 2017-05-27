@@ -49,6 +49,8 @@ Catalogs\СостоянияЗадач\Forms\ФормаСписка\Ext\Form.xml-
 Catalogs\СостоянияЗадач\Forms\ФормаЭлемента\Ext\Form.bin-->Catalogs\СостоянияЗадач\Forms\ФормаЭлемента\Ext\Form.bin
 Catalogs\СостоянияЗадач\Forms\ФормаЭлементаУпр\Ext\Form.xml-->Catalogs\СостоянияЗадач\Forms\ФормаЭлементаУпр\Ext\Form.xml
 Catalogs\ТипыЗадач\Ext\Predefined.xml-->Catalogs\ТипыЗадач\Ext\Predefined.xml
+CommonCommands\ОткрытьОтображениеСтатей.xml-->CommonCommands\ОткрытьОтображениеСтатей.xml
+CommonCommands\ОткрытьОтображениеСтатей\Ext\CommandModule.bsl-->CommonCommands\ОткрытьОтображениеСтатей\Ext\CommandModule.bsl
 CommonForms\БыстрыйВыборСтандартногоПериода.xml-->CommonForms\БыстрыйВыборСтандартногоПериода.xml
 CommonForms\ФормаКонстант.xml-->CommonForms\ФормаКонстант.xml
 CommonForms\БыстрыйВыборСтандартногоПериода\Ext\Form.xml-->CommonForms\БыстрыйВыборСтандартногоПериода\Ext\Form.xml
@@ -63,6 +65,7 @@ CommonModules\рсРегламентноеОбслуживание.xml-->CommonM
 CommonModules\СтандартныеПодсистемыГлобальный.xml-->CommonModules\СтандартныеПодсистемыГлобальный.xml
 CommonModules\СтандартныеПодсистемыКлиент.xml-->CommonModules\СтандартныеПодсистемыКлиент.xml
 CommonModules\уоУсловноеОформление.xml-->CommonModules\уоУсловноеОформление.xml
+CommonModules\фзФоновыеЗадания.xml-->CommonModules\фзФоновыеЗадания.xml
 CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl-->CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl
 CommonModules\ксНастройкаСервер\Ext\Module.bsl-->CommonModules\ксНастройкаСервер\Ext\Module.bsl
 CommonModules\Общий\Ext\Module.bsl-->CommonModules\Общий\Ext\Module.bsl
@@ -72,6 +75,7 @@ CommonModules\рсРегламентноеОбслуживание\Ext\Module.bs
 CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыГлобальный\Ext\Module.bsl
 CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl-->CommonModules\СтандартныеПодсистемыКлиент\Ext\Module.bsl
 CommonModules\уоУсловноеОформление\Ext\Module.bsl-->CommonModules\уоУсловноеОформление\Ext\Module.bsl
+CommonModules\фзФоновыеЗадания\Ext\Module.bsl-->CommonModules\фзФоновыеЗадания\Ext\Module.bsl
 CommonPictures\БазаЗнаний.xml-->CommonPictures\БазаЗнаний.xml
 CommonPictures\Внимание.xml-->CommonPictures\Внимание.xml
 CommonPictures\ВставитьИзБуфера.xml-->CommonPictures\ВставитьИзБуфера.xml
@@ -446,9 +450,14 @@ Subsystems\Администрирование.xml-->Subsystems\Админист�
 Subsystems\Основная.xml-->Subsystems\Основная.xml
 Subsystems\Отчеты.xml-->Subsystems\Отчеты.xml
 Subsystems\Doku1c\Ext\CommandInterface.xml-->Subsystems\Doku1c\Ext\CommandInterface.xml
+Subsystems\Doku1c\Subsystems\Документы.xml-->Subsystems\Doku1c\Subsystems\Документы.xml
+Subsystems\Doku1c\Subsystems\Справочники.xml-->Subsystems\Doku1c\Subsystems\Справочники.xml
+Subsystems\Doku1c\Subsystems\Справочники\Ext\CommandInterface.xml-->Subsystems\Doku1c\Subsystems\Справочники\Ext\CommandInterface.xml
+Subsystems\Администрирование\Ext\CommandInterface.xml-->Subsystems\Администрирование\Ext\CommandInterface.xml
+Subsystems\Администрирование\Subsystems\Справочники.xml-->Subsystems\Администрирование\Subsystems\Справочники.xml
 Subsystems\Основная\Ext\CommandInterface.xml-->Subsystems\Основная\Ext\CommandInterface.xml
 Subsystems\Основная\Subsystems\ОсновнаяДокументы.xml-->Subsystems\Основная\Subsystems\ОсновнаяДокументы.xml
 Subsystems\Основная\Subsystems\ОсновнаяРегистры.xml-->Subsystems\Основная\Subsystems\ОсновнаяРегистры.xml
 Subsystems\Основная\Subsystems\ОсновнаяСправочники.xml-->Subsystems\Основная\Subsystems\ОсновнаяСправочники.xml
 Subsystems\Основная\Subsystems\ОсновнаяРегистры\Ext\CommandInterface.xml-->Subsystems\Основная\Subsystems\ОсновнаяРегистры\Ext\CommandInterface.xml
-Subsystems\Основная\Subsystems\ОсновнаяСправочники\Ext\CommandInterface.xml-->Subsystems\Основная\Subsystems\ОсновнаяСправочники\Ext\CommandInterface.xml
+Subsystems\Отчеты\Ext\CommandInterface.xml-->Subsystems\Отчеты\Ext\CommandInterface.xml

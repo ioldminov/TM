@@ -207,7 +207,9 @@
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>рсРегламентноеОбслуживание</CommonModule>
 			<CommonModule>ОбщийКлиентПовтИсп</CommonModule>
+			<CommonModule>фзФоновыеЗадания</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
+			<CommonCommand>ОткрытьОтображениеСтатей</CommonCommand>
 			<Constant>ШагПорядкаЗадач</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
 			<CommonForm>БыстрыйВыборСтандартногоПериода</CommonForm>
