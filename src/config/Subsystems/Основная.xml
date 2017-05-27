@@ -18,10 +18,6 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МодулиСистемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияЗадач</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РелизыКонфигураций</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СобытияИстории</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Задача</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыСвязиЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусЗадачи</xr:Item>
@@ -62,7 +58,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Спринт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Новости</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСостоянийЗадач</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыЗадач</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.Задачи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДеревоОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДеревоСвязанныхОбъектов</xr:Item>
