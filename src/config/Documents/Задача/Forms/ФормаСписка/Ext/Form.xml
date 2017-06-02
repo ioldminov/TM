@@ -608,6 +608,17 @@
 												</Title>
 												<ExtendedTooltip name="НовостиКонтекстноеМенюКнопкаОтображатьПрочитанныеExtendedTooltip" id="221"/>
 											</Button>
+											<Button name="НовостиКонтекстноеМенюКнопкаЗапретитьОповещениеОПоявленииНовостей" id="429">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Запретить оповещение о новостях</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="НовостиКонтекстноеМенюКнопкаЗапретитьОповещениеОПоявленииНовостейРасширеннаяПодсказка" id="430"/>
+											</Button>
 										</ChildItems>
 									</ContextMenu>
 									<AutoCommandBar name="НовостиКоманднаяПанель" id="111">
@@ -2246,6 +2257,17 @@
 				<v8:DateQualifiers>
 					<v8:DateFractions>DateTime</v8:DateFractions>
 				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗапретитьОповещениеОПоявленииНовостей" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить оповещение о появлении новостей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
