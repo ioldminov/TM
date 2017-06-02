@@ -65,6 +65,24 @@
 			<ContextMenu name="ДатаОкончанияПланКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="ДатаОкончанияПланРасширеннаяПодсказка" id="15"/>
 		</InputField>
+		<UsualGroup name="Группа2" id="27">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<Button name="СдвинутьНаДеньНазад" id="25">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СдвинутьНаДеньНазад</CommandName>
+					<ExtendedTooltip name="СдвинутьНаДеньНазадРасширеннаяПодсказка" id="26"/>
+				</Button>
+				<Button name="СдвинутьНаДеньВперед" id="23">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СдвинутьНаДеньВперед</CommandName>
+					<ExtendedTooltip name="СдвинутьНаДеньВпередРасширеннаяПодсказка" id="24"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Запись" id="1">
@@ -110,6 +128,38 @@
 			</Picture>
 			<Action>НайтиЗадачу</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="СдвинутьНаДеньВперед" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть на день вперед</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть на день вперед</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СдвинутьНаДеньВперед</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="СдвинутьНаДеньНазад" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть на день назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдвинуть на день вперед</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СдвинутьНаДеньНазад</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 	</Commands>
 </Form>
