@@ -138,6 +138,16 @@
 							<CommandName>Form.StandardCommand.RestoreValues</CommandName>
 							<ExtendedTooltip name="ВосстановитьЗначенияExtendedTooltip" id="181"/>
 						</Button>
+						<Button name="Команда1" id="431">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.Команда1</CommandName>
+							<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="432"/>
+						</Button>
+						<Button name="Команда2" id="433">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.Команда2</CommandName>
+							<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="434"/>
+						</Button>
 						<Button name="Справка" id="77">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.StandardCommand.Help</CommandName>
@@ -610,7 +620,7 @@
 											</Button>
 											<Button name="НовостиКонтекстноеМенюКнопкаЗапретитьОповещениеОПоявленииНовостей" id="429">
 												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
+												<CommandName>Form.Command.ЗапретитьОповещениеОПоявленииНовостей</CommandName>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2434,6 +2444,24 @@
 		</Command>
 		<Command name="Команда1" id="11">
 			<Action>Команда1</Action>
+		</Command>
+		<Command name="Команда2" id="12">
+			<Action>Команда2</Action>
+		</Command>
+		<Command name="ЗапретитьОповещениеОПоявленииНовостей" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить оповещение о появлении новостей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить оповещение о появлении новостей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КнопкаЗапретитьОповещениеОПоявленииНовостей</Action>
 		</Command>
 	</Commands>
 	<Parameters>
