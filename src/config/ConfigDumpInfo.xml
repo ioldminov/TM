@@ -74,8 +74,8 @@
 		<Metadata name="CommonForm.БыстрыйВыборСтандартногоПериода.Form" id="875fa95c-29c7-41fe-8e15-8374e42ea5b4.0" configVersion="72a22ba5e3c17d4db1b52b0e60e4594700000000"/>
 		<Metadata name="CommonForm.ФормаКонстант" id="b8b29304-9888-4ace-a87e-60ce542b6f4e" configVersion="22e6aa5ca7ac9049b946da18d6e176cd00000000"/>
 		<Metadata name="CommonForm.ФормаКонстант.Form" id="b8b29304-9888-4ace-a87e-60ce542b6f4e.0" configVersion="014d87034aad4c4cb2ae9c3e083ceba400000000"/>
-		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="a9928c305746a14c834534661b3486f400000000"/>
-		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="0214a344fc29c6409bb1724630e9e46700000000"/>
+		<Metadata name="CommonModule.Общий" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd" configVersion="930f25d7fdae00489c71bf7d151977d300000000"/>
+		<Metadata name="CommonModule.Общий.Module" id="5ca76fc9-3d8b-4ce8-b2e5-32f24c95bbcd.0" configVersion="639ae56c11d33647bc271af48de15cf300000000"/>
 		<Metadata name="CommonModule.ОбщийКлиент" id="bf15b115-165a-4724-b9be-fa8d4b21d470" configVersion="350d8f68515fe247a7c02382b1743aa000000000"/>
 		<Metadata name="CommonModule.ОбщийКлиент.Module" id="bf15b115-165a-4724-b9be-fa8d4b21d470.0" configVersion="a6ef26fb350b2743a86fdbdd3fb20c0700000000"/>
 		<Metadata name="CommonModule.ОбщийКлиентПовтИсп" id="dcfa125f-07d4-4ea9-87dc-777c4f57fe66" configVersion="688f19961c2c84459b734a3d435d01a200000000"/>
