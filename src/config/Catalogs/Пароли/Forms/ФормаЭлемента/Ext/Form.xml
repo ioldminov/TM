@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СТД" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СТД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СТД</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СТДРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="10">
+			<DataPath>Объект.Комментарий</DataPath>
+			<TitleLocation>Left</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Pages name="Вкладки" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкладки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкладки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ВкладкиРасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<Page name="ВкладкаДанные" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вкладка данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВкладкаДанныеРасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<LabelDecoration name="НадписьПредупреждениеКомментарий" id="20">
+							<Visible>false</Visible>
+							<TextColor>web:Seagreen</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Внимание! Не сохраняйте пароли в комментарий.
+Создайте другой элемент справочника для новой комбинации логин/пароль</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьПредупреждениеКомментарийКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="НадписьПредупреждениеКомментарийРасширеннаяПодсказка" id="22"/>
+						</LabelDecoration>
+						<Table name="Данные" id="60">
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Данные</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДанныеКонтекстноеМеню" id="61"/>
+							<AutoCommandBar name="ДанныеКоманднаяПанель" id="62"/>
+							<ExtendedTooltip name="ДанныеРасширеннаяПодсказка" id="63"/>
+							<SearchStringAddition name="ДанныеСтрокаПоиска" id="64">
+								<AdditionSource>
+									<Item>Данные</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеСтрокаПоискаКонтекстноеМеню" id="65"/>
+								<ExtendedTooltip name="ДанныеСтрокаПоискаРасширеннаяПодсказка" id="66"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДанныеСостояниеПросмотра" id="67">
+								<AdditionSource>
+									<Item>Данные</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеСостояниеПросмотраКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="ДанныеСостояниеПросмотраРасширеннаяПодсказка" id="69"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДанныеУправлениеПоиском" id="70">
+								<AdditionSource>
+									<Item>Данные</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДанныеУправлениеПоискомКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="ДанныеУправлениеПоискомРасширеннаяПодсказка" id="72"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДанныеНомерСтроки" id="73">
+									<DataPath>Объект.Данные.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеНомерСтрокиКонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="ДанныеНомерСтрокиРасширеннаяПодсказка" id="75"/>
+								</LabelField>
+								<ColumnGroup name="ДанныеГруппа1" id="88">
+									<ExtendedTooltip name="ДанныеГруппа1РасширеннаяПодсказка" id="89"/>
+									<ChildItems>
+										<InputField name="ДанныеТипОбъекта" id="76">
+											<DataPath>Объект.Данные.ТипОбъекта</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеТипОбъектаКонтекстноеМеню" id="77"/>
+											<ExtendedTooltip name="ДанныеТипОбъектаРасширеннаяПодсказка" id="78"/>
+										</InputField>
+										<InputField name="ДанныеПуть" id="79">
+											<DataPath>Объект.Данные.Путь</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеПутьКонтекстноеМеню" id="80"/>
+											<ExtendedTooltip name="ДанныеПутьРасширеннаяПодсказка" id="81"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ДанныеГруппа2" id="90">
+									<ExtendedTooltip name="ДанныеГруппа2РасширеннаяПодсказка" id="91"/>
+									<ChildItems>
+										<InputField name="ДанныеЛогин" id="82">
+											<DataPath>Объект.Данные.Логин</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеЛогинКонтекстноеМеню" id="83"/>
+											<ExtendedTooltip name="ДанныеЛогинРасширеннаяПодсказка" id="84"/>
+										</InputField>
+										<InputField name="ДанныеПарольБезШифрования" id="92">
+											<DataPath>Объект.Данные.ПарольБезШифрования</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ДанныеПарольБезШифрованияКонтекстноеМеню" id="93"/>
+											<ExtendedTooltip name="ДанныеПарольБезШифрованияРасширеннаяПодсказка" id="94"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ДанныеКомментарий" id="85">
+									<DataPath>Объект.Данные.Комментарий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДанныеКомментарийКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="ДанныеКомментарийРасширеннаяПодсказка" id="87"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ВкладкаВложения" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вложения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вкладка вложения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВкладкаВложенияРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<Table name="НаборЗаписей" id="97">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>НаборЗаписей</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НаборЗаписейКонтекстноеМеню" id="98"/>
+							<AutoCommandBar name="НаборЗаписейКоманднаяПанель" id="99"/>
+							<ExtendedTooltip name="НаборЗаписейРасширеннаяПодсказка" id="100"/>
+							<SearchStringAddition name="НаборЗаписейСтрокаПоиска" id="101">
+								<AdditionSource>
+									<Item>НаборЗаписей</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НаборЗаписейСтрокаПоискаКонтекстноеМеню" id="102"/>
+								<ExtendedTooltip name="НаборЗаписейСтрокаПоискаРасширеннаяПодсказка" id="103"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НаборЗаписейСостояниеПросмотра" id="104">
+								<AdditionSource>
+									<Item>НаборЗаписей</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НаборЗаписейСостояниеПросмотраКонтекстноеМеню" id="105"/>
+								<ExtendedTooltip name="НаборЗаписейСостояниеПросмотраРасширеннаяПодсказка" id="106"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НаборЗаписейУправлениеПоиском" id="107">
+								<AdditionSource>
+									<Item>НаборЗаписей</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НаборЗаписейУправлениеПоискомКонтекстноеМеню" id="108"/>
+								<ExtendedTooltip name="НаборЗаписейУправлениеПоискомРасширеннаяПодсказка" id="109"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ПриложенияВыбор</Event>
+								<Event name="BeforeAddRow">ПриложенияПередНачаломДобавления</Event>
+								<Event name="AfterDeleteRow">ПриложенияПослеУдаления</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="НаборЗаписейДокумент" id="110">
+									<DataPath>НаборЗаписей.Документ</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаборЗаписейДокументКонтекстноеМеню" id="111"/>
+									<ExtendedTooltip name="НаборЗаписейДокументРасширеннаяПодсказка" id="112"/>
+								</InputField>
+								<InputField name="НаборЗаписейИмяФайла" id="113">
+									<DataPath>НаборЗаписей.ИмяФайла</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаборЗаписейИмяФайлаКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="НаборЗаписейИмяФайлаРасширеннаяПодсказка" id="115"/>
+								</InputField>
+								<CheckBoxField name="НаборЗаписейСкрытый" id="116">
+									<DataPath>НаборЗаписей.Скрытый</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НаборЗаписейСкрытыйКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="НаборЗаписейСкрытыйРасширеннаяПодсказка" id="118"/>
+								</CheckBoxField>
+								<InputField name="НаборЗаписейПользователь" id="119">
+									<DataPath>НаборЗаписей.Пользователь</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаборЗаписейПользовательКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="НаборЗаписейПользовательРасширеннаяПодсказка" id="121"/>
+								</InputField>
+								<InputField name="НаборЗаписейДобавлен" id="122">
+									<DataPath>НаборЗаписей.Добавлен</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаборЗаписейДобавленКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="НаборЗаписейДобавленРасширеннаяПодсказка" id="124"/>
+								</InputField>
+								<InputField name="НаборЗаписейРазмер" id="125">
+									<DataPath>НаборЗаписей.Размер</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НаборЗаписейРазмерКонтекстноеМеню" id="126"/>
+									<ExtendedTooltip name="НаборЗаписейРазмерРасширеннаяПодсказка" id="127"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ВкладкаРецепты" id="95">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вкладка рецепты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вкладка рецепты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВкладкаРецептыРасширеннаяПодсказка" id="96"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Пароли</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<Columns>
+				<AdditionalColumns table="Объект.Данные">
+					<Column name="ПарольБезШифрования" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пароль</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПарольБезШифрования" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль без шифрования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НаборЗаписей" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор записей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.Файлы</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

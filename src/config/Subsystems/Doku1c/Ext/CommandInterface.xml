@@ -16,7 +16,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="InformationRegister.ФайлыСтатей.StandardCommand.OpenList">
+		<Command name="InformationRegister.Файлы.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -45,7 +45,7 @@
 		<Command name="InformationRegister.ИсторияСтатей.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ФайлыСтатей.StandardCommand.OpenList">
+		<Command name="InformationRegister.Файлы.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Document.Статья.StandardCommand.OpenList">

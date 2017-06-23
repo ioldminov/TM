@@ -956,7 +956,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:InformationRegisterRecordSet.ФайлыСтатей</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.Файлы</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -1340,7 +1340,7 @@
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
-				<Command>InformationRegister.ФайлыСтатей.StandardCommand.OpenByValue.Документ</Command>
+				<Command>InformationRegister.Файлы.StandardCommand.OpenByValue.Документ</Command>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<DefaultVisible>false</DefaultVisible>

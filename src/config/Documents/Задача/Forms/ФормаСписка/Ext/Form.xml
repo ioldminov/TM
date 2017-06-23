@@ -138,16 +138,6 @@
 							<CommandName>Form.StandardCommand.RestoreValues</CommandName>
 							<ExtendedTooltip name="ВосстановитьЗначенияExtendedTooltip" id="181"/>
 						</Button>
-						<Button name="Команда1" id="431">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Command.Команда1</CommandName>
-							<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="432"/>
-						</Button>
-						<Button name="Команда2" id="433">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Command.Команда2</CommandName>
-							<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="434"/>
-						</Button>
 						<Button name="Справка" id="77">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.StandardCommand.Help</CommandName>
@@ -242,6 +232,21 @@
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<ExtendedTooltip name="ОтчетДоработкиКРелизуОткрытьРасширеннаяПодсказка" id="391"/>
+								</Button>
+								<Button name="БазаПаролей" id="435">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ОткрытьБазуПаролей</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.UserWithAuthentication</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>База паролей</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="БазаПаролейРасширеннаяПодсказка" id="436"/>
 								</Button>
 							</ChildItems>
 						</Popup>
@@ -2462,6 +2467,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КнопкаЗапретитьОповещениеОПоявленииНовостей</Action>
+		</Command>
+		<Command name="ОткрытьБазуПаролей" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть базу паролей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть базу паролей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьБазуПаролей</Action>
 		</Command>
 	</Commands>
 	<Parameters>

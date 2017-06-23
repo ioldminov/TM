@@ -141,6 +141,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Основная</Subsystem>
+			<Subsystem>Passtor</Subsystem>
 			<Subsystem>Doku1c</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
@@ -191,7 +192,9 @@
 			<CommonPicture>РазделОтчетыИМониторинг16</CommonPicture>
 			<CommonPicture>РазделБазаЗнаний16</CommonPicture>
 			<CommonPicture>РазделОсновная16</CommonPicture>
+			<CommonPicture>РазделБазаПаролей16</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>МастерПароль</SessionParameter>
 			<Role>Пользователь</Role>
 			<Role>Администратор</Role>
 			<Role>Разработчик</Role>
@@ -208,9 +211,12 @@
 			<CommonModule>рсРегламентноеОбслуживание</CommonModule>
 			<CommonModule>ОбщийКлиентПовтИсп</CommonModule>
 			<CommonModule>фзФоновыеЗадания</CommonModule>
+			<CommonModule>МодульКриптографииСервер</CommonModule>
+			<CommonModule>МодульКриптографииКлиент</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<CommonCommand>ОткрытьОтображениеСтатей</CommonCommand>
 			<Constant>ШагПорядкаЗадач</Constant>
+			<Constant>ХэшМастерПароля</Constant>
 			<CommonForm>ФормаКонстант</CommonForm>
 			<CommonForm>БыстрыйВыборСтандартногоПериода</CommonForm>
 			<Catalog>МодулиСистемы</Catalog>
@@ -221,6 +227,8 @@
 			<Catalog>СобытияИстории</Catalog>
 			<Catalog>Каталоги</Catalog>
 			<Catalog>ТипыЗадач</Catalog>
+			<Catalog>ТипыОбъектовПаролей</Catalog>
+			<Catalog>Пароли</Catalog>
 			<Document>Задача</Document>
 			<Document>Статья</Document>
 			<Document>Спринт</Document>
@@ -237,6 +245,7 @@
 			<DataProcessor>ДеревоСвязанныхОбъектов</DataProcessor>
 			<DataProcessor>amCharts</DataProcessor>
 			<DataProcessor>РегламентноеОбслуживание</DataProcessor>
+			<DataProcessor>УправлениеПодсистемойПаролей</DataProcessor>
 			<InformationRegister>ОперативныйПланЗадач</InformationRegister>
 			<InformationRegister>Коментарии</InformationRegister>
 			<InformationRegister>СвязанныеЗадачи</InformationRegister>
@@ -246,7 +255,7 @@
 			<InformationRegister>ОтслеживающиеПользователиПоУмолчанию</InformationRegister>
 			<InformationRegister>Избранное</InformationRegister>
 			<InformationRegister>ИсторияСтатей</InformationRegister>
-			<InformationRegister>ФайлыСтатей</InformationRegister>
+			<InformationRegister>Файлы</InformationRegister>
 			<InformationRegister>ИсторияСостоянийЗадач</InformationRegister>
 		</ChildObjects>
 	</Configuration>
