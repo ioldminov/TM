@@ -17,7 +17,7 @@
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаВыбора.Form" id="48792b1e-509a-482f-a5e4-8bd79de8dc90.0" configVersion="de37e6bc27be114681aeff202bdb5c7b00000000"/>
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаСписка" id="eeae5a52-4adf-4cd7-8a11-ddfa61b76b51" configVersion="3af9f08a609f6b418c992d970673790b00000000"/>
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаСписка.Form" id="eeae5a52-4adf-4cd7-8a11-ddfa61b76b51.0" configVersion="a1ff4123684f12499fc65b40b9d93a4600000000"/>
-		<Metadata name="Catalog.Пароли" id="ac1baee3-55cb-4e02-8ddb-755831f4c700" configVersion="15a4baceca9cc846893445fae14b317f00000000">
+		<Metadata name="Catalog.Пароли" id="ac1baee3-55cb-4e02-8ddb-755831f4c700" configVersion="344923d4dca1544eabb9c57cf527c60b00000000">
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.Путь" id="223c91c0-eaa2-4fe0-9262-ae5dad419650"/>
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.Пароль" id="25d1ce7a-bade-42cb-a695-88a9620e2493"/>
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.ID" id="3b78c1ca-cac4-415c-8248-1b361c2ca78d"/>
