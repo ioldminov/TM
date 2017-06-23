@@ -2,41 +2,41 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<InformationRegister uuid="15f8cde3-9879-48c5-9277-ff68293e05a0">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.ФайлыСтатей" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.Файлы" category="Record">
 				<xr:TypeId>dcf358f1-d33a-47cc-ad76-f37e8dd1b33d</xr:TypeId>
 				<xr:ValueId>383bf412-eaa9-4302-8c42-41ce7d51830b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.ФайлыСтатей" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.Файлы" category="Manager">
 				<xr:TypeId>7adbd05d-4b3a-4d60-8d9c-383105121e2e</xr:TypeId>
 				<xr:ValueId>dd37e8ae-7f2e-4d5c-9e33-f67a0ca2b02e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.ФайлыСтатей" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.Файлы" category="Selection">
 				<xr:TypeId>4f827100-fdb1-494d-af18-a2c6783bfe29</xr:TypeId>
 				<xr:ValueId>485b8d43-1c39-4f7b-bd86-21fa7d809ac8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.ФайлыСтатей" category="List">
+			<xr:GeneratedType name="InformationRegisterList.Файлы" category="List">
 				<xr:TypeId>1bef4f85-f4e6-419b-853e-3202457c5df8</xr:TypeId>
 				<xr:ValueId>d9d6f38f-d1e4-48b7-8cbf-10e7343a0e1a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.ФайлыСтатей" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.Файлы" category="RecordSet">
 				<xr:TypeId>7de95f3c-344f-401e-b90a-fcc064341971</xr:TypeId>
 				<xr:ValueId>3c8e231d-ff95-43fe-8e91-a19d7da5c13e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.ФайлыСтатей" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.Файлы" category="RecordKey">
 				<xr:TypeId>d8977a03-49e8-4779-98a3-96a1b4294e26</xr:TypeId>
 				<xr:ValueId>07f209a4-6e28-4feb-8803-45ea5e6b8b42</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.ФайлыСтатей" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.Файлы" category="RecordManager">
 				<xr:TypeId>572807d0-1779-4552-ba6d-81048f6a1d2d</xr:TypeId>
 				<xr:ValueId>90978869-5714-496d-90a6-8f4cfa44589e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФайлыСтатей</Name>
+			<Name>Файлы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Файлы статей</v8:content>
+					<v8:content>Файлы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -344,6 +344,7 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.Статья</v8:Type>
+						<v8:Type>cfg:CatalogRef.Пароли</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

@@ -21,11 +21,17 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Subsystem>
+		<Subsystem name="Subsystem.Passtor">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Subsystem>
 	</SubsystemsVisibility>
 	<SubsystemsOrder>
 		<Subsystem>Subsystem.Основная</Subsystem>
 		<Subsystem>Subsystem.Отчеты</Subsystem>
 		<Subsystem>Subsystem.Doku1c</Subsystem>
 		<Subsystem>Subsystem.Администрирование</Subsystem>
+		<Subsystem>Subsystem.Passtor</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>

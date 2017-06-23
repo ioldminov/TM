@@ -2,12 +2,14 @@
 Configuration.xml-->Configuration.xml
 Catalogs\Каталоги.xml-->Catalogs\Каталоги.xml
 Catalogs\МодулиСистемы.xml-->Catalogs\МодулиСистемы.xml
+Catalogs\Пароли.xml-->Catalogs\Пароли.xml
 Catalogs\Пользователи.xml-->Catalogs\Пользователи.xml
 Catalogs\Проекты.xml-->Catalogs\Проекты.xml
 Catalogs\РелизыКонфигураций.xml-->Catalogs\РелизыКонфигураций.xml
 Catalogs\СобытияИстории.xml-->Catalogs\СобытияИстории.xml
 Catalogs\СостоянияЗадач.xml-->Catalogs\СостоянияЗадач.xml
 Catalogs\ТипыЗадач.xml-->Catalogs\ТипыЗадач.xml
+Catalogs\ТипыОбъектовПаролей.xml-->Catalogs\ТипыОбъектовПаролей.xml
 Catalogs\Каталоги\Ext\ManagerModule.bsl-->Catalogs\Каталоги\Ext\ManagerModule.bsl
 Catalogs\Каталоги\Ext\ObjectModule.bsl-->Catalogs\Каталоги\Ext\ObjectModule.bsl
 Catalogs\Каталоги\Forms\ФормаСписка.xml-->Catalogs\Каталоги\Forms\ФормаСписка.xml
@@ -19,6 +21,13 @@ Catalogs\МодулиСистемы\Forms\ФормаВыбора.xml-->Catalogs\
 Catalogs\МодулиСистемы\Forms\ФормаСписка.xml-->Catalogs\МодулиСистемы\Forms\ФормаСписка.xml
 Catalogs\МодулиСистемы\Forms\ФормаВыбора\Ext\Form.xml-->Catalogs\МодулиСистемы\Forms\ФормаВыбора\Ext\Form.xml
 Catalogs\МодулиСистемы\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\МодулиСистемы\Forms\ФормаСписка\Ext\Form.xml
+Catalogs\Пароли\Ext\ObjectModule.bsl-->Catalogs\Пароли\Ext\ObjectModule.bsl
+Catalogs\Пароли\Forms\ФормаСписка.xml-->Catalogs\Пароли\Forms\ФормаСписка.xml
+Catalogs\Пароли\Forms\ФормаЭлемента.xml-->Catalogs\Пароли\Forms\ФормаЭлемента.xml
+Catalogs\Пароли\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Пароли\Forms\ФормаСписка\Ext\Form.xml
+Catalogs\Пароли\Forms\ФормаСписка\Ext\Form\Module.bsl-->Catalogs\Пароли\Forms\ФормаСписка\Ext\Form\Module.bsl
+Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form.xml
+Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form\Module.bsl
 Catalogs\Пользователи\Ext\ManagerModule.bsl-->Catalogs\Пользователи\Ext\ManagerModule.bsl
 Catalogs\Пользователи\Ext\ObjectModule.bsl-->Catalogs\Пользователи\Ext\ObjectModule.bsl
 Catalogs\Пользователи\Forms\ФормаВыбора.xml-->Catalogs\Пользователи\Forms\ФормаВыбора.xml
@@ -58,6 +67,8 @@ CommonForms\БыстрыйВыборСтандартногоПериода\Ext\F
 CommonForms\ФормаКонстант\Ext\Form.xml-->CommonForms\ФормаКонстант\Ext\Form.xml
 CommonModules\доДеревоСвязаныхОбъектов.xml-->CommonModules\доДеревоСвязаныхОбъектов.xml
 CommonModules\ксНастройкаСервер.xml-->CommonModules\ксНастройкаСервер.xml
+CommonModules\МодульКриптографииКлиент.xml-->CommonModules\МодульКриптографииКлиент.xml
+CommonModules\МодульКриптографииСервер.xml-->CommonModules\МодульКриптографииСервер.xml
 CommonModules\Общий.xml-->CommonModules\Общий.xml
 CommonModules\ОбщийКлиент.xml-->CommonModules\ОбщийКлиент.xml
 CommonModules\ОбщийКлиентПовтИсп.xml-->CommonModules\ОбщийКлиентПовтИсп.xml
@@ -68,6 +79,8 @@ CommonModules\уоУсловноеОформление.xml-->CommonModules\уо�
 CommonModules\фзФоновыеЗадания.xml-->CommonModules\фзФоновыеЗадания.xml
 CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl-->CommonModules\доДеревоСвязаныхОбъектов\Ext\Module.bsl
 CommonModules\ксНастройкаСервер\Ext\Module.bsl-->CommonModules\ксНастройкаСервер\Ext\Module.bsl
+CommonModules\МодульКриптографииКлиент\Ext\Module.bsl-->CommonModules\МодульКриптографииКлиент\Ext\Module.bsl
+CommonModules\МодульКриптографииСервер\Ext\Module.bsl-->CommonModules\МодульКриптографииСервер\Ext\Module.bsl
 CommonModules\Общий\Ext\Module.bsl-->CommonModules\Общий\Ext\Module.bsl
 CommonModules\ОбщийКлиент\Ext\Module.bsl-->CommonModules\ОбщийКлиент\Ext\Module.bsl
 CommonModules\ОбщийКлиентПовтИсп\Ext\Module.bsl-->CommonModules\ОбщийКлиентПовтИсп\Ext\Module.bsl
@@ -102,6 +115,7 @@ CommonPictures\Полужирный.xml-->CommonPictures\Полужирный.xm
 CommonPictures\Предпросмотр.xml-->CommonPictures\Предпросмотр.xml
 CommonPictures\РазделАдминистрирование16.xml-->CommonPictures\РазделАдминистрирование16.xml
 CommonPictures\РазделБазаЗнаний16.xml-->CommonPictures\РазделБазаЗнаний16.xml
+CommonPictures\РазделБазаПаролей16.xml-->CommonPictures\РазделБазаПаролей16.xml
 CommonPictures\РазделОсновная16.xml-->CommonPictures\РазделОсновная16.xml
 CommonPictures\РазделОтчетыИМониторинг16.xml-->CommonPictures\РазделОтчетыИМониторинг16.xml
 CommonPictures\Расширить.xml-->CommonPictures\Расширить.xml
@@ -165,6 +179,8 @@ CommonPictures\РазделАдминистрирование16\Ext\Picture.xml-
 CommonPictures\РазделАдминистрирование16\Ext\Picture\Picture.png-->CommonPictures\РазделАдминистрирование16\Ext\Picture\Picture.png
 CommonPictures\РазделБазаЗнаний16\Ext\Picture.xml-->CommonPictures\РазделБазаЗнаний16\Ext\Picture.xml
 CommonPictures\РазделБазаЗнаний16\Ext\Picture\Picture.png-->CommonPictures\РазделБазаЗнаний16\Ext\Picture\Picture.png
+CommonPictures\РазделБазаПаролей16\Ext\Picture.xml-->CommonPictures\РазделБазаПаролей16\Ext\Picture.xml
+CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.jpg-->CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.jpg
 CommonPictures\РазделОсновная16\Ext\Picture.xml-->CommonPictures\РазделОсновная16\Ext\Picture.xml
 CommonPictures\РазделОсновная16\Ext\Picture\Picture.png-->CommonPictures\РазделОсновная16\Ext\Picture\Picture.png
 CommonPictures\РазделОтчетыИМониторинг16\Ext\Picture.xml-->CommonPictures\РазделОтчетыИМониторинг16\Ext\Picture.xml
@@ -189,6 +205,7 @@ CommonPictures\ЦветШрифта\Ext\Picture.xml-->CommonPictures\ЦветШ�
 CommonPictures\ЦветШрифта\Ext\Picture\Picture.png-->CommonPictures\ЦветШрифта\Ext\Picture\Picture.png
 CommonTemplates\CbToJPEG.xml-->CommonTemplates\CbToJPEG.xml
 CommonTemplates\CbToJPEG\Ext\Template.bin-->CommonTemplates\CbToJPEG\Ext\Template.bin
+Constants\ХэшМастерПароля.xml-->Constants\ХэшМастерПароля.xml
 Constants\ШагПорядкаЗадач.xml-->Constants\ШагПорядкаЗадач.xml
 DataProcessors\amCharts.xml-->DataProcessors\amCharts.xml
 DataProcessors\ДеревоСвязанныхОбъектов.xml-->DataProcessors\ДеревоСвязанныхОбъектов.xml
@@ -197,6 +214,7 @@ DataProcessors\ИмпортЗадач.xml-->DataProcessors\ИмпортЗада�
 DataProcessors\КонсольЗапросовУФ.xml-->DataProcessors\КонсольЗапросовУФ.xml
 DataProcessors\ОтображениеСтатей.xml-->DataProcessors\ОтображениеСтатей.xml
 DataProcessors\РегламентноеОбслуживание.xml-->DataProcessors\РегламентноеОбслуживание.xml
+DataProcessors\УправлениеПодсистемойПаролей.xml-->DataProcessors\УправлениеПодсистемойПаролей.xml
 DataProcessors\amCharts\Ext\ObjectModule.bsl-->DataProcessors\amCharts\Ext\ObjectModule.bsl
 DataProcessors\amCharts\Forms\Форма.xml-->DataProcessors\amCharts\Forms\Форма.xml
 DataProcessors\amCharts\Forms\Форма\Ext\Form.xml-->DataProcessors\amCharts\Forms\Форма\Ext\Form.xml
@@ -316,6 +334,12 @@ DataProcessors\ОтображениеСтатей\Forms\Форма\Ext\Form\Modu
 DataProcessors\РегламентноеОбслуживание\Forms\Форма.xml-->DataProcessors\РегламентноеОбслуживание\Forms\Форма.xml
 DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form.xml-->DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form.xml
 DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\РегламентноеОбслуживание\Forms\Форма\Ext\Form\Module.bsl
+DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля.xml-->DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля.xml
+DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма.xml-->DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма.xml
+DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля\Ext\Form.xml-->DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля\Ext\Form.xml
+DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля\Ext\Form\Module.bsl-->DataProcessors\УправлениеПодсистемойПаролей\Forms\ЗапросПароля\Ext\Form\Module.bsl
+DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма\Ext\Form.xml-->DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма\Ext\Form.xml
+DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\УправлениеПодсистемойПаролей\Forms\Форма\Ext\Form\Module.bsl
 Documents\Задача.xml-->Documents\Задача.xml
 Documents\Спринт.xml-->Documents\Спринт.xml
 Documents\Статья.xml-->Documents\Статья.xml
@@ -371,7 +395,7 @@ InformationRegisters\ОперативныйПланЗадач.xml-->InformationR
 InformationRegisters\ОтслеживающиеПользователиПоУмолчанию.xml-->InformationRegisters\ОтслеживающиеПользователиПоУмолчанию.xml
 InformationRegisters\ПланВыполненияЗадач.xml-->InformationRegisters\ПланВыполненияЗадач.xml
 InformationRegisters\СвязанныеЗадачи.xml-->InformationRegisters\СвязанныеЗадачи.xml
-InformationRegisters\ФайлыСтатей.xml-->InformationRegisters\ФайлыСтатей.xml
+InformationRegisters\Файлы.xml-->InformationRegisters\Файлы.xml
 InformationRegisters\Избранное\Forms\ФормаЗаписи.xml-->InformationRegisters\Избранное\Forms\ФормаЗаписи.xml
 InformationRegisters\Избранное\Forms\ФормаЗаписи\Ext\Form.xml-->InformationRegisters\Избранное\Forms\ФормаЗаписи\Ext\Form.xml
 InformationRegisters\Избранное\Forms\ФормаЗаписи\Ext\Form\Module.bsl-->InformationRegisters\Избранное\Forms\ФормаЗаписи\Ext\Form\Module.bsl
@@ -395,6 +419,7 @@ InformationRegisters\Коментарии\Forms\ФормаЗаписи\Ext\Form\
 InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи.xml-->InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи.xml
 InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи\Ext\Form.xml-->InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи\Ext\Form.xml
 InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи\Ext\Form\Module.bsl-->InformationRegisters\ПланВыполненияЗадач\Forms\ФормаЗаписи\Ext\Form\Module.bsl
+InformationRegisters\Файлы\Ext\ManagerModule.bsl-->InformationRegisters\Файлы\Ext\ManagerModule.bsl
 Languages\Русский.xml-->Languages\Русский.xml
 Reports\ДоработкиКРелизу.xml-->Reports\ДоработкиКРелизу.xml
 Reports\ОперативныйПланЗадач.xml-->Reports\ОперативныйПланЗадач.xml
@@ -432,6 +457,7 @@ Roles\Администратор\Ext\Rights.xml-->Roles\Администрато
 Roles\Пользователь\Ext\Rights.xml-->Roles\Пользователь\Ext\Rights.xml
 Roles\ПользовательВнешний\Ext\Rights.xml-->Roles\ПользовательВнешний\Ext\Rights.xml
 Roles\Разработчик\Ext\Rights.xml-->Roles\Разработчик\Ext\Rights.xml
+SessionParameters\МастерПароль.xml-->SessionParameters\МастерПароль.xml
 SessionParameters\ТекущийПользователь.xml-->SessionParameters\ТекущийПользователь.xml
 SettingsStorages\ХранилищеНастроек.xml-->SettingsStorages\ХранилищеНастроек.xml
 SettingsStorages\ХранилищеНастроек\Ext\ManagerModule.bsl-->SettingsStorages\ХранилищеНастроек\Ext\ManagerModule.bsl
@@ -446,6 +472,7 @@ StyleItems\ЦветПриостановлена.xml-->StyleItems\ЦветПри�
 StyleItems\ШрифтСтандартный.xml-->StyleItems\ШрифтСтандартный.xml
 StyleItems\ШрифтТекстовыхПолей.xml-->StyleItems\ШрифтТекстовыхПолей.xml
 Subsystems\Doku1c.xml-->Subsystems\Doku1c.xml
+Subsystems\Passtor.xml-->Subsystems\Passtor.xml
 Subsystems\Администрирование.xml-->Subsystems\Администрирование.xml
 Subsystems\Основная.xml-->Subsystems\Основная.xml
 Subsystems\Отчеты.xml-->Subsystems\Отчеты.xml

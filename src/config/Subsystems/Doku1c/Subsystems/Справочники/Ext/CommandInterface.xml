@@ -7,7 +7,7 @@
 		<Command name="InformationRegister.ИсторияСтатей.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.ФайлыСтатей.StandardCommand.OpenList">
+		<Command name="InformationRegister.Файлы.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

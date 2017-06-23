@@ -23,7 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОтображениеСтатей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Статья</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ФайлыСтатей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Файлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОткрытьОтображениеСтатей</xr:Item>
 			</Content>
 		</Properties>

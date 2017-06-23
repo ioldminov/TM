@@ -540,7 +540,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:InformationRegisterRecordSet.ФайлыСтатей</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.Файлы</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="НазваниеСтатьи" id="7">
