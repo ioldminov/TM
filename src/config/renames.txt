@@ -180,7 +180,7 @@ CommonPictures\РазделАдминистрирование16\Ext\Picture\Pict
 CommonPictures\РазделБазаЗнаний16\Ext\Picture.xml-->CommonPictures\РазделБазаЗнаний16\Ext\Picture.xml
 CommonPictures\РазделБазаЗнаний16\Ext\Picture\Picture.png-->CommonPictures\РазделБазаЗнаний16\Ext\Picture\Picture.png
 CommonPictures\РазделБазаПаролей16\Ext\Picture.xml-->CommonPictures\РазделБазаПаролей16\Ext\Picture.xml
-CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.jpg-->CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.jpg
+CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.png-->CommonPictures\РазделБазаПаролей16\Ext\Picture\Picture.png
 CommonPictures\РазделОсновная16\Ext\Picture.xml-->CommonPictures\РазделОсновная16\Ext\Picture.xml
 CommonPictures\РазделОсновная16\Ext\Picture\Picture.png-->CommonPictures\РазделОсновная16\Ext\Picture\Picture.png
 CommonPictures\РазделОтчетыИМониторинг16\Ext\Picture.xml-->CommonPictures\РазделОтчетыИМониторинг16\Ext\Picture.xml
