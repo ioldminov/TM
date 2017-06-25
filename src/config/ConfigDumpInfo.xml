@@ -29,8 +29,8 @@
 		</Metadata>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377" configVersion="69868036622bdd45be71354112f8966f00000000"/>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377.0" configVersion="6f7227d7f7beb64fa3b89d6a807343ce00000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="a7de89353bfa9f4e9c488d8b54379f9700000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="da4e988172338741bc66a9b705565b1b00000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="d623cb2ac88f96468622a0a07db465c300000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="08119a98a8badf4b834f2c542d31d44300000000"/>
 		<Metadata name="Catalog.Пароли.ObjectModule" id="ac1baee3-55cb-4e02-8ddb-755831f4c700.0" configVersion="65613e7f3f3cbf45b500249ddf2ab50800000000"/>
 		<Metadata name="Catalog.Пользователи" id="e268df06-dfc1-48e1-a6d1-8ba8df187bb0" configVersion="293a93ddabbd224fb9437450ae5ed3a600000000">
 			<Metadata name="Catalog.Пользователи.Attribute.ТелефонСотовый" id="2a5afd57-6d35-4564-a51d-8b4d764154b5"/>
@@ -192,9 +192,9 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="20cb3c8de111db46a482cabb10203ca300000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="f0801195e72ee9419a673c4187feacf700000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="e41d38ffcd5d5941a08904ddbd77368100000000"/>
-		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="a9a77262749f1a43a7ac0bab6936042600000000"/>
+		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="442ebd0b62da0542876ae864bdbf282200000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="a96215bdc1ca5f459277e2b381baf4f400000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.Help" id="2af09197-39c6-4606-b3fb-327dca5d80f9.3" configVersion="b601b496b874f04a892e1bb93248953000000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.HomePageWorkArea" id="2af09197-39c6-4606-b3fb-327dca5d80f9.8" configVersion="19c7130351624c4fbdab15d9de0ffed600000000"/>

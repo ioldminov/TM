@@ -1,32 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<SubsystemsVisibility>
-		<Subsystem name="Subsystem.Основная">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Subsystem>
-		<Subsystem name="Subsystem.Отчеты">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Subsystem>
-		<Subsystem name="Subsystem.Doku1c">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Subsystem>
-		<Subsystem name="Subsystem.Passtor">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Subsystem>
-		<Subsystem name="Subsystem.Администрирование">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Subsystem>
-	</SubsystemsVisibility>
 	<SubsystemsOrder>
 		<Subsystem>Subsystem.Основная</Subsystem>
 		<Subsystem>Subsystem.Отчеты</Subsystem>
