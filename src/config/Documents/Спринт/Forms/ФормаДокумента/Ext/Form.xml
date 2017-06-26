@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<ScalingMode>Compact</ScalingMode>
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
@@ -130,86 +131,222 @@
 							<v8:content>Задачи</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Horizontal</Group>
 					<ExtendedTooltip name="ЗадачиРасширеннаяПодсказка" id="62"/>
 					<ChildItems>
-						<Table name="СоставСпринта" id="16">
-							<Representation>List</Representation>
-							<UseAlternationRowColor>true</UseAlternationRowColor>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.СоставСпринта</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="СоставСпринтаКонтекстноеМеню" id="17"/>
-							<AutoCommandBar name="СоставСпринтаКоманднаяПанель" id="18"/>
-							<ExtendedTooltip name="СоставСпринтаРасширеннаяПодсказка" id="19"/>
-							<SearchStringAddition name="СоставСпринтаСтрокаПоиска" id="20">
-								<AdditionSource>
-									<Item>СоставСпринта</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="СоставСпринтаСтрокаПоискаКонтекстноеМеню" id="23"/>
-								<ExtendedTooltip name="СоставСпринтаСтрокаПоискаРасширеннаяПодсказка" id="24"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="СоставСпринтаСостояниеПросмотра" id="25">
-								<AdditionSource>
-									<Item>СоставСпринта</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="СоставСпринтаСостояниеПросмотраКонтекстноеМеню" id="28"/>
-								<ExtendedTooltip name="СоставСпринтаСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="СоставСпринтаУправлениеПоиском" id="30">
-								<AdditionSource>
-									<Item>СоставСпринта</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="СоставСпринтаУправлениеПоискомКонтекстноеМеню" id="33"/>
-								<ExtendedTooltip name="СоставСпринтаУправлениеПоискомРасширеннаяПодсказка" id="34"/>
-							</SearchControlAddition>
-							<Events>
-								<Event name="DragCheck">СоставСпринтаПроверкаПеретаскивания</Event>
-								<Event name="Drag">СоставСпринтаПеретаскивание</Event>
-							</Events>
+						<UsualGroup name="ГруппаСоставСпринта" id="167">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа состав спринта</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа состав спринта</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаСоставСпринтаРасширеннаяПодсказка" id="168"/>
 							<ChildItems>
-								<LabelField name="СоставСпринтаНомерСтроки" id="35">
-									<DataPath>Объект.СоставСпринта.LineNumber</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставСпринтаНомерСтрокиКонтекстноеМеню" id="36"/>
-									<ExtendedTooltip name="СоставСпринтаНомерСтрокиРасширеннаяПодсказка" id="37"/>
-								</LabelField>
-								<InputField name="СоставСпринтаЗадача" id="38">
-									<DataPath>Объект.СоставСпринта.Задача</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставСпринтаЗадачаКонтекстноеМеню" id="39"/>
-									<ExtendedTooltip name="СоставСпринтаЗадачаРасширеннаяПодсказка" id="40"/>
+								<Table name="СоставСпринта" id="16">
+									<Representation>List</Representation>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.СоставСпринта</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="СоставСпринтаКонтекстноеМеню" id="17"/>
+									<AutoCommandBar name="СоставСпринтаКоманднаяПанель" id="18"/>
+									<ExtendedTooltip name="СоставСпринтаРасширеннаяПодсказка" id="19"/>
+									<SearchStringAddition name="СоставСпринтаСтрокаПоиска" id="20">
+										<AdditionSource>
+											<Item>СоставСпринта</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СоставСпринтаСтрокаПоискаКонтекстноеМеню" id="23"/>
+										<ExtendedTooltip name="СоставСпринтаСтрокаПоискаРасширеннаяПодсказка" id="24"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СоставСпринтаСостояниеПросмотра" id="25">
+										<AdditionSource>
+											<Item>СоставСпринта</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СоставСпринтаСостояниеПросмотраКонтекстноеМеню" id="28"/>
+										<ExtendedTooltip name="СоставСпринтаСостояниеПросмотраРасширеннаяПодсказка" id="29"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СоставСпринтаУправлениеПоиском" id="30">
+										<AdditionSource>
+											<Item>СоставСпринта</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СоставСпринтаУправлениеПоискомКонтекстноеМеню" id="33"/>
+										<ExtendedTooltip name="СоставСпринтаУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+									</SearchControlAddition>
 									<Events>
-										<Event name="TextEditEnd">СоставСпринтаЗадачаОкончаниеВводаТекста</Event>
+										<Event name="DragCheck">СоставСпринтаПроверкаПеретаскивания</Event>
+										<Event name="Drag">СоставСпринтаПеретаскивание</Event>
 									</Events>
-								</InputField>
-								<LabelField name="СоставСпринтаЗадачаСуть" id="50">
-									<DataPath>Объект.СоставСпринта.Задача.Суть</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставСпринтаЗадачаСутьКонтекстноеМеню" id="51"/>
-									<ExtendedTooltip name="СоставСпринтаЗадачаСутьРасширеннаяПодсказка" id="52"/>
-								</LabelField>
-								<LabelField name="СоставСпринтаЗадачаИсполнитель" id="53">
-									<DataPath>Объект.СоставСпринта.Задача.Исполнитель</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставСпринтаЗадачаИсполнительКонтекстноеМеню" id="54"/>
-									<ExtendedTooltip name="СоставСпринтаЗадачаИсполнительРасширеннаяПодсказка" id="55"/>
-								</LabelField>
-								<LabelField name="СоставСпринтаЗадачаСостояниеЗадачи" id="56">
-									<DataPath>Объект.СоставСпринта.Задача.СостояниеЗадачи</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СоставСпринтаЗадачаСостояниеЗадачиКонтекстноеМеню" id="57"/>
-									<ExtendedTooltip name="СоставСпринтаЗадачаСостояниеЗадачиРасширеннаяПодсказка" id="58"/>
-								</LabelField>
+									<ChildItems>
+										<LabelField name="СоставСпринтаНомерСтроки" id="35">
+											<DataPath>Объект.СоставСпринта.LineNumber</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>3</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="СоставСпринтаНомерСтрокиКонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="СоставСпринтаНомерСтрокиРасширеннаяПодсказка" id="37"/>
+										</LabelField>
+										<InputField name="СоставСпринтаЗадача" id="38">
+											<DataPath>Объект.СоставСпринта.Задача</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаЗадачаКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаРасширеннаяПодсказка" id="40"/>
+											<Events>
+												<Event name="OnChange">СоставСпринтаЗадачаПриИзменении</Event>
+												<Event name="TextEditEnd">СоставСпринтаЗадачаОкончаниеВводаТекста</Event>
+											</Events>
+										</InputField>
+										<LabelField name="СоставСпринтаЗадачаСуть" id="50">
+											<DataPath>Объект.СоставСпринта.Задача.Суть</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаЗадачаСутьКонтекстноеМеню" id="51"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаСутьРасширеннаяПодсказка" id="52"/>
+										</LabelField>
+										<LabelField name="СоставСпринтаЗадачаИсполнитель" id="53">
+											<DataPath>Объект.СоставСпринта.Задача.Исполнитель</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаЗадачаИсполнительКонтекстноеМеню" id="54"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаИсполнительРасширеннаяПодсказка" id="55"/>
+										</LabelField>
+										<LabelField name="СоставСпринтаЗадачаСостояниеЗадачи" id="56">
+											<DataPath>Объект.СоставСпринта.Задача.СостояниеЗадачи</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаЗадачаСостояниеЗадачиКонтекстноеМеню" id="57"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаСостояниеЗадачиРасширеннаяПодсказка" id="58"/>
+										</LabelField>
+										<InputField name="СоставСпринтаИсполнительРаспределение" id="191">
+											<DataPath>Объект.СоставСпринта.ИсполнительРаспределение</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаИсполнительРаспределениеКонтекстноеМеню" id="192"/>
+											<ExtendedTooltip name="СоставСпринтаИсполнительРаспределениеРасширеннаяПодсказка" id="193"/>
+											<Events>
+												<Event name="OnChange">СоставСпринтаИсполнительРаспределениеПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="СоставСпринтаПредполагаемаяДлительность" id="194">
+											<DataPath>Объект.СоставСпринта.ПредполагаемаяДлительность</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаПредполагаемаяДлительностьКонтекстноеМеню" id="195"/>
+											<ExtendedTooltip name="СоставСпринтаПредполагаемаяДлительностьРасширеннаяПодсказка" id="196"/>
+											<Events>
+												<Event name="OnChange">СоставСпринтаПредполагаемаяДлительностьПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
-						</Table>
+						</UsualGroup>
+						<UsualGroup name="ГруппаИсполнители" id="141">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исполнители</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исполнители</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИсполнителиРасширеннаяПодсказка" id="142"/>
+							<ChildItems>
+								<Table name="ЗагрузкаИсполнителей" id="169">
+									<Footer>true</Footer>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.ЗагрузкаИсполнителей</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ЗагрузкаИсполнителейКонтекстноеМеню" id="170"/>
+									<AutoCommandBar name="ЗагрузкаИсполнителейКоманднаяПанель" id="171">
+										<ChildItems>
+											<Button name="ЗагрузкаИсполнителейЗаполнитьИсполнителей" id="200">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ЗаполнитьИсполнителей</CommandName>
+												<ExtendedTooltip name="ЗагрузкаИсполнителейЗаполнитьИсполнителейРасширеннаяПодсказка" id="201"/>
+											</Button>
+											<Button name="ЗагрузкаИсполнителейОбновитьТекЗагрузку" id="205">
+												<Type>CommandBarButton</Type>
+												<OnlyInAllActions>true</OnlyInAllActions>
+												<CommandName>Form.Command.ОбновитьТекЗагрузку</CommandName>
+												<ExtendedTooltip name="ЗагрузкаИсполнителейОбновитьТекЗагрузкуРасширеннаяПодсказка" id="206"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ЗагрузкаИсполнителейРасширеннаяПодсказка" id="172"/>
+									<SearchStringAddition name="ЗагрузкаИсполнителейСтрокаПоиска" id="173">
+										<AdditionSource>
+											<Item>ЗагрузкаИсполнителей</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЗагрузкаИсполнителейСтрокаПоискаКонтекстноеМеню" id="174"/>
+										<ExtendedTooltip name="ЗагрузкаИсполнителейСтрокаПоискаРасширеннаяПодсказка" id="175"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ЗагрузкаИсполнителейСостояниеПросмотра" id="176">
+										<AdditionSource>
+											<Item>ЗагрузкаИсполнителей</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЗагрузкаИсполнителейСостояниеПросмотраКонтекстноеМеню" id="177"/>
+										<ExtendedTooltip name="ЗагрузкаИсполнителейСостояниеПросмотраРасширеннаяПодсказка" id="178"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ЗагрузкаИсполнителейУправлениеПоиском" id="179">
+										<AdditionSource>
+											<Item>ЗагрузкаИсполнителей</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ЗагрузкаИсполнителейУправлениеПоискомКонтекстноеМеню" id="180"/>
+										<ExtendedTooltip name="ЗагрузкаИсполнителейУправлениеПоискомРасширеннаяПодсказка" id="181"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ЗагрузкаИсполнителейИсполнитель" id="185">
+											<DataPath>Объект.ЗагрузкаИсполнителей.Исполнитель</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ЗагрузкаИсполнителейИсполнительКонтекстноеМеню" id="186"/>
+											<ExtendedTooltip name="ЗагрузкаИсполнителейИсполнительРасширеннаяПодсказка" id="187"/>
+										</InputField>
+										<InputField name="ЗагрузкаИсполнителейКоличествоДнейВСпринте" id="188">
+											<DataPath>Объект.ЗагрузкаИсполнителей.КоличествоДнейВСпринте</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кол. дн.</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<FooterDataPath>Объект.ЗагрузкаИсполнителей.TotalКоличествоДнейВСпринте</FooterDataPath>
+											<ContextMenu name="ЗагрузкаИсполнителейКоличествоДнейВСпринтеКонтекстноеМеню" id="189"/>
+											<ExtendedTooltip name="ЗагрузкаИсполнителейКоличествоДнейВСпринтеРасширеннаяПодсказка" id="190"/>
+										</InputField>
+										<InputField name="ЗагрузкаИсполнителейСуммарнаяЗагрузка" id="202">
+											<DataPath>Объект.ЗагрузкаИсполнителей.СуммарнаяЗагрузка</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<FooterDataPath>Объект.ЗагрузкаИсполнителей.TotalСуммарнаяЗагрузка</FooterDataPath>
+											<ContextMenu name="ЗагрузкаИсполнителейСуммарнаяЗагрузкаКонтекстноеМеню" id="203"/>
+											<ExtendedTooltip name="ЗагрузкаИсполнителейСуммарнаяЗагрузкаРасширеннаяПодсказка" id="204"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</Page>
 				<Page name="Сводная" id="63">
@@ -332,6 +469,22 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="Распределение" id="117">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распределение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распределение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="РаспределениеРасширеннаяПодсказка" id="118"/>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<UsualGroup name="ГруппаСтатистика" id="48">
@@ -351,6 +504,10 @@
 			<Group>Vertical</Group>
 			<ExtendedTooltip name="ГруппаСтатистикаРасширеннаяПодсказка" id="49"/>
 			<ChildItems>
+				<InputField name="СоставСпринтаОткрытых1" id="207">
+					<ContextMenu name="СоставСпринтаОткрытых1КонтекстноеМеню" id="208"/>
+					<ExtendedTooltip name="СоставСпринтаОткрытых1РасширеннаяПодсказка" id="209"/>
+				</InputField>
 				<LabelField name="СоставСпринтаКоличествоСтрок" id="45">
 					<DataPath>Объект.СоставСпринта.RowsCount</DataPath>
 					<Title>
@@ -410,6 +567,10 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.СоставСпринта"/>
+				<AdditionalColumns table="Объект.ЗагрузкаИсполнителей"/>
+			</Columns>
 		</Attribute>
 		<Attribute name="СостоянияЗадач" id="2">
 			<Title>
@@ -524,5 +685,159 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.НуженОтклик</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветНуженОткликБледный</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Отработана</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветОтработана</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.СоставСпринта.Состояние</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>BackColor</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьИсполнителей" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить исполнителей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить исполнителей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьИсполнителей</Action>
+		</Command>
+		<Command name="ОбновитьТекЗагрузку" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить тек загрузку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить тек загрузку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьТекЗагрузку</Action>
+		</Command>
+	</Commands>
 </Form>

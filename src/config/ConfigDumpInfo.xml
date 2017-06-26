@@ -360,15 +360,22 @@
 		<Metadata name="Document.Задача.Template.Задача.Template" id="f6cf2d02-2702-482b-b350-fde2ab0d8140.0" configVersion="09a570ec78f7e440a5d0cf7d9e2900e900000000"/>
 		<Metadata name="Document.Задача.Template.Стиль" id="1c59ba76-6013-47a9-ada7-0d2d8f14a3f5" configVersion="f5bb155da528544f8cce51a5bfd2d06100000000"/>
 		<Metadata name="Document.Задача.Template.Стиль.Template" id="1c59ba76-6013-47a9-ada7-0d2d8f14a3f5.0" configVersion="44d2bf66b527b244a73b3d9f9c51ebb000000000"/>
-		<Metadata name="Document.Спринт" id="7cb4be34-0b50-4642-81c4-c3bf79df38b1" configVersion="d0bc5864a6026e428e0fa1741cead23800000000">
+		<Metadata name="Document.Спринт" id="7cb4be34-0b50-4642-81c4-c3bf79df38b1" configVersion="18523abecd95694c89b912afa57fa01000000000">
 			<Metadata name="Document.Спринт.Attribute.ДатаОкончания" id="016cf830-02c6-4ae1-a747-9482332ad2ef"/>
+			<Metadata name="Document.Спринт.TabularSection.СоставСпринта.Attribute.ИсполнительРаспределение" id="0cae6ae3-d232-4c5c-918d-456cadb267ec"/>
 			<Metadata name="Document.Спринт.Attribute.НомерСпринта" id="151316ef-4ef1-4730-9bf6-502281f387b7"/>
 			<Metadata name="Document.Спринт.TabularSection.СоставСпринта.Attribute.Задача" id="17222fad-80d1-4cff-b1d0-c55e7f4906d1"/>
+			<Metadata name="Document.Спринт.TabularSection.СоставСпринта.Attribute.ПредполагаемаяДлительность" id="23ab77d7-d1aa-4abf-ae54-5aae2e5ebee8"/>
+			<Metadata name="Document.Спринт.TabularSection.ЗагрузкаИсполнителей.Attribute.Исполнитель" id="2fe7d916-deeb-4d2b-b43c-7dce100c6063"/>
+			<Metadata name="Document.Спринт.TabularSection.СоставСпринта.Attribute.Состояние" id="85a390dc-5580-4734-8881-6f9050a1e283"/>
+			<Metadata name="Document.Спринт.TabularSection.ЗагрузкаИсполнителей.Attribute.СуммарнаяЗагрузка" id="86f82860-f31f-4b9b-9cbd-adc00e8e1f40"/>
 			<Metadata name="Document.Спринт.Attribute.ДатаНачала" id="99cdb689-19f8-41d9-9468-8a7307feb9cf"/>
+			<Metadata name="Document.Спринт.TabularSection.ЗагрузкаИсполнителей.Attribute.КоличествоДнейВСпринте" id="bd6a657a-8188-4870-b459-4a6b0c55497d"/>
 			<Metadata name="Document.Спринт.TabularSection.СоставСпринта" id="d72dc77e-a820-4fc2-b897-4d1bbc3ea0c6"/>
+			<Metadata name="Document.Спринт.TabularSection.ЗагрузкаИсполнителей" id="fd5f8577-5c03-4d02-8e0e-374bc3959d60"/>
 		</Metadata>
-		<Metadata name="Document.Спринт.Form.ФормаДокумента" id="26933abb-e6ab-4d61-b289-0c527410fc2d" configVersion="d24384007765374c97bfc835739ac76b00000000"/>
-		<Metadata name="Document.Спринт.Form.ФормаДокумента.Form" id="26933abb-e6ab-4d61-b289-0c527410fc2d.0" configVersion="7f1f9d82b774864a86b045ccc96f10c200000000"/>
+		<Metadata name="Document.Спринт.Form.ФормаДокумента" id="26933abb-e6ab-4d61-b289-0c527410fc2d" configVersion="f86557fc2292cf4e98ad8f402b0a75cc00000000"/>
+		<Metadata name="Document.Спринт.Form.ФормаДокумента.Form" id="26933abb-e6ab-4d61-b289-0c527410fc2d.0" configVersion="19dc8941adcf3a40b69dfcec945d8a1600000000"/>
 		<Metadata name="Document.Статья" id="6569cc10-d72f-4c3c-b214-a6e8c17d8e84" configVersion="270c53eee7c9f8439294d74f25e4fade00000000">
 			<Metadata name="Document.Статья.Attribute.Каталог" id="0d06498d-d2a3-4150-b136-d923ef7fda45"/>
 			<Metadata name="Document.Статья.Attribute.ТекстHTML" id="18afc226-a833-489d-84b9-52328d59d20d"/>
