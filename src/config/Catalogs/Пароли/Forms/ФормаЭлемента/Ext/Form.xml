@@ -153,7 +153,20 @@
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.Данные</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ДанныеКонтекстноеМеню" id="61"/>
+							<ContextMenu name="ДанныеКонтекстноеМеню" id="61">
+								<ChildItems>
+									<Button name="ДанныеКонтекстноеМенюСкопироватьЛогин" id="142">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СкопироватьЛогин</CommandName>
+										<ExtendedTooltip name="ДанныеКонтекстноеМенюСкопироватьЛогинРасширеннаяПодсказка" id="143"/>
+									</Button>
+									<Button name="ДанныеКонтекстноеМенюСкопироватьПароль" id="144">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СкопироватьПароль</CommandName>
+										<ExtendedTooltip name="ДанныеКонтекстноеМенюСкопироватьПарольРасширеннаяПодсказка" id="145"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
 							<AutoCommandBar name="ДанныеКоманднаяПанель" id="62">
 								<ChildItems>
 									<Button name="ДанныеСкопироватьЛогин" id="138">
@@ -469,6 +482,7 @@
 					<v8:content>Скопировать пароль</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Ctrl+Shift+C</Shortcut>
 			<Action>СкопироватьПароль</Action>
 		</Command>
 		<Command name="СкопироватьЛогин" id="4">
@@ -484,6 +498,7 @@
 					<v8:content>Скопировать логин</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Ctrl+Shift+B</Shortcut>
 			<Action>СкопироватьЛогин</Action>
 		</Command>
 	</Commands>
