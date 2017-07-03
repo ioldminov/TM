@@ -506,6 +506,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Пароли</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СвязанныеЗадачи.Dimension.Задача1</name>
 		<right>
 			<name>Edit</name>

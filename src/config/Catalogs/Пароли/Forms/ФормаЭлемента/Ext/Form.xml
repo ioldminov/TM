@@ -1,7 +1,59 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="128">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<DefaultItem>true</DefaultItem>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="129"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="130">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Write</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="131"/>
+			</Button>
+			<Button name="ФормаВклВыклРежимПароля" id="132">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВклВыклРежимПароля</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>****</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаВклВыклРежимПароляРасширеннаяПодсказка" id="133"/>
+			</Button>
+			<Button name="ФормаВклВыклРежимРедактирования" id="134">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВклВыклРежимРедактирования</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Change</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаВклВыклРежимРедактированияРасширеннаяПодсказка" id="135"/>
+			</Button>
+			<Popup name="ФормаГруппаДополнительно" id="136">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительно</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа дополнительно</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CommandSource>Form</CommandSource>
+				<ExtendedTooltip name="ФормаГруппаДополнительноРасширеннаяПодсказка" id="137"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeWrite">ПередЗаписью</Event>
@@ -45,6 +97,7 @@
 			<DataPath>Объект.Комментарий</DataPath>
 			<TitleLocation>Left</TitleLocation>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<HorizontalStretch>true</HorizontalStretch>
 			<MultiLine>true</MultiLine>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
@@ -101,7 +154,20 @@
 							<DataPath>Объект.Данные</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДанныеКонтекстноеМеню" id="61"/>
-							<AutoCommandBar name="ДанныеКоманднаяПанель" id="62"/>
+							<AutoCommandBar name="ДанныеКоманднаяПанель" id="62">
+								<ChildItems>
+									<Button name="ДанныеСкопироватьЛогин" id="138">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СкопироватьЛогин</CommandName>
+										<ExtendedTooltip name="ДанныеСкопироватьЛогинРасширеннаяПодсказка" id="139"/>
+									</Button>
+									<Button name="ДанныеСкопироватьПароль" id="140">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СкопироватьПароль</CommandName>
+										<ExtendedTooltip name="ДанныеСкопироватьПарольРасширеннаяПодсказка" id="141"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="ДанныеРасширеннаяПодсказка" id="63"/>
 							<SearchStringAddition name="ДанныеСтрокаПоиска" id="64">
 								<AdditionSource>
@@ -171,6 +237,7 @@
 								<InputField name="ДанныеКомментарий" id="85">
 									<DataPath>Объект.Данные.Комментарий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
 									<ContextMenu name="ДанныеКомментарийКонтекстноеМеню" id="86"/>
 									<ExtendedTooltip name="ДанныеКомментарийРасширеннаяПодсказка" id="87"/>
 								</InputField>
@@ -346,5 +413,78 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.Файлы</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="РежимПароля" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим пароля</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ВклВыклРежимПароля" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкл/Выкл режим пароля</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкл выкл режим пароля</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВклВыклРежимПароля</Action>
+		</Command>
+		<Command name="ВклВыклРежимРедактирования" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкл/Выкл режим редактирования</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вкл выкл режим редактирования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВклВыклРежимРедактирования</Action>
+		</Command>
+		<Command name="СкопироватьПароль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать пароль</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать пароль</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкопироватьПароль</Action>
+		</Command>
+		<Command name="СкопироватьЛогин" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать логин</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать логин</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СкопироватьЛогин</Action>
+		</Command>
+	</Commands>
 </Form>
