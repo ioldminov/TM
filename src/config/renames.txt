@@ -350,12 +350,15 @@ Documents\Задача\Ext\Help\ru.html-->Documents\Задача\Ext\Help\ru.htm
 Documents\Задача\Forms\ФормаДокумента.xml-->Documents\Задача\Forms\ФормаДокумента.xml
 Documents\Задача\Forms\ФормаПечатьHTML.xml-->Documents\Задача\Forms\ФормаПечатьHTML.xml
 Documents\Задача\Forms\ФормаСписка.xml-->Documents\Задача\Forms\ФормаСписка.xml
+Documents\Задача\Forms\ФормаСписка1.xml-->Documents\Задача\Forms\ФормаСписка1.xml
 Documents\Задача\Forms\ФормаДокумента\Ext\Form.xml-->Documents\Задача\Forms\ФормаДокумента\Ext\Form.xml
 Documents\Задача\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\Задача\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\Задача\Forms\ФормаПечатьHTML\Ext\Form.xml-->Documents\Задача\Forms\ФормаПечатьHTML\Ext\Form.xml
 Documents\Задача\Forms\ФормаПечатьHTML\Ext\Form\Module.bsl-->Documents\Задача\Forms\ФормаПечатьHTML\Ext\Form\Module.bsl
 Documents\Задача\Forms\ФормаСписка\Ext\Form.xml-->Documents\Задача\Forms\ФормаСписка\Ext\Form.xml
 Documents\Задача\Forms\ФормаСписка\Ext\Form\Module.bsl-->Documents\Задача\Forms\ФормаСписка\Ext\Form\Module.bsl
+Documents\Задача\Forms\ФормаСписка1\Ext\Form.xml-->Documents\Задача\Forms\ФормаСписка1\Ext\Form.xml
+Documents\Задача\Forms\ФормаСписка1\Ext\Form\Module.bsl-->Documents\Задача\Forms\ФормаСписка1\Ext\Form\Module.bsl
 Documents\Задача\Templates\Задача.xml-->Documents\Задача\Templates\Задача.xml
 Documents\Задача\Templates\Стиль.xml-->Documents\Задача\Templates\Стиль.xml
 Documents\Задача\Templates\Задача\Ext\Template.txt-->Documents\Задача\Templates\Задача\Ext\Template.txt
