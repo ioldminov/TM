@@ -689,7 +689,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -709,7 +709,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -729,7 +729,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -749,7 +749,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -769,7 +769,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
@@ -789,7 +789,7 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
-						<dcsset:field>СоставСпринтаЗадача</dcsset:field>
+						<dcsset:field>СоставСпринта</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 				<dcsset:filter>
