@@ -138,12 +138,6 @@
 							<CommandName>Form.StandardCommand.RestoreValues</CommandName>
 							<ExtendedTooltip name="ВосстановитьЗначенияExtendedTooltip" id="181"/>
 						</Button>
-						<Button name="кнУдалитьНастройкуСписка" id="437">
-							<Type>CommandBarButton</Type>
-							<OnlyInAllActions>false</OnlyInAllActions>
-							<CommandName>Form.Command.кнУдалитьНастройкуСписка</CommandName>
-							<ExtendedTooltip name="кнУдалитьНастройкуСпискаРасширеннаяПодсказка" id="438"/>
-						</Button>
 						<Button name="Справка" id="77">
 							<Type>CommandBarButton</Type>
 							<CommandName>Form.StandardCommand.Help</CommandName>
@@ -1497,9 +1491,9 @@
 	ДокументЗадача.СостояниеЗадачи,
 	ДокументЗадача.Исполнитель,
 	ДокументЗадача.Модуль,
-	"-" КАК Порядок,
+	ЕСТЬNULL(ОперативныйПланЗадач.Порядок, "-") КАК Порядок,
 	ДокументЗадача.ПлановаяДатаИсполнения,
-	ДАТАВРЕМЯ(0001, 01, 01) КАК ДатаПоследнегоКомментария,
+	ПоследниеКомментарии.ДатаПоследнегоКомментария,
 	ДокументЗадача.РелизКонфигурации,
 	ДокументЗадача.Срок,
 	ДокументЗадача.ДатаГотовностиТЗ,
@@ -1510,7 +1504,17 @@
 	КОНЕЦ КАК ОткликОт
 ИЗ
 	Документ.Задача КАК ДокументЗадача
-	</QueryText>
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОперативныйПланЗадач КАК ОперативныйПланЗадач
+		ПО ДокументЗадача.Ссылка = ОперативныйПланЗадач.Задача
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			Коментарии.Объект КАК Задача,
+			МАКСИМУМ(Коментарии.ДатаДобавления) КАК ДатаПоследнегоКомментария
+		ИЗ
+			РегистрСведений.Коментарии КАК Коментарии
+		
+		СГРУППИРОВАТЬ ПО
+			Коментарии.Объект) КАК ПоследниеКомментарии
+		ПО ДокументЗадача.Ссылка = ПоследниеКомментарии.Задача</QueryText>
 				<MainTable>Document.Задача</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -1564,21 +1568,49 @@
 						<dcsset:item>
 							<dcsset:selection/>
 							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+								<dcsset:item xsi:type="dcsset:FilterItemGroup">
+									<dcsset:groupType>OrGroup</dcsset:groupType>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ДатаПоследнегоКомментария</dcsset:left>
+										<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+										<dcsset:right xsi:type="v8:StandardBeginningDate">
+											<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
+										</dcsset:right>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:left xsi:type="dcscor:Field">ДатаИзменения</dcsset:left>
+										<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+										<dcsset:right xsi:type="v8:StandardBeginningDate">
+											<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
+										</dcsset:right>
+									</dcsset:item>
 								</dcsset:item>
 							</dcsset:filter>
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>BackColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#A8A8A8</dcscor:value>
 								</dcscor:item>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:use>false</dcscor:use>
 									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Отменена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="false" underline="false" strikeout="true" kind="WindowsFont"/>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -1588,13 +1620,13 @@
 								<dcsset:item xsi:type="dcsset:FilterItemComparison">
 									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
 									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
 								</dcsset:item>
 							</dcsset:filter>
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>BackColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
 								</dcscor:item>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:use>false</dcscor:use>
@@ -1646,120 +1678,6 @@
 							</dcsset:appearance>
 						</dcsset:item>
 						<dcsset:item>
-							<dcsset:selection/>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
-								</dcsset:item>
-							</dcsset:filter>
-							<dcsset:appearance>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>BackColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
-								</dcscor:item>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:use>false</dcscor:use>
-									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-								</dcscor:item>
-							</dcsset:appearance>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:selection/>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
-								</dcsset:item>
-							</dcsset:filter>
-							<dcsset:appearance>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>BackColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
-								</dcscor:item>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:use>false</dcscor:use>
-									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-								</dcscor:item>
-							</dcsset:appearance>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:selection/>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Срочный</dcsset:right>
-								</dcsset:item>
-							</dcsset:filter>
-							<dcsset:appearance>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>TextColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">web:DarkRed</dcscor:value>
-								</dcscor:item>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:use>false</dcscor:use>
-									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="11" bold="false" italic="false" underline="true" strikeout="false" kind="WindowsFont"/>
-								</dcscor:item>
-							</dcsset:appearance>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:selection/>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemComparison">
-									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
-									<dcsset:comparisonType>Equal</dcsset:comparisonType>
-									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Отменена</dcsset:right>
-								</dcsset:item>
-							</dcsset:filter>
-							<dcsset:appearance>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="style:TextFont" bold="false" italic="false" underline="false" strikeout="true" kind="StyleItem"/>
-								</dcscor:item>
-							</dcsset:appearance>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:use>false</dcsset:use>
-							<dcsset:selection/>
-							<dcsset:filter>
-								<dcsset:item xsi:type="dcsset:FilterItemGroup">
-									<dcsset:groupType>OrGroup</dcsset:groupType>
-									<dcsset:item xsi:type="dcsset:FilterItemComparison">
-										<dcsset:left xsi:type="dcscor:Field">ДатаПоследнегоКомментария</dcsset:left>
-										<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
-										<dcsset:right xsi:type="v8:StandardBeginningDate">
-											<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
-										</dcsset:right>
-									</dcsset:item>
-									<dcsset:item xsi:type="dcsset:FilterItemComparison">
-										<dcsset:left xsi:type="dcscor:Field">ДатаИзменения</dcsset:left>
-										<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
-										<dcsset:right xsi:type="v8:StandardBeginningDate">
-											<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
-										</dcsset:right>
-									</dcsset:item>
-								</dcsset:item>
-							</dcsset:filter>
-							<dcsset:appearance>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:use>false</dcscor:use>
-									<dcscor:parameter>TextColor</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Color">#A8A8A8</dcscor:value>
-								</dcscor:item>
-								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-									<dcscor:parameter>Font</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-								</dcscor:item>
-							</dcsset:appearance>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:use>false</dcsset:use>
 							<dcsset:selection>
 								<dcsset:item>
 									<dcsset:field>ПлановаяДатаИсполнения</dcsset:field>
@@ -1807,7 +1725,6 @@
 							</dcsset:appearance>
 						</dcsset:item>
 						<dcsset:item>
-							<dcsset:use>false</dcsset:use>
 							<dcsset:selection>
 								<dcsset:item>
 									<dcsset:field>ПлановаяДатаИсполнения</dcsset:field>
@@ -1846,6 +1763,89 @@
 									<dcscor:use>false</dcscor:use>
 									<dcscor:parameter>TextColor</dcscor:parameter>
 									<dcscor:value xsi:type="v8ui:Color">web:Crimson</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Срочный</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:DarkRed</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" height="11" bold="false" italic="false" underline="true" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
 								</dcscor:item>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:use>false</dcscor:use>
@@ -2482,21 +2482,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьБазуПаролей</Action>
-		</Command>
-		<Command name="кнУдалитьНастройкуСписка" id="15">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Удалить настройку списка</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Кн удалить настройку списка</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>кнУдалитьНастройкуСписка</Action>
 		</Command>
 	</Commands>
 	<Parameters>
