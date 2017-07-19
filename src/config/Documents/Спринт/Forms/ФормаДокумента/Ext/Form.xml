@@ -208,6 +208,12 @@
 												<Event name="TextEditEnd">СоставСпринтаЗадачаОкончаниеВводаТекста</Event>
 											</Events>
 										</InputField>
+										<LabelField name="СоставСпринтаЗадачаНомер" id="210">
+											<DataPath>Объект.СоставСпринта.Задача.Number</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СоставСпринтаЗадачаНомерКонтекстноеМеню" id="211"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаНомерРасширеннаяПодсказка" id="212"/>
+										</LabelField>
 										<LabelField name="СоставСпринтаЗадачаСуть" id="50">
 											<DataPath>Объект.СоставСпринта.Задача.Суть</DataPath>
 											<ReadOnly>true</ReadOnly>
