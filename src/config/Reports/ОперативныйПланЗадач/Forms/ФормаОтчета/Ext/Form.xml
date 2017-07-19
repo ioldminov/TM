@@ -182,6 +182,7 @@
 											<v8:content>Список</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Width>30</Width>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
