@@ -712,7 +712,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Я - ответственный</v8:content>
+									<v8:content>Я - ответственный (Задачи от меня)</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -842,7 +842,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Я - исполнитель</v8:content>
+									<v8:content>Я - исполнитель (Задачи мне)</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
