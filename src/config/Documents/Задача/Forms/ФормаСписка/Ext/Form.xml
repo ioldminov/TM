@@ -306,225 +306,680 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаРабочаяПанельExtendedTooltip" id="186"/>
 			<ChildItems>
-				<Table name="Список" id="1">
-					<SkipOnInput>false</SkipOnInput>
-					<DefaultItem>true</DefaultItem>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<SelectionMode>SingleRow</SelectionMode>
-					<UseAlternationRowColor>true</UseAlternationRowColor>
-					<InitialTreeView>ExpandTopLevel</InitialTreeView>
-					<EnableStartDrag>true</EnableStartDrag>
-					<DataPath>Список</DataPath>
-					<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-					<Font ref="sys:DefaultGUIFont" height="10" kind="WindowsFont"/>
-					<SearchStringLocation>None</SearchStringLocation>
-					<ViewStatusLocation>None</ViewStatusLocation>
-					<SearchControlLocation>None</SearchControlLocation>
-					<AutoRefresh>true</AutoRefresh>
-					<AutoRefreshPeriod>60</AutoRefreshPeriod>
-					<Period>
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-					</Period>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<RestoreCurrentRow>true</RestoreCurrentRow>
-					<TopLevelParent xsi:nil="true"/>
-					<ShowRoot>true</ShowRoot>
-					<AllowRootChoice>false</AllowRootChoice>
-					<UpdateOnDataChange>Auto</UpdateOnDataChange>
-					<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
-					<AutoCommandBar name="СписокКоманднаяПанель" id="3">
-						<Autofill>false</Autofill>
-					</AutoCommandBar>
-					<ExtendedTooltip name="СписокExtendedTooltip" id="187"/>
-					<SearchStringAddition name="СписокSearchString" id="188">
-						<AdditionSource>
-							<Item>Список</Item>
-							<Type>SearchStringRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="СписокSearchStringContextMenu" id="189"/>
-						<ExtendedTooltip name="СписокSearchStringExtendedTooltip" id="190"/>
-					</SearchStringAddition>
-					<ViewStatusAddition name="СписокViewStatus" id="191">
-						<AdditionSource>
-							<Item>Список</Item>
-							<Type>ViewStatusRepresentation</Type>
-						</AdditionSource>
-						<ContextMenu name="СписокViewStatusContextMenu" id="192"/>
-						<ExtendedTooltip name="СписокViewStatusExtendedTooltip" id="193"/>
-					</ViewStatusAddition>
-					<SearchControlAddition name="СписокSearchControl" id="194">
-						<AdditionSource>
-							<Item>Список</Item>
-							<Type>SearchControl</Type>
-						</AdditionSource>
-						<ContextMenu name="СписокSearchControlContextMenu" id="195"/>
-						<ExtendedTooltip name="СписокSearchControlExtendedTooltip" id="196"/>
-					</SearchControlAddition>
-					<Events>
-						<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
-						<Event name="DragStart">СписокНачалоПеретаскивания</Event>
-					</Events>
+				<Pages name="ГруппаСпискиЗадач" id="439">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа списки задач</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа списки задач</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСпискиЗадачРасширеннаяПодсказка" id="440"/>
 					<ChildItems>
-						<LabelField name="Номер" id="6">
-							<DataPath>Список.Number</DataPath>
+						<Page name="ГруппаОбщийСписок" id="441">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Номер</v8:content>
+									<v8:content>Общий список</v8:content>
 								</v8:item>
 							</Title>
-							<Width>5</Width>
-							<ContextMenu name="НомерКонтекстноеМеню" id="7"/>
-							<ExtendedTooltip name="НомерExtendedTooltip" id="197"/>
-						</LabelField>
-						<LabelField name="Порядок" id="57">
-							<DataPath>Список.Порядок</DataPath>
-							<ContextMenu name="ПорядокКонтекстноеМеню" id="58"/>
-							<ExtendedTooltip name="ПорядокExtendedTooltip" id="198"/>
-						</LabelField>
-						<LabelField name="Суть" id="52">
-							<DataPath>Список.Суть</DataPath>
-							<ContextMenu name="СутьКонтекстноеМеню" id="53"/>
-							<ExtendedTooltip name="СутьExtendedTooltip" id="199"/>
-						</LabelField>
-						<InputField name="ДатаГотовностиТЗ" id="92">
-							<DataPath>Список.ДатаГотовностиТЗ</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа общий список</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаОбщийСписокРасширеннаяПодсказка" id="442"/>
+							<ChildItems>
+								<Table name="Список" id="1">
+									<SkipOnInput>false</SkipOnInput>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<SelectionMode>SingleRow</SelectionMode>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<InitialTreeView>ExpandTopLevel</InitialTreeView>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>Список</DataPath>
+									<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+									<Font ref="sys:DefaultGUIFont" height="10" kind="WindowsFont"/>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<AutoRefresh>true</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>true</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+									<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокExtendedTooltip" id="187"/>
+									<SearchStringAddition name="СписокSearchString" id="188">
+										<AdditionSource>
+											<Item>Список</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокSearchStringContextMenu" id="189"/>
+										<ExtendedTooltip name="СписокSearchStringExtendedTooltip" id="190"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокViewStatus" id="191">
+										<AdditionSource>
+											<Item>Список</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокViewStatusContextMenu" id="192"/>
+										<ExtendedTooltip name="СписокViewStatusExtendedTooltip" id="193"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокSearchControl" id="194">
+										<AdditionSource>
+											<Item>Список</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокSearchControlContextMenu" id="195"/>
+										<ExtendedTooltip name="СписокSearchControlExtendedTooltip" id="196"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+										<Event name="DragStart">СписокНачалоПеретаскивания</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="Номер" id="6">
+											<DataPath>Список.Number</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номер</v8:content>
+												</v8:item>
+											</Title>
+											<Width>5</Width>
+											<ContextMenu name="НомерКонтекстноеМеню" id="7"/>
+											<ExtendedTooltip name="НомерExtendedTooltip" id="197"/>
+										</LabelField>
+										<LabelField name="Порядок" id="57">
+											<DataPath>Список.Порядок</DataPath>
+											<ContextMenu name="ПорядокКонтекстноеМеню" id="58"/>
+											<ExtendedTooltip name="ПорядокExtendedTooltip" id="198"/>
+										</LabelField>
+										<LabelField name="Суть" id="52">
+											<DataPath>Список.Суть</DataPath>
+											<ContextMenu name="СутьКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="СутьExtendedTooltip" id="199"/>
+										</LabelField>
+										<InputField name="ДатаГотовностиТЗ" id="92">
+											<DataPath>Список.ДатаГотовностиТЗ</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата ТЗ</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДатаГотовностиТЗКонтекстноеМеню" id="93"/>
+											<ExtendedTooltip name="ДатаГотовностиТЗExtendedTooltip" id="200"/>
+										</InputField>
+										<LabelField name="Срок" id="90">
+											<DataPath>Список.Срок</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Срок, дн</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СрокКонтекстноеМеню" id="91"/>
+											<ExtendedTooltip name="СрокExtendedTooltip" id="201"/>
+										</LabelField>
+										<LabelField name="Автор" id="8">
+											<ContextMenu name="АвторКонтекстноеМеню" id="9"/>
+											<ExtendedTooltip name="АвторExtendedTooltip" id="202"/>
+										</LabelField>
+										<LabelField name="Исполнитель" id="54">
+											<DataPath>Список.Исполнитель</DataPath>
+											<ContextMenu name="ИсполнительКонтекстноеМеню" id="55"/>
+											<ExtendedTooltip name="ИсполнительExtendedTooltip" id="203"/>
+										</LabelField>
+										<LabelField name="Ответственный" id="10">
+											<DataPath>Список.Ответственный</DataPath>
+											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
+											<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="204"/>
+										</LabelField>
+										<LabelField name="ПлановаяДатаИсполнения" id="59">
+											<DataPath>Список.ПлановаяДатаИсполнения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата план</v8:content>
+												</v8:item>
+											</Title>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ДФ=dd.MM.yyyy</v8:content>
+												</v8:item>
+											</Format>
+											<ContextMenu name="ПлановаяДатаИсполненияКонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="ПлановаяДатаИсполненияExtendedTooltip" id="205"/>
+										</LabelField>
+										<LabelField name="Дата" id="4">
+											<DataPath>Список.Date</DataPath>
+											<DefaultItem>true</DefaultItem>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата</v8:content>
+												</v8:item>
+											</Title>
+											<Width>1</Width>
+											<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+											<ExtendedTooltip name="ДатаExtendedTooltip" id="206"/>
+										</LabelField>
+										<LabelField name="Проект" id="49">
+											<DataPath>Список.Проект</DataPath>
+											<Width>10</Width>
+											<ContextMenu name="ПроектКонтекстноеМеню" id="50"/>
+											<ExtendedTooltip name="ПроектExtendedTooltip" id="207"/>
+										</LabelField>
+										<LabelField name="Статус" id="33">
+											<DataPath>Список.Статус</DataPath>
+											<ContextMenu name="СтатусКонтекстноеМеню" id="34"/>
+											<ExtendedTooltip name="СтатусExtendedTooltip" id="208"/>
+										</LabelField>
+										<LabelField name="ДатаИзменения" id="45">
+											<DataPath>Список.ДатаИзменения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Изменена</v8:content>
+												</v8:item>
+											</Title>
+											<Width>18</Width>
+											<ContextMenu name="ДатаИзмененияКонтекстноеМеню" id="46"/>
+											<ExtendedTooltip name="ДатаИзмененияExtendedTooltip" id="209"/>
+										</LabelField>
+										<LabelField name="ДатаПоследнегоКомментария" id="79">
+											<DataPath>Список.ДатаПоследнегоКомментария</DataPath>
+											<ContextMenu name="ДатаПоследнегоКомментарияКонтекстноеМеню" id="80"/>
+											<ExtendedTooltip name="ДатаПоследнегоКомментарияExtendedTooltip" id="210"/>
+										</LabelField>
+										<LabelField name="ДатаЗакрытия" id="12">
+											<DataPath>Список.ДатаЗакрытия</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Закрыта</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="13"/>
+											<ExtendedTooltip name="ДатаЗакрытияExtendedTooltip" id="211"/>
+										</LabelField>
+										<LabelField name="СписокПодробности" id="31">
+											<Width>1</Width>
+											<Height>1</Height>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<ContextMenu name="СписокПодробностиКонтекстноеМеню" id="32"/>
+											<ExtendedTooltip name="СписокПодробностиExtendedTooltip" id="214"/>
+										</LabelField>
+										<LabelField name="РелизКонфигурации" id="85">
+											<DataPath>Список.РелизКонфигурации</DataPath>
+											<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="86"/>
+											<ExtendedTooltip name="РелизКонфигурацииExtendedTooltip" id="215"/>
+										</LabelField>
+										<LabelField name="ОткликОт" id="385">
+											<DataPath>Список.ОткликОт</DataPath>
+											<ContextMenu name="ОткликОтКонтекстноеМеню" id="386"/>
+											<ExtendedTooltip name="ОткликОтРасширеннаяПодсказка" id="387"/>
+										</LabelField>
+										<LabelField name="ОписаниеДляРелизаСп" id="87">
+											<DataPath>~Список.ОписаниеРешения</DataPath>
+											<Height>1</Height>
+											<ContextMenu name="ОписаниеДляРелизаСпКонтекстноеМеню" id="88"/>
+											<ExtendedTooltip name="ОписаниеДляРелизаСпРасширеннаяПодсказка" id="216"/>
+										</LabelField>
+										<LabelField name="СостояниеЗадачи" id="424">
+											<DataPath>Список.СостояниеЗадачи</DataPath>
+											<ContextMenu name="СостояниеЗадачиКонтекстноеМеню" id="425"/>
+											<ExtendedTooltip name="СостояниеЗадачиРасширеннаяПодсказка" id="426"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаЗадачиНуженОткликОтМеня" id="443">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дата ТЗ</v8:content>
+									<v8:content>Нужен отклик от меня</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ДатаГотовностиТЗКонтекстноеМеню" id="93"/>
-							<ExtendedTooltip name="ДатаГотовностиТЗExtendedTooltip" id="200"/>
-						</InputField>
-						<LabelField name="Срок" id="90">
-							<DataPath>Список.Срок</DataPath>
+							<TitleFont ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа задачи нужен отклик от меня</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаЗадачиНуженОткликОтМеняРасширеннаяПодсказка" id="444"/>
+							<ChildItems>
+								<Table name="СписокНуженОткликТекущийПользователь" id="445">
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокНуженОткликТекущийПользователь</DataPath>
+									<RowPictureDataPath>СписокНуженОткликТекущийПользователь.DefaultPicture</RowPictureDataPath>
+									<Font ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<ContextMenu name="СписокНуженОткликТекущийПользовательКонтекстноеМеню" id="446"/>
+									<AutoCommandBar name="СписокНуженОткликТекущийПользовательКоманднаяПанель" id="447">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокНуженОткликТекущийПользовательРасширеннаяПодсказка" id="448"/>
+									<SearchStringAddition name="СписокНуженОткликТекущийПользовательСтрокаПоиска" id="449">
+										<AdditionSource>
+											<Item>СписокНуженОткликТекущийПользователь</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНуженОткликТекущийПользовательСтрокаПоискаКонтекстноеМеню" id="450"/>
+										<ExtendedTooltip name="СписокНуженОткликТекущийПользовательСтрокаПоискаРасширеннаяПодсказка" id="451"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокНуженОткликТекущийПользовательСостояниеПросмотра" id="452">
+										<AdditionSource>
+											<Item>СписокНуженОткликТекущийПользователь</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНуженОткликТекущийПользовательСостояниеПросмотраКонтекстноеМеню" id="453"/>
+										<ExtendedTooltip name="СписокНуженОткликТекущийПользовательСостояниеПросмотраРасширеннаяПодсказка" id="454"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокНуженОткликТекущийПользовательУправлениеПоиском" id="455">
+										<AdditionSource>
+											<Item>СписокНуженОткликТекущийПользователь</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНуженОткликТекущийПользовательУправлениеПоискомКонтекстноеМеню" id="456"/>
+										<ExtendedTooltip name="СписокНуженОткликТекущийПользовательУправлениеПоискомРасширеннаяПодсказка" id="457"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="RefreshRequestProcessing">СписокНуженОткликТекущийПользовательОбработкаЗапросаОбновления</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="СписокНуженОткликТекущийПользовательНомер" id="464">
+											<DataPath>СписокНуженОткликТекущийПользователь.Number</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательНомерКонтекстноеМеню" id="465"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательНомерРасширеннаяПодсказка" id="466"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательСуть" id="521">
+											<DataPath>СписокНуженОткликТекущийПользователь.Суть</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательСутьКонтекстноеМеню" id="522"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательСутьРасширеннаяПодсказка" id="523"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательДатаГотовностиТЗ" id="476">
+											<DataPath>СписокНуженОткликТекущийПользователь.ДатаГотовностиТЗ</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательДатаГотовностиТЗКонтекстноеМеню" id="477"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательДатаГотовностиТЗРасширеннаяПодсказка" id="478"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательСрок" id="515">
+											<DataPath>СписокНуженОткликТекущийПользователь.Срок</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательСрокКонтекстноеМеню" id="516"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательСрокРасширеннаяПодсказка" id="517"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательАвтор" id="473">
+											<DataPath>СписокНуженОткликТекущийПользователь.Автор</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательАвторКонтекстноеМеню" id="474"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательАвторРасширеннаяПодсказка" id="475"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательИсполнитель" id="485">
+											<DataPath>СписокНуженОткликТекущийПользователь.Исполнитель</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательИсполнительКонтекстноеМеню" id="486"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательИсполнительРасширеннаяПодсказка" id="487"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательОтветственный" id="494">
+											<DataPath>СписокНуженОткликТекущийПользователь.Ответственный</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательОтветственныйКонтекстноеМеню" id="495"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательОтветственныйРасширеннаяПодсказка" id="496"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательПлановаяДатаИсполнения" id="500">
+											<DataPath>СписокНуженОткликТекущийПользователь.ПлановаяДатаИсполнения</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательПлановаяДатаИсполненияКонтекстноеМеню" id="501"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательПлановаяДатаИсполненияРасширеннаяПодсказка" id="502"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательДата" id="458">
+											<DataPath>СписокНуженОткликТекущийПользователь.Date</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательДатаКонтекстноеМеню" id="459"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательДатаРасширеннаяПодсказка" id="460"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательПроект" id="506">
+											<DataPath>СписокНуженОткликТекущийПользователь.Проект</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательПроектКонтекстноеМеню" id="507"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательПроектРасширеннаяПодсказка" id="508"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательСтатус" id="518">
+											<DataPath>СписокНуженОткликТекущийПользователь.Статус</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательСтатусКонтекстноеМеню" id="519"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательСтатусРасширеннаяПодсказка" id="520"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательДатаИзменения" id="482">
+											<DataPath>СписокНуженОткликТекущийПользователь.ДатаИзменения</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательДатаИзмененияКонтекстноеМеню" id="483"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательДатаИзмененияРасширеннаяПодсказка" id="484"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательДатаЗакрытия" id="479">
+											<DataPath>СписокНуженОткликТекущийПользователь.ДатаЗакрытия</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательДатаЗакрытияКонтекстноеМеню" id="480"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательДатаЗакрытияРасширеннаяПодсказка" id="481"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательМодуль" id="488">
+											<DataPath>СписокНуженОткликТекущийПользователь.Модуль</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательМодульКонтекстноеМеню" id="489"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательМодульРасширеннаяПодсказка" id="490"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательОткликОт" id="497">
+											<DataPath>СписокНуженОткликТекущийПользователь.ОткликОт</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательОткликОтКонтекстноеМеню" id="498"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательОткликОтРасширеннаяПодсказка" id="499"/>
+										</LabelField>
+										<LabelField name="СписокНуженОткликТекущийПользовательРелизКонфигурации" id="509">
+											<DataPath>СписокНуженОткликТекущийПользователь.РелизКонфигурации</DataPath>
+											<ContextMenu name="СписокНуженОткликТекущийПользовательРелизКонфигурацииКонтекстноеМеню" id="510"/>
+											<ExtendedTooltip name="СписокНуженОткликТекущийПользовательРелизКонфигурацииРасширеннаяПодсказка" id="511"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаОтветственныйТекущийПользователь" id="524">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Срок, дн</v8:content>
+									<v8:content>Я - ответственный</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="СрокКонтекстноеМеню" id="91"/>
-							<ExtendedTooltip name="СрокExtendedTooltip" id="201"/>
-						</LabelField>
-						<LabelField name="Автор" id="8">
-							<ContextMenu name="АвторКонтекстноеМеню" id="9"/>
-							<ExtendedTooltip name="АвторExtendedTooltip" id="202"/>
-						</LabelField>
-						<LabelField name="Исполнитель" id="54">
-							<DataPath>Список.Исполнитель</DataPath>
-							<ContextMenu name="ИсполнительКонтекстноеМеню" id="55"/>
-							<ExtendedTooltip name="ИсполнительExtendedTooltip" id="203"/>
-						</LabelField>
-						<LabelField name="Ответственный" id="10">
-							<DataPath>Список.Ответственный</DataPath>
-							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
-							<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="204"/>
-						</LabelField>
-						<LabelField name="ПлановаяДатаИсполнения" id="59">
-							<DataPath>Список.ПлановаяДатаИсполнения</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ответственный текущий пользователь</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаОтветственныйТекущийПользовательРасширеннаяПодсказка" id="525"/>
+							<ChildItems>
+								<Table name="СписокОтветственныйТекущийПользователь" id="526">
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокОтветственныйТекущийПользователь</DataPath>
+									<RowPictureDataPath>СписокОтветственныйТекущийПользователь.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<ContextMenu name="СписокОтветственныйТекущийПользовательКонтекстноеМеню" id="527"/>
+									<AutoCommandBar name="СписокОтветственныйТекущийПользовательКоманднаяПанель" id="528"/>
+									<ExtendedTooltip name="СписокОтветственныйТекущийПользовательРасширеннаяПодсказка" id="529"/>
+									<SearchStringAddition name="СписокОтветственныйТекущийПользовательСтрокаПоиска" id="530">
+										<AdditionSource>
+											<Item>СписокОтветственныйТекущийПользователь</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОтветственныйТекущийПользовательСтрокаПоискаКонтекстноеМеню" id="531"/>
+										<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСтрокаПоискаРасширеннаяПодсказка" id="532"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокОтветственныйТекущийПользовательСостояниеПросмотра" id="533">
+										<AdditionSource>
+											<Item>СписокОтветственныйТекущийПользователь</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОтветственныйТекущийПользовательСостояниеПросмотраКонтекстноеМеню" id="534"/>
+										<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСостояниеПросмотраРасширеннаяПодсказка" id="535"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокОтветственныйТекущийПользовательУправлениеПоиском" id="536">
+										<AdditionSource>
+											<Item>СписокОтветственныйТекущийПользователь</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокОтветственныйТекущийПользовательУправлениеПоискомКонтекстноеМеню" id="537"/>
+										<ExtendedTooltip name="СписокОтветственныйТекущийПользовательУправлениеПоискомРасширеннаяПодсказка" id="538"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="СписокОтветственныйТекущийПользовательНомер" id="542">
+											<DataPath>СписокОтветственныйТекущийПользователь.Number</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательНомерКонтекстноеМеню" id="543"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательНомерРасширеннаяПодсказка" id="544"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательСуть" id="578">
+											<DataPath>СписокОтветственныйТекущийПользователь.Суть</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательСутьКонтекстноеМеню" id="579"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСутьРасширеннаяПодсказка" id="580"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательДатаГотовностиТЗ" id="551">
+											<DataPath>СписокОтветственныйТекущийПользователь.ДатаГотовностиТЗ</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательДатаГотовностиТЗКонтекстноеМеню" id="552"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательДатаГотовностиТЗРасширеннаяПодсказка" id="553"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательСрок" id="572">
+											<DataPath>СписокОтветственныйТекущийПользователь.Срок</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательСрокКонтекстноеМеню" id="573"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСрокРасширеннаяПодсказка" id="574"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательАвтор" id="548">
+											<DataPath>СписокОтветственныйТекущийПользователь.Автор</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательАвторКонтекстноеМеню" id="549"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательАвторРасширеннаяПодсказка" id="550"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательИсполнитель" id="554">
+											<DataPath>СписокОтветственныйТекущийПользователь.Исполнитель</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательИсполнительКонтекстноеМеню" id="555"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательИсполнительРасширеннаяПодсказка" id="556"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательОтветственный" id="560">
+											<DataPath>СписокОтветственныйТекущийПользователь.Ответственный</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательОтветственныйКонтекстноеМеню" id="561"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательОтветственныйРасширеннаяПодсказка" id="562"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательПлановаяДатаИсполнения" id="563">
+											<DataPath>СписокОтветственныйТекущийПользователь.ПлановаяДатаИсполнения</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательПлановаяДатаИсполненияКонтекстноеМеню" id="564"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательПлановаяДатаИсполненияРасширеннаяПодсказка" id="565"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательДата" id="539">
+											<DataPath>СписокОтветственныйТекущийПользователь.Date</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательДатаКонтекстноеМеню" id="540"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательДатаРасширеннаяПодсказка" id="541"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательПроект" id="566">
+											<DataPath>СписокОтветственныйТекущийПользователь.Проект</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательПроектКонтекстноеМеню" id="567"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательПроектРасширеннаяПодсказка" id="568"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательМодуль" id="557">
+											<DataPath>СписокОтветственныйТекущийПользователь.Модуль</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательМодульКонтекстноеМеню" id="558"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательМодульРасширеннаяПодсказка" id="559"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательСостояниеЗадачи" id="569">
+											<DataPath>СписокОтветственныйТекущийПользователь.СостояниеЗадачи</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательСостояниеЗадачиКонтекстноеМеню" id="570"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСостояниеЗадачиРасширеннаяПодсказка" id="571"/>
+										</LabelField>
+										<LabelField name="СписокОтветственныйТекущийПользовательСтатус" id="575">
+											<DataPath>СписокОтветственныйТекущийПользователь.Статус</DataPath>
+											<ContextMenu name="СписокОтветственныйТекущийПользовательСтатусКонтекстноеМеню" id="576"/>
+											<ExtendedTooltip name="СписокОтветственныйТекущийПользовательСтатусРасширеннаяПодсказка" id="577"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаИсполнительТекущийПользователь" id="581">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Дата план</v8:content>
+									<v8:content>Я - исполнитель</v8:content>
 								</v8:item>
 							</Title>
-							<Format>
+							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>ДФ=dd.MM.yyyy</v8:content>
+									<v8:content>Группа исполнитель текущий пользователь</v8:content>
 								</v8:item>
-							</Format>
-							<ContextMenu name="ПлановаяДатаИсполненияКонтекстноеМеню" id="60"/>
-							<ExtendedTooltip name="ПлановаяДатаИсполненияExtendedTooltip" id="205"/>
-						</LabelField>
-						<LabelField name="Дата" id="4">
-							<DataPath>Список.Date</DataPath>
-							<DefaultItem>true</DefaultItem>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дата</v8:content>
-								</v8:item>
-							</Title>
-							<Width>1</Width>
-							<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
-							<ExtendedTooltip name="ДатаExtendedTooltip" id="206"/>
-						</LabelField>
-						<LabelField name="Проект" id="49">
-							<DataPath>Список.Проект</DataPath>
-							<Width>10</Width>
-							<ContextMenu name="ПроектКонтекстноеМеню" id="50"/>
-							<ExtendedTooltip name="ПроектExtendedTooltip" id="207"/>
-						</LabelField>
-						<LabelField name="Статус" id="33">
-							<DataPath>Список.Статус</DataPath>
-							<ContextMenu name="СтатусКонтекстноеМеню" id="34"/>
-							<ExtendedTooltip name="СтатусExtendedTooltip" id="208"/>
-						</LabelField>
-						<LabelField name="ДатаИзменения" id="45">
-							<DataPath>Список.ДатаИзменения</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Изменена</v8:content>
-								</v8:item>
-							</Title>
-							<Width>18</Width>
-							<ContextMenu name="ДатаИзмененияКонтекстноеМеню" id="46"/>
-							<ExtendedTooltip name="ДатаИзмененияExtendedTooltip" id="209"/>
-						</LabelField>
-						<LabelField name="ДатаПоследнегоКомментария" id="79">
-							<DataPath>Список.ДатаПоследнегоКомментария</DataPath>
-							<ContextMenu name="ДатаПоследнегоКомментарияКонтекстноеМеню" id="80"/>
-							<ExtendedTooltip name="ДатаПоследнегоКомментарияExtendedTooltip" id="210"/>
-						</LabelField>
-						<LabelField name="ДатаЗакрытия" id="12">
-							<DataPath>Список.ДатаЗакрытия</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Закрыта</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ДатаЗакрытияКонтекстноеМеню" id="13"/>
-							<ExtendedTooltip name="ДатаЗакрытияExtendedTooltip" id="211"/>
-						</LabelField>
-						<LabelField name="СписокПодробности" id="31">
-							<Width>1</Width>
-							<Height>1</Height>
-							<HorizontalStretch>false</HorizontalStretch>
-							<VerticalStretch>false</VerticalStretch>
-							<ContextMenu name="СписокПодробностиКонтекстноеМеню" id="32"/>
-							<ExtendedTooltip name="СписокПодробностиExtendedTooltip" id="214"/>
-						</LabelField>
-						<LabelField name="РелизКонфигурации" id="85">
-							<DataPath>Список.РелизКонфигурации</DataPath>
-							<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="86"/>
-							<ExtendedTooltip name="РелизКонфигурацииExtendedTooltip" id="215"/>
-						</LabelField>
-						<LabelField name="ОткликОт" id="385">
-							<DataPath>Список.ОткликОт</DataPath>
-							<ContextMenu name="ОткликОтКонтекстноеМеню" id="386"/>
-							<ExtendedTooltip name="ОткликОтРасширеннаяПодсказка" id="387"/>
-						</LabelField>
-						<LabelField name="ОписаниеДляРелизаСп" id="87">
-							<DataPath>~Список.ОписаниеРешения</DataPath>
-							<Height>1</Height>
-							<ContextMenu name="ОписаниеДляРелизаСпКонтекстноеМеню" id="88"/>
-							<ExtendedTooltip name="ОписаниеДляРелизаСпРасширеннаяПодсказка" id="216"/>
-						</LabelField>
-						<LabelField name="СостояниеЗадачи" id="424">
-							<DataPath>Список.СостояниеЗадачи</DataPath>
-							<ContextMenu name="СостояниеЗадачиКонтекстноеМеню" id="425"/>
-							<ExtendedTooltip name="СостояниеЗадачиРасширеннаяПодсказка" id="426"/>
-						</LabelField>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаИсполнительТекущийПользовательРасширеннаяПодсказка" id="582"/>
+							<ChildItems>
+								<Table name="СписокИсполнительТекущийПользователь" id="583">
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокИсполнительТекущийПользователь</DataPath>
+									<RowPictureDataPath>СписокИсполнительТекущийПользователь.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<ContextMenu name="СписокИсполнительТекущийПользовательКонтекстноеМеню" id="584"/>
+									<AutoCommandBar name="СписокИсполнительТекущийПользовательКоманднаяПанель" id="585"/>
+									<ExtendedTooltip name="СписокИсполнительТекущийПользовательРасширеннаяПодсказка" id="586"/>
+									<SearchStringAddition name="СписокИсполнительТекущийПользовательСтрокаПоиска" id="587">
+										<AdditionSource>
+											<Item>СписокИсполнительТекущийПользователь</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокИсполнительТекущийПользовательСтрокаПоискаКонтекстноеМеню" id="588"/>
+										<ExtendedTooltip name="СписокИсполнительТекущийПользовательСтрокаПоискаРасширеннаяПодсказка" id="589"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокИсполнительТекущийПользовательСостояниеПросмотра" id="590">
+										<AdditionSource>
+											<Item>СписокИсполнительТекущийПользователь</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокИсполнительТекущийПользовательСостояниеПросмотраКонтекстноеМеню" id="591"/>
+										<ExtendedTooltip name="СписокИсполнительТекущийПользовательСостояниеПросмотраРасширеннаяПодсказка" id="592"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокИсполнительТекущийПользовательУправлениеПоиском" id="593">
+										<AdditionSource>
+											<Item>СписокИсполнительТекущийПользователь</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокИсполнительТекущийПользовательУправлениеПоискомКонтекстноеМеню" id="594"/>
+										<ExtendedTooltip name="СписокИсполнительТекущийПользовательУправлениеПоискомРасширеннаяПодсказка" id="595"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="СписокИсполнительТекущийПользовательДата" id="596">
+											<DataPath>СписокИсполнительТекущийПользователь.Date</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательДатаКонтекстноеМеню" id="597"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательДатаРасширеннаяПодсказка" id="598"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательНомер" id="599">
+											<DataPath>СписокИсполнительТекущийПользователь.Number</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательНомерКонтекстноеМеню" id="600"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательНомерРасширеннаяПодсказка" id="601"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСсылка" id="602">
+											<DataPath>СписокИсполнительТекущийПользователь.Ref</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСсылкаКонтекстноеМеню" id="603"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСсылкаРасширеннаяПодсказка" id="604"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательАвтор" id="605">
+											<DataPath>СписокИсполнительТекущийПользователь.Автор</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательАвторКонтекстноеМеню" id="606"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательАвторРасширеннаяПодсказка" id="607"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательДатаГотовностиТЗ" id="608">
+											<DataPath>СписокИсполнительТекущийПользователь.ДатаГотовностиТЗ</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательДатаГотовностиТЗКонтекстноеМеню" id="609"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательДатаГотовностиТЗРасширеннаяПодсказка" id="610"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательИсполнитель" id="611">
+											<DataPath>СписокИсполнительТекущийПользователь.Исполнитель</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательИсполнительКонтекстноеМеню" id="612"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательИсполнительРасширеннаяПодсказка" id="613"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательМодуль" id="614">
+											<DataPath>СписокИсполнительТекущийПользователь.Модуль</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательМодульКонтекстноеМеню" id="615"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательМодульРасширеннаяПодсказка" id="616"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательОтветственный" id="617">
+											<DataPath>СписокИсполнительТекущийПользователь.Ответственный</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательОтветственныйКонтекстноеМеню" id="618"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательОтветственныйРасширеннаяПодсказка" id="619"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательПлановаяДатаИсполнения" id="620">
+											<DataPath>СписокИсполнительТекущийПользователь.ПлановаяДатаИсполнения</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательПлановаяДатаИсполненияКонтекстноеМеню" id="621"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательПлановаяДатаИсполненияРасширеннаяПодсказка" id="622"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательПроект" id="623">
+											<DataPath>СписокИсполнительТекущийПользователь.Проект</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательПроектКонтекстноеМеню" id="624"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательПроектРасширеннаяПодсказка" id="625"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСостояниеЗадачи" id="626">
+											<DataPath>СписокИсполнительТекущийПользователь.СостояниеЗадачи</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСостояниеЗадачиКонтекстноеМеню" id="627"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСостояниеЗадачиРасширеннаяПодсказка" id="628"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСрок" id="629">
+											<DataPath>СписокИсполнительТекущийПользователь.Срок</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСрокКонтекстноеМеню" id="630"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСрокРасширеннаяПодсказка" id="631"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСтатус" id="632">
+											<DataPath>СписокИсполнительТекущийПользователь.Статус</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСтатусКонтекстноеМеню" id="633"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСтатусРасширеннаяПодсказка" id="634"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСуть" id="635">
+											<DataPath>СписокИсполнительТекущийПользователь.Суть</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСутьКонтекстноеМеню" id="636"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСутьРасширеннаяПодсказка" id="637"/>
+										</LabelField>
+										<LabelField name="СписокИсполнительТекущийПользовательСтандартнаяКартинка" id="638">
+											<DataPath>СписокИсполнительТекущийПользователь.DefaultPicture</DataPath>
+											<ContextMenu name="СписокИсполнительТекущийПользовательСтандартнаяКартинкаКонтекстноеМеню" id="639"/>
+											<ExtendedTooltip name="СписокИсполнительТекущийПользовательСтандартнаяКартинкаРасширеннаяПодсказка" id="640"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
 					</ChildItems>
-				</Table>
+				</Pages>
 				<Pages name="ГруппаНовостиИсторияКомментарии" id="140">
 					<UserVisible>
 						<xr:Common>true</xr:Common>
@@ -2284,6 +2739,463 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="СписокНуженОткликТекущийПользователь" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список нужен отклик текущий пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументЗадача.Ссылка,
+	ДокументЗадача.Суть,
+	ДокументЗадача.ПометкаУдаления,
+	ДокументЗадача.Номер,
+	ДокументЗадача.Дата,
+	ДокументЗадача.Проведен,
+	ДокументЗадача.Автор,
+	ДокументЗадача.Подробности,
+	ДокументЗадача.ДатаЗакрытия,
+	ДокументЗадача.Ответственный,
+	ДокументЗадача.ОписаниеДляРелиза,
+	ДокументЗадача.Статус,
+	ДокументЗадача.МоментВремени,
+	ДокументЗадача.ДатаИзменения,
+	ДокументЗадача.Проект,
+	ДокументЗадача.СостояниеЗадачи,
+	ДокументЗадача.Исполнитель,
+	ДокументЗадача.Модуль,
+	ДокументЗадача.ПлановаяДатаИсполнения,
+	ДокументЗадача.РелизКонфигурации,
+	ДокументЗадача.Срок,
+	ДокументЗадача.ДатаГотовностиТЗ,
+	ВЫБОР
+		КОГДА ДокументЗадача.СостояниеЗадачи = ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.НуженОтклик)
+			ТОГДА ДокументЗадача.ИсполнительОтклик
+		ИНАЧЕ ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+	КОНЕЦ КАК ОткликОт
+ИЗ
+	Документ.Задача КАК ДокументЗадача
+ГДЕ
+	ДокументЗадача.СостояниеЗадачи = ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.НуженОтклик)
+	И ДокументЗадача.ИсполнительОтклик = &amp;Пользователь</QueryText>
+				<MainTable>Document.Задача</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНуженОткликБледный</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокОтветственныйТекущийПользователь" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список ответственный текущий пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументЗадача.Ссылка,
+	ДокументЗадача.Номер,
+	ДокументЗадача.Суть,
+	ДокументЗадача.ДатаГотовностиТЗ,
+	ДокументЗадача.Срок,
+	ДокументЗадача.Автор,
+	ДокументЗадача.Ответственный,
+	ДокументЗадача.Исполнитель,
+	ДокументЗадача.ПлановаяДатаИсполнения,
+	ДокументЗадача.Дата,
+	ДокументЗадача.Проект,
+	ДокументЗадача.Модуль,
+	ДокументЗадача.СостояниеЗадачи,
+	ДокументЗадача.Статус
+ИЗ
+	Документ.Задача КАК ДокументЗадача
+ГДЕ
+	ДокументЗадача.СостояниеЗадачи &lt;&gt; ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.Закрыта)
+	И ДокументЗадача.СостояниеЗадачи &lt;&gt; ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.Приостановлена)
+	И ДокументЗадача.Ответственный = &amp;Пользователь</QueryText>
+				<MainTable>Document.Задача</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.НуженОтклик</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНуженОткликБледный</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Отработана</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветОтработана</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Срочный</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FormBackColor</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:DarkRed</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Отменена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FormBackColor</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="false" underline="false" strikeout="true" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокИсполнительТекущийПользователь" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список исполнитель текущий пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументЗадача.Ссылка,
+	ДокументЗадача.Номер,
+	ДокументЗадача.Суть,
+	ДокументЗадача.ДатаГотовностиТЗ,
+	ДокументЗадача.Срок,
+	ДокументЗадача.Автор,
+	ДокументЗадача.Ответственный,
+	ДокументЗадача.Исполнитель,
+	ДокументЗадача.ПлановаяДатаИсполнения,
+	ДокументЗадача.Дата,
+	ДокументЗадача.Проект,
+	ДокументЗадача.Модуль,
+	ДокументЗадача.СостояниеЗадачи,
+	ДокументЗадача.Статус
+ИЗ
+	Документ.Задача КАК ДокументЗадача
+ГДЕ
+	ДокументЗадача.СостояниеЗадачи &lt;&gt; ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.Закрыта)
+	И ДокументЗадача.СостояниеЗадачи &lt;&gt; ЗНАЧЕНИЕ(Справочник.СостоянияЗадач.Приостановлена)
+	И ДокументЗадача.Исполнитель = &amp;Пользователь</QueryText>
+				<MainTable>Document.Задача</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.НуженОтклик</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНуженОткликБледный</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Отработана</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветОтработана</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Срочный</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FormBackColor</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:DarkRed</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусЗадачи.Отменена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FormBackColor</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="false" underline="false" strikeout="true" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
 		</Attribute>
 	</Attributes>
 	<Commands>
