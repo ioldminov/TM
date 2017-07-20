@@ -253,6 +253,20 @@
 												<Event name="OnChange">СоставСпринтаПредполагаемаяДлительностьПриИзменении</Event>
 											</Events>
 										</InputField>
+										<LabelField name="СоставСпринтаЗадачаСрок" id="213">
+											<DataPath>Объект.СоставСпринта.Задача.Срок</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Срок вып-я</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<BackColor>web:Gainsboro</BackColor>
+											<ContextMenu name="СоставСпринтаЗадачаСрокКонтекстноеМеню" id="214"/>
+											<ExtendedTooltip name="СоставСпринтаЗадачаСрокРасширеннаяПодсказка" id="215"/>
+										</LabelField>
 									</ChildItems>
 								</Table>
 							</ChildItems>
