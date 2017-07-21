@@ -783,6 +783,20 @@
 												<Event name="OnChange">ФД_ПодробностиПриИзменении</Event>
 											</Events>
 										</FormattedDocumentField>
+										<LabelDecoration name="Декорация1" id="389">
+											<HorizontalStretch>true</HorizontalStretch>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Символика:
+'+' добавленный функционал; 
+F - исправленный функционал (fix); 
+U - модернизировано/изменено (update);</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="390"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="391"/>
+										</LabelDecoration>
 									</ChildItems>
 								</Page>
 								<Page name="СтраницаОписаниеРелиза" id="314">
@@ -869,6 +883,10 @@
 																</v8:item>
 															</Title>
 															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<DropListButton>false</DropListButton>
+															<ChoiceButton>true</ChoiceButton>
+															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+															<OpenButton>false</OpenButton>
 															<TextEdit>false</TextEdit>
 															<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="124"/>
 															<ExtendedTooltip name="РелизКонфигурацииРасширеннаяПодсказка" id="245">
@@ -925,20 +943,6 @@
 												<Event name="OnChange">ФД_ОписаниеДляРелизаПриИзменении</Event>
 											</Events>
 										</FormattedDocumentField>
-										<LabelDecoration name="Декорация1" id="389">
-											<HorizontalStretch>true</HorizontalStretch>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Символика:
-'+' добавленный функционал; 
-F - исправленный функционал (fix); 
-U - модернизировано/изменено (update);</v8:content>
-												</v8:item>
-											</Title>
-											<ContextMenu name="Декорация1КонтекстноеМеню" id="390"/>
-											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="391"/>
-										</LabelDecoration>
 									</ChildItems>
 								</Page>
 								<Page name="СтраницаСутьРешенияЗадачи" id="316">
