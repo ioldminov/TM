@@ -494,6 +494,7 @@
 					<Representation>None</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
 					<ExtendedTooltip name="ПрочиеПараметрыРасширеннаяПодсказка" id="176"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаСроки" id="375">
@@ -520,15 +521,14 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Срок,дн</v8:content>
+											<v8:content>Срок, дн</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Left</TitleLocation>
 									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
-									<Width>5</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
 									<MultiLine>false</MultiLine>
-									<ChoiceButton>true</ChoiceButton>
 									<ContextMenu name="СрокКонтекстноеМеню" id="129"/>
 									<ExtendedTooltip name="СрокРасширеннаяПодсказка" id="178">
 										<Title formatted="false">
@@ -541,6 +541,7 @@
 								</InputField>
 								<InputField name="ДатаГотовностиТЗ" id="131">
 									<DataPath>Объект.ДатаГотовностиТЗ</DataPath>
+									<Visible>false</Visible>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2468,6 +2469,7 @@ U - модернизировано/изменено (update);</v8:content>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<Index>3</Index>
+				<DefaultVisible>false</DefaultVisible>
 				<Visible>
 					<xr:Common>false</xr:Common>
 				</Visible>
@@ -2477,6 +2479,7 @@ U - модернизировано/изменено (update);</v8:content>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<Index>4</Index>
+				<DefaultVisible>false</DefaultVisible>
 				<Visible>
 					<xr:Common>false</xr:Common>
 				</Visible>
@@ -2486,6 +2489,22 @@ U - модернизировано/изменено (update);</v8:content>
 				<Type>Auto</Type>
 				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
 				<Index>5</Index>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.ПланВыполненияЗадач.StandardCommand.OpenByValue.Задача</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>FilterCriterion.Задачи.StandardCommand.OpenByValue</Command>
+				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 				<Visible>
 					<xr:Common>false</xr:Common>
