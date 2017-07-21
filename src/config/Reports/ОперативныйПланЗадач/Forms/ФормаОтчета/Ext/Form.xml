@@ -840,6 +840,7 @@
 					<v8:content>Назначить задачу исполнителю</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Alt+R</Shortcut>
 			<Action>НазначитьЗадачуИсполнителю</Action>
 		</Command>
 	</Commands>
