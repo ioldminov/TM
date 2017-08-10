@@ -386,8 +386,8 @@
 		</Metadata>
 		<Metadata name="Document.Статья.Form.ВыборГиперссылки" id="3b092537-0e98-44cd-8f59-3ff0475d5f5f" configVersion="422aa5cdfeab64459f64ba5cbf9d4f0000000000"/>
 		<Metadata name="Document.Статья.Form.ВыборГиперссылки.Form" id="3b092537-0e98-44cd-8f59-3ff0475d5f5f.0" configVersion="c15c1ff655eb7f4dbc46b3531c4137c900000000"/>
-		<Metadata name="Document.Статья.Form.ФормаДокумента" id="29b11ec1-b380-49b3-9b15-f62d9ac258f3" configVersion="aefb673e941b654ca550f1d1a48a8d4700000000"/>
-		<Metadata name="Document.Статья.Form.ФормаДокумента.Form" id="29b11ec1-b380-49b3-9b15-f62d9ac258f3.0" configVersion="49039387ec571f4bac3b28b14cccf1a000000000"/>
+		<Metadata name="Document.Статья.Form.ФормаДокумента" id="29b11ec1-b380-49b3-9b15-f62d9ac258f3" configVersion="b84b968122e4e7419c657ce4558933cd00000000"/>
+		<Metadata name="Document.Статья.Form.ФормаДокумента.Form" id="29b11ec1-b380-49b3-9b15-f62d9ac258f3.0" configVersion="81e52d139db4bc46b628a656837e85e100000000"/>
 		<Metadata name="Document.Статья.ObjectModule" id="6569cc10-d72f-4c3c-b214-a6e8c17d8e84.0" configVersion="63a4060fa56acb4ba7b722890b22fe8900000000"/>
 		<Metadata name="Enum.ВидыСвязиЗадач" id="ad5a41b7-87ef-43af-8d20-1cf856c0e069" configVersion="dac30f6c7e9ad246a1b210766123a5c100000000">
 			<Metadata name="Enum.ВидыСвязиЗадач.EnumValue.Дублирует" id="924ca3da-7378-4fc0-8862-101dbf052714"/>
