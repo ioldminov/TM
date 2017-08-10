@@ -435,14 +435,14 @@
 			<Metadata name="InformationRegister.ИсторияСтатей.Resource.Каталог" id="e4f9beb1-3805-44fe-be81-04a51f8631d2"/>
 			<Metadata name="InformationRegister.ИсторияСтатей.Resource.Автор" id="e5063a17-0838-46d3-8b7c-d55715aba0dc"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборГиперссылки" id="8e7fb9b2-7999-4aa9-98bd-1893409f3f83" configVersion="cb48c99ae9cb584c975c8c3550ddc64900000000"/>
-		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборГиперссылки.Form" id="8e7fb9b2-7999-4aa9-98bd-1893409f3f83.0" configVersion="f2147e7384b8364087bf9cbfda28f2f400000000"/>
+		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборГиперссылки" id="8e7fb9b2-7999-4aa9-98bd-1893409f3f83" configVersion="08fe2876ec088640ba11f24ab1594d8000000000"/>
+		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборГиперссылки.Form" id="8e7fb9b2-7999-4aa9-98bd-1893409f3f83.0" configVersion="4ba446c53758c245a676eef8589a762d00000000"/>
 		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборЦвета" id="c7f7b036-e074-490c-bd1f-4ca30135d39d" configVersion="81abf00dec7d53429a7d64acc842102000000000"/>
 		<Metadata name="InformationRegister.ИсторияСтатей.Form.ВыборЦвета.Form" id="c7f7b036-e074-490c-bd1f-4ca30135d39d.0" configVersion="c3817cb8c7168b409c28aa488edc87da00000000"/>
 		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаВыбора" id="bf75895b-d0d2-411d-99c3-70b3b975e6ca" configVersion="53ecf2329b4b5546909b2f72897df97b00000000"/>
 		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаВыбора.Form" id="bf75895b-d0d2-411d-99c3-70b3b975e6ca.0" configVersion="be1aceaf1537e64b9be06960d54714cf00000000"/>
-		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаЗаписи" id="c4eec708-069a-42c9-8ebf-e1b414303363" configVersion="2dbaa66f2fe81643851dc4d32999b30d00000000"/>
-		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаЗаписи.Form" id="c4eec708-069a-42c9-8ebf-e1b414303363.0" configVersion="4be1f0c7d4ac2f4c8d134d73fe14f4fd00000000"/>
+		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаЗаписи" id="c4eec708-069a-42c9-8ebf-e1b414303363" configVersion="ec394afc1ebca74384f7efe48d871a2100000000"/>
+		<Metadata name="InformationRegister.ИсторияСтатей.Form.ФормаЗаписи.Form" id="c4eec708-069a-42c9-8ebf-e1b414303363.0" configVersion="543075c1aec41445b0b5e799207f416800000000"/>
 		<Metadata name="InformationRegister.Коментарии" id="5b52e332-8515-4197-9b17-24918d3c80f1" configVersion="f40aaaf9195e394dac2785c30f4df87b00000000">
 			<Metadata name="InformationRegister.Коментарии.Dimension.Пользователь" id="0e491362-e8f6-406e-9512-9ec88f53722d"/>
 			<Metadata name="InformationRegister.Коментарии.Resource.IDРодителя" id="1a441d2b-de77-4018-94f0-10bec2544e8e"/>
