@@ -302,8 +302,8 @@
 		<Metadata name="DataProcessor.ОтображениеСтатей" id="73a966c2-968b-461f-83ec-549222c3a61c" configVersion="b02503539b70954d844c31ea7c5c1eda00000000">
 			<Metadata name="DataProcessor.ОтображениеСтатей.Attribute.ТекущаяСтатья" id="51f89671-c962-408a-abf1-de23769aaee2"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ОтображениеСтатей.Form.Форма" id="4f178758-44ee-4772-a531-a3e990152b58" configVersion="9b34f577ce193043bc2e9bdf12bda2ec00000000"/>
-		<Metadata name="DataProcessor.ОтображениеСтатей.Form.Форма.Form" id="4f178758-44ee-4772-a531-a3e990152b58.0" configVersion="92b66ebb07b36a41955e1f748c9a323000000000"/>
+		<Metadata name="DataProcessor.ОтображениеСтатей.Form.Форма" id="4f178758-44ee-4772-a531-a3e990152b58" configVersion="8402973cadbb4a499707a7d21f6f9ad200000000"/>
+		<Metadata name="DataProcessor.ОтображениеСтатей.Form.Форма.Form" id="4f178758-44ee-4772-a531-a3e990152b58.0" configVersion="13765e94404fb149a46472f29b8ac75200000000"/>
 		<Metadata name="DataProcessor.РегламентноеОбслуживание" id="fb5ea843-2063-4655-84b4-959543e0282e" configVersion="9bc133cf8e7daf4fbc8692fb305fa31c00000000"/>
 		<Metadata name="DataProcessor.РегламентноеОбслуживание.Form.Форма" id="dab8a571-3bc3-47e9-a3aa-8ba50d14bc5e" configVersion="dc169a76ea205842bf2c23cd470d208600000000"/>
 		<Metadata name="DataProcessor.РегламентноеОбслуживание.Form.Форма.Form" id="dab8a571-3bc3-47e9-a3aa-8ba50d14bc5e.0" configVersion="4d35528665a3cc4b9427f5aeb5c4bdf900000000"/>
