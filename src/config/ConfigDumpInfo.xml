@@ -308,8 +308,8 @@
 		<Metadata name="DataProcessor.РегламентноеОбслуживание.Form.Форма" id="dab8a571-3bc3-47e9-a3aa-8ba50d14bc5e" configVersion="dc169a76ea205842bf2c23cd470d208600000000"/>
 		<Metadata name="DataProcessor.РегламентноеОбслуживание.Form.Форма.Form" id="dab8a571-3bc3-47e9-a3aa-8ba50d14bc5e.0" configVersion="4d35528665a3cc4b9427f5aeb5c4bdf900000000"/>
 		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей" id="07e621cc-b9bf-46a1-8e64-109a2a4bd31b" configVersion="0dfc11f73c17f84f8d884fc766490a7800000000"/>
-		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.ЗапросПароля" id="153e6309-30d1-45bb-9f25-1283f6616f34" configVersion="14171f724fa61442b169cb2a23a612cf00000000"/>
-		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.ЗапросПароля.Form" id="153e6309-30d1-45bb-9f25-1283f6616f34.0" configVersion="734399f25ed363498e57db02bdd8130e00000000"/>
+		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.ЗапросПароля" id="153e6309-30d1-45bb-9f25-1283f6616f34" configVersion="19ec25c1341eb541ae80c12143ddb51500000000"/>
+		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.ЗапросПароля.Form" id="153e6309-30d1-45bb-9f25-1283f6616f34.0" configVersion="f0a94b8253e69749b74a5af9f949731a00000000"/>
 		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.Форма" id="bb305bad-aef7-4bd8-90d6-2739a18bef4d" configVersion="c0af31b9385ab841bedc07939d6263c900000000"/>
 		<Metadata name="DataProcessor.УправлениеПодсистемойПаролей.Form.Форма.Form" id="bb305bad-aef7-4bd8-90d6-2739a18bef4d.0" configVersion="e59fcfd2d481c640800362576b975a1c00000000"/>
 		<Metadata name="Document.Задача" id="dada5f0a-08f2-4aad-a108-e5b7e3d748d9" configVersion="440b302f95fb2746b78a96d8188e81a200000000">
