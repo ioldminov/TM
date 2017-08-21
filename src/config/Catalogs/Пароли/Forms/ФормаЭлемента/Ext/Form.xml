@@ -237,12 +237,14 @@
 										<InputField name="ДанныеЛогин" id="82">
 											<DataPath>Объект.Данные.Логин</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<Font ref="style:NormalTextFont" faceName="Courier New" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 											<ContextMenu name="ДанныеЛогинКонтекстноеМеню" id="83"/>
 											<ExtendedTooltip name="ДанныеЛогинРасширеннаяПодсказка" id="84"/>
 										</InputField>
 										<InputField name="ДанныеПарольБезШифрования" id="92">
 											<DataPath>Объект.Данные.ПарольБезШифрования</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<Font ref="style:NormalTextFont" faceName="Courier New" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 											<ContextMenu name="ДанныеПарольБезШифрованияКонтекстноеМеню" id="93"/>
 											<ExtendedTooltip name="ДанныеПарольБезШифрованияРасширеннаяПодсказка" id="94"/>
 										</InputField>
