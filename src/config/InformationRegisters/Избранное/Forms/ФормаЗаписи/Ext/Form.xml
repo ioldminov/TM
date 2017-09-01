@@ -39,10 +39,20 @@
 			<ContextMenu name="СутьКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="СутьРасширеннаяПодсказка" id="18"/>
 		</InputField>
+		<InputField name="ЗадачаСостояниеЗадачи" id="22">
+			<DataPath>Запись.Задача.СостояниеЗадачи</DataPath>
+			<ContextMenu name="ЗадачаСостояниеЗадачиКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЗадачаСостояниеЗадачиРасширеннаяПодсказка" id="24"/>
+		</InputField>
 		<InputField name="МодульСистемы" id="19">
 			<DataPath>Запись.МодульСистемы</DataPath>
 			<ContextMenu name="МодульСистемыКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="МодульСистемыРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Тэг" id="25">
+			<DataPath>Запись.Тэг</DataPath>
+			<ContextMenu name="ТэгКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ТэгРасширеннаяПодсказка" id="27"/>
 		</InputField>
 		<InputField name="Комментарий" id="7">
 			<DataPath>Запись.Комментарий</DataPath>
