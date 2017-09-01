@@ -238,6 +238,7 @@
 			<Report>ПланВыполненияЗадач</Report>
 			<Report>ДоработкиКРелизу</Report>
 			<Report>СтатистикаПоЗадачам</Report>
+			<Report>ОтчетПоЗадачам</Report>
 			<DataProcessor>ЗагрузитьСписокПользователей</DataProcessor>
 			<DataProcessor>ИмпортЗадач</DataProcessor>
 			<DataProcessor>КонсольЗапросовУФ</DataProcessor>
