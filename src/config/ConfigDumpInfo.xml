@@ -192,7 +192,7 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="f0801195e72ee9419a673c4187feacf700000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="02721f43c9f76b4692a243639d18963500000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="e41d38ffcd5d5941a08904ddbd77368100000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="442ebd0b62da0542876ae864bdbf282200000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="a96215bdc1ca5f459277e2b381baf4f400000000"/>
@@ -508,6 +508,9 @@
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ДоскаЗадач.Template" id="3389cbd2-b244-4389-9dcc-94770354e2e5.0" configVersion="3f2ee6e73ec26e499fe9824daf72d0e200000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239" configVersion="014b5940b0ca7d428a4a7bdc553564b000000000"/>
 		<Metadata name="Report.ОперативныйПланЗадач.Template.ПланЗадач.Template" id="ad88d123-0d3d-42ad-9a21-e3bd29c13239.0" configVersion="277fbea58fbf534f9ffcd3413934116700000000"/>
+		<Metadata name="Report.ОтчетПоЗадачам" id="713df9e1-aab8-4367-ad32-929d724b3a1b" configVersion="df685a1255987d489f1dfdbfd224e98a00000000"/>
+		<Metadata name="Report.ОтчетПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных" id="6759c6b0-7c57-4d24-a38c-107c8e1e3db4" configVersion="73102d1a90645e479377445b70fbd92000000000"/>
+		<Metadata name="Report.ОтчетПоЗадачам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6759c6b0-7c57-4d24-a38c-107c8e1e3db4.0" configVersion="3e567ee00692f74f94385ff6fd2800be00000000"/>
 		<Metadata name="Report.ПланВыполненияЗадач" id="bca22c02-fd9c-4be8-82c8-47a2a1f8b7fa" configVersion="43a7602a15106f4aa4b58178801ad72700000000">
 			<Metadata name="Report.ПланВыполненияЗадач.TabularSection.НаборРасшифровок.Attribute.Задача" id="026e338d-f01f-49e2-91c9-677f033ffc1d"/>
 			<Metadata name="Report.ПланВыполненияЗадач.Attribute.ИспользоватьКрупныйШрифт" id="1c5e1e84-7853-4a2e-bb9d-d8f083bda3dc"/>
@@ -577,7 +580,7 @@
 		<Metadata name="Subsystem.Основная.Subsystem.ОсновнаяРегистры.CommandInterface" id="8ff81cf6-4ecb-43c4-bf8f-e835af985fc5.1" configVersion="e8ddb551acf2b44292925e5a083791f500000000"/>
 		<Metadata name="Subsystem.Основная.Subsystem.ОсновнаяСправочники" id="f8ccbb7f-1a1e-424e-bf93-04984c888ed7" configVersion="6ed455e004858d4aa3134d5e1ec601c800000000"/>
 		<Metadata name="Subsystem.Основная.Subsystem.ОсновнаяСправочники.CommandInterface" id="f8ccbb7f-1a1e-424e-bf93-04984c888ed7.1" configVersion="69096816c319fd488176e58b1c5d6d5f00000000"/>
-		<Metadata name="Subsystem.Отчеты" id="726296cb-4bb4-4c11-a579-2ec4dcf5e7db" configVersion="504a820cb0476f428dccdad159ab30f400000000"/>
+		<Metadata name="Subsystem.Отчеты" id="726296cb-4bb4-4c11-a579-2ec4dcf5e7db" configVersion="f587a8f437184b499aa997d67285910c00000000"/>
 		<Metadata name="Subsystem.Отчеты.CommandInterface" id="726296cb-4bb4-4c11-a579-2ec4dcf5e7db.1" configVersion="f2fda06e3940a54c952cf1882d666abd00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
