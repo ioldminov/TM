@@ -1684,7 +1684,6 @@
 							<ExtendedTooltip name="ГруппаИзбранноеРасширеннаяПодсказка" id="325"/>
 							<ChildItems>
 								<Table name="Избранное" id="291">
-									<CommandBarLocation>None</CommandBarLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<EnableDrag>true</EnableDrag>
@@ -1761,8 +1760,20 @@
 										</ColumnGroup>
 										<LabelField name="ИзбранноеЗадача" id="310">
 											<DataPath>Избранное.Задача</DataPath>
+											<Visible>false</Visible>
 											<ContextMenu name="ИзбранноеЗадачаКонтекстноеМеню" id="311"/>
 											<ExtendedTooltip name="ИзбранноеЗадачаРасширеннаяПодсказка" id="312"/>
+										</LabelField>
+										<LabelField name="ИзбранноеИсполнитель" id="660">
+											<DataPath>Избранное.Исполнитель</DataPath>
+											<ContextMenu name="ИзбранноеИсполнительКонтекстноеМеню" id="661"/>
+											<ExtendedTooltip name="ИзбранноеИсполнительРасширеннаяПодсказка" id="662"/>
+										</LabelField>
+										<LabelField name="ИзбранноеСостояниеЗадачи" id="657">
+											<DataPath>Избранное.СостояниеЗадачи</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="ИзбранноеСостояниеЗадачиКонтекстноеМеню" id="658"/>
+											<ExtendedTooltip name="ИзбранноеСостояниеЗадачиРасширеннаяПодсказка" id="659"/>
 										</LabelField>
 										<LabelField name="ИзбранноеПользователь" id="316">
 											<DataPath>Избранное.Пользователь</DataPath>
@@ -2614,6 +2625,10 @@
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
+			<UseAlways>
+				<Field>Избранное.Задача</Field>
+				<Field>Избранное.СостояниеЗадачи</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
@@ -2623,7 +2638,9 @@
 	Избранное.Задача.Суть КАК Суть,
 	Избранное.Комментарий,
 	Избранное.МодульСистемы,
-	Избранное.Тэг
+	Избранное.Тэг,
+	Избранное.Задача.Исполнитель КАК Исполнитель,
+	Избранное.Задача.СостояниеЗадачи КАК СостояниеЗадачи
 ИЗ
 	РегистрСведений.Избранное КАК Избранное
 ГДЕ
@@ -2639,6 +2656,102 @@
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
 					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Новая</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНовая</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.ВРаботе</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветВРаботе</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.НуженОтклик</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветНуженОткликБледный</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Отработана</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветОтработана</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Приостановлена</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветПриостановлена</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">СостояниеЗадачи</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗадач.Закрыта</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ЦветЗакрыта</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>
