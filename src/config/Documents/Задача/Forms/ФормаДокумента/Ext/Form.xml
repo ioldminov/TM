@@ -799,7 +799,7 @@
 											<v8:content>Страница описание релиза</v8:content>
 										</v8:item>
 									</ToolTip>
-									<TitleDataPath>ЗаголовокСутьРешенияЗадачи</TitleDataPath>
+									<TitleDataPath>ЗаголовокОписаниеДляРелиза</TitleDataPath>
 									<ExtendedTooltip name="СтраницаОписаниеРелизаРасширеннаяПодсказка" id="315"/>
 									<ChildItems>
 										<UsualGroup name="ГруппаПараметрыРешения" id="127">
