@@ -3498,7 +3498,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Номер,
 	ДокументЗадача.Суть,
