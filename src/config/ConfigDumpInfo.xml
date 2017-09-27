@@ -192,7 +192,7 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="02721f43c9f76b4692a243639d18963500000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="76d19360ae05db48a9c76ae6711c2d8c00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="e41d38ffcd5d5941a08904ddbd77368100000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="442ebd0b62da0542876ae864bdbf282200000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="a96215bdc1ca5f459277e2b381baf4f400000000"/>
@@ -234,6 +234,9 @@
 		<Metadata name="DataProcessor.amCharts.Template.бсДлительнаяОперация.Template" id="11a55748-4a78-4e70-ab18-bc12a633adc2.0" configVersion="96ea3e275ac67e448c9cfaab331ed39900000000"/>
 		<Metadata name="DataProcessor.amCharts.Template.бсМакетДиаграммыJS" id="5def091c-83c5-47e3-b458-4b8aedaf961b" configVersion="6255e0f06f2f4145b2e7c9d7b9a9645000000000"/>
 		<Metadata name="DataProcessor.amCharts.Template.бсМакетДиаграммыJS.Template" id="5def091c-83c5-47e3-b458-4b8aedaf961b.0" configVersion="d09133c1550c7349a3850808e616b20a00000000"/>
+		<Metadata name="DataProcessor.ГенераторПаролей" id="b0978e26-5a89-4c2f-8c01-2d52a4730dbe" configVersion="8c14edb5af015846bbf2722fb9ccf24f00000000"/>
+		<Metadata name="DataProcessor.ГенераторПаролей.Form.Форма" id="07ed4d29-9820-45dd-bccf-86dc42ba3a3a" configVersion="5f7f792a6e70454bb9efa6e43626052000000000"/>
+		<Metadata name="DataProcessor.ГенераторПаролей.Form.Форма.Form" id="07ed4d29-9820-45dd-bccf-86dc42ba3a3a.0" configVersion="5813e37f2839ea47b5a337f70919687c00000000"/>
 		<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов" id="36d53185-9709-4a4a-a324-9121a39977d4" configVersion="2d18f1a08ee9314a9245eaae3d68b9c900000000">
 			<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов.Attribute.ДеревоДокументов" id="0043d31c-dbee-4972-a78d-63a59877b40e"/>
 			<Metadata name="DataProcessor.ДеревоСвязанныхОбъектов.Attribute.ВыбДокумент" id="47be3947-0752-4243-9dec-39490cb13c5d"/>
@@ -568,7 +571,7 @@
 		<Metadata name="Subsystem.Doku1c.Subsystem.Документы.CommandInterface" id="b51583de-39ba-474d-8115-d12a90629ada.1" configVersion="a21d5c7c19592e42ac66e4a53326735300000000"/>
 		<Metadata name="Subsystem.Doku1c.Subsystem.Справочники" id="60ab8698-eda0-4867-82f9-2d82862aa8d1" configVersion="71bafc910a676c41a8f5449e4906c5e600000000"/>
 		<Metadata name="Subsystem.Doku1c.Subsystem.Справочники.CommandInterface" id="60ab8698-eda0-4867-82f9-2d82862aa8d1.1" configVersion="fe1bf2a50bea9840969d76aa26942fcc00000000"/>
-		<Metadata name="Subsystem.Passtor" id="b7021383-c90c-48e9-ba73-c01f2f90cb5d" configVersion="319745fddd719940bd1b1a544610b02300000000"/>
+		<Metadata name="Subsystem.Passtor" id="b7021383-c90c-48e9-ba73-c01f2f90cb5d" configVersion="7d763e2e135a0b4badae42918b15dfca00000000"/>
 		<Metadata name="Subsystem.Passtor.CommandInterface" id="b7021383-c90c-48e9-ba73-c01f2f90cb5d.1" configVersion="e95396903efbc1479e818323585c1b2400000000"/>
 		<Metadata name="Subsystem.Администрирование" id="11d4b5dd-bbdd-4daa-b3b1-bc061561dfc3" configVersion="79496b1001128b458882555d110e0fa500000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="11d4b5dd-bbdd-4daa-b3b1-bc061561dfc3.1" configVersion="9c0a4eae60019b4694f081eae51ab44100000000"/>

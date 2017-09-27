@@ -208,6 +208,7 @@ CommonTemplates\CbToJPEG\Ext\Template.bin-->CommonTemplates\CbToJPEG\Ext\Templat
 Constants\ХэшМастерПароля.xml-->Constants\ХэшМастерПароля.xml
 Constants\ШагПорядкаЗадач.xml-->Constants\ШагПорядкаЗадач.xml
 DataProcessors\amCharts.xml-->DataProcessors\amCharts.xml
+DataProcessors\ГенераторПаролей.xml-->DataProcessors\ГенераторПаролей.xml
 DataProcessors\ДеревоСвязанныхОбъектов.xml-->DataProcessors\ДеревоСвязанныхОбъектов.xml
 DataProcessors\ЗагрузитьСписокПользователей.xml-->DataProcessors\ЗагрузитьСписокПользователей.xml
 DataProcessors\ИмпортЗадач.xml-->DataProcessors\ИмпортЗадач.xml
@@ -243,6 +244,9 @@ DataProcessors\amCharts\Templates\бсSerialJS\Ext\Template.txt-->DataProcessors
 DataProcessors\amCharts\Templates\бсXYJS\Ext\Template.txt-->DataProcessors\amCharts\Templates\бсXYJS\Ext\Template.txt
 DataProcessors\amCharts\Templates\бсДлительнаяОперация\Ext\Template.bin-->DataProcessors\amCharts\Templates\бсДлительнаяОперация\Ext\Template.bin
 DataProcessors\amCharts\Templates\бсМакетДиаграммыJS\Ext\Template.txt-->DataProcessors\amCharts\Templates\бсМакетДиаграммыJS\Ext\Template.txt
+DataProcessors\ГенераторПаролей\Forms\Форма.xml-->DataProcessors\ГенераторПаролей\Forms\Форма.xml
+DataProcessors\ГенераторПаролей\Forms\Форма\Ext\Form.xml-->DataProcessors\ГенераторПаролей\Forms\Форма\Ext\Form.xml
+DataProcessors\ГенераторПаролей\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ГенераторПаролей\Forms\Форма\Ext\Form\Module.bsl
 DataProcessors\ДеревоСвязанныхОбъектов\Ext\ObjectModule.bsl-->DataProcessors\ДеревоСвязанныхОбъектов\Ext\ObjectModule.bsl
 DataProcessors\ДеревоСвязанныхОбъектов\Forms\Форма.xml-->DataProcessors\ДеревоСвязанныхОбъектов\Forms\Форма.xml
 DataProcessors\ДеревоСвязанныхОбъектов\Forms\Форма\Ext\Form.xml-->DataProcessors\ДеревоСвязанныхОбъектов\Forms\Форма\Ext\Form.xml
