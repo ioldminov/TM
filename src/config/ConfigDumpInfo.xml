@@ -17,7 +17,7 @@
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаВыбора.Form" id="48792b1e-509a-482f-a5e4-8bd79de8dc90.0" configVersion="de37e6bc27be114681aeff202bdb5c7b00000000"/>
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаСписка" id="eeae5a52-4adf-4cd7-8a11-ddfa61b76b51" configVersion="3af9f08a609f6b418c992d970673790b00000000"/>
 		<Metadata name="Catalog.МодулиСистемы.Form.ФормаСписка.Form" id="eeae5a52-4adf-4cd7-8a11-ddfa61b76b51.0" configVersion="a1ff4123684f12499fc65b40b9d93a4600000000"/>
-		<Metadata name="Catalog.Пароли" id="ac1baee3-55cb-4e02-8ddb-755831f4c700" configVersion="344923d4dca1544eabb9c57cf527c60b00000000">
+		<Metadata name="Catalog.Пароли" id="ac1baee3-55cb-4e02-8ddb-755831f4c700" configVersion="b96e4e0ff2a55242b98a468aa75ea45700000000">
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.Путь" id="223c91c0-eaa2-4fe0-9262-ae5dad419650"/>
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.Пароль" id="25d1ce7a-bade-42cb-a695-88a9620e2493"/>
 			<Metadata name="Catalog.Пароли.TabularSection.Данные.Attribute.ID" id="3b78c1ca-cac4-415c-8248-1b361c2ca78d"/>
@@ -29,9 +29,13 @@
 		</Metadata>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377" configVersion="95754eec94cadb4597bd42184b2f411600000000"/>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377.0" configVersion="30a1091f0dc3834a972f89de427fe2c900000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="b399ea938f8d8f4283f83713a6b1fc4400000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="b5c9bba9f4cbe44286c17fa51570a6a700000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="6083b15d7f68d24798cc9cbd615fcf6600000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="af6101b7d5c6e1478f9919183687444500000000"/>
 		<Metadata name="Catalog.Пароли.ObjectModule" id="ac1baee3-55cb-4e02-8ddb-755831f4c700.0" configVersion="65613e7f3f3cbf45b500249ddf2ab50800000000"/>
+		<Metadata name="Catalog.Пароли.Template.gencrypt" id="51810d51-c119-4649-98d1-f125a1f9607b" configVersion="147ccc7519ec014fa0c1f14b90d516b400000000"/>
+		<Metadata name="Catalog.Пароли.Template.gencrypt.Template" id="51810d51-c119-4649-98d1-f125a1f9607b.0" configVersion="52928162dd78e14299bd99f1ac68ad3700000000"/>
+		<Metadata name="Catalog.Пароли.Template.rdpConfig" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4" configVersion="b33949a87082f74cb7e396675ead79a500000000"/>
+		<Metadata name="Catalog.Пароли.Template.rdpConfig.Template" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4.0" configVersion="970d36c19eeb7a41be9b8a13f2b3a83a00000000"/>
 		<Metadata name="Catalog.Пользователи" id="e268df06-dfc1-48e1-a6d1-8ba8df187bb0" configVersion="293a93ddabbd224fb9437450ae5ed3a600000000">
 			<Metadata name="Catalog.Пользователи.Attribute.ТелефонСотовый" id="2a5afd57-6d35-4564-a51d-8b4d764154b5"/>
 			<Metadata name="Catalog.Пользователи.Attribute.ТелефонВнутренний" id="3d3b23c8-02a2-4ca1-ab68-c85cb258ebe0"/>

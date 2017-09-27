@@ -28,6 +28,10 @@ Catalogs\Пароли\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Па�
 Catalogs\Пароли\Forms\ФормаСписка\Ext\Form\Module.bsl-->Catalogs\Пароли\Forms\ФормаСписка\Ext\Form\Module.bsl
 Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\Пароли\Forms\ФормаЭлемента\Ext\Form\Module.bsl
+Catalogs\Пароли\Templates\gencrypt.xml-->Catalogs\Пароли\Templates\gencrypt.xml
+Catalogs\Пароли\Templates\rdpConfig.xml-->Catalogs\Пароли\Templates\rdpConfig.xml
+Catalogs\Пароли\Templates\gencrypt\Ext\Template.bin-->Catalogs\Пароли\Templates\gencrypt\Ext\Template.bin
+Catalogs\Пароли\Templates\rdpConfig\Ext\Template.txt-->Catalogs\Пароли\Templates\rdpConfig\Ext\Template.txt
 Catalogs\Пользователи\Ext\ManagerModule.bsl-->Catalogs\Пользователи\Ext\ManagerModule.bsl
 Catalogs\Пользователи\Ext\ObjectModule.bsl-->Catalogs\Пользователи\Ext\ObjectModule.bsl
 Catalogs\Пользователи\Forms\ФормаВыбора.xml-->Catalogs\Пользователи\Forms\ФормаВыбора.xml

@@ -660,6 +660,8 @@
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Form>ФормаСписка</Form>
+			<Template>rdpConfig</Template>
+			<Template>gencrypt</Template>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
