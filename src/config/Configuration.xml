@@ -247,6 +247,7 @@
 			<DataProcessor>amCharts</DataProcessor>
 			<DataProcessor>РегламентноеОбслуживание</DataProcessor>
 			<DataProcessor>УправлениеПодсистемойПаролей</DataProcessor>
+			<DataProcessor>ГенераторПаролей</DataProcessor>
 			<InformationRegister>ОперативныйПланЗадач</InformationRegister>
 			<InformationRegister>Коментарии</InformationRegister>
 			<InformationRegister>СвязанныеЗадачи</InformationRegister>
