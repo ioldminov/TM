@@ -52,6 +52,12 @@
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ФормаГруппаДополнительноРасширеннаяПодсказка" id="137"/>
 			</Popup>
+			<Button name="ФормаГенераторПаролей" id="146">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>true</OnlyInAllActions>
+				<CommandName>Form.Command.ГенераторПаролей</CommandName>
+				<ExtendedTooltip name="ФормаГенераторПаролейРасширеннаяПодсказка" id="147"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -503,6 +509,21 @@
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+B</Shortcut>
 			<Action>СкопироватьЛогин</Action>
+		</Command>
+		<Command name="ГенераторПаролей" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генератор паролей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генератор паролей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ГенераторПаролей</Action>
 		</Command>
 	</Commands>
 </Form>
