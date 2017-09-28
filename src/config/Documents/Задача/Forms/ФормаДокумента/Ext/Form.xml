@@ -562,6 +562,12 @@
 										</Title>
 									</ExtendedTooltip>
 								</InputField>
+								<CheckBoxField name="ТребуютсяАвтотесты" id="400">
+									<DataPath>Объект.ТребуютсяАвтотесты</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТребуютсяАвтотестыКонтекстноеМеню" id="401"/>
+									<ExtendedTooltip name="ТребуютсяАвтотестыРасширеннаяПодсказка" id="402"/>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="ТипЗадачи" id="357">
@@ -1348,6 +1354,40 @@ U - модернизировано/изменено (update);</v8:content>
 											<ContextMenu name="ПолеТабличногоДокументаДеревоКонтекстноеМеню" id="373"/>
 											<ExtendedTooltip name="ПолеТабличногоДокументаДеревоРасширеннаяПодсказка" id="374"/>
 										</SpreadSheetDocumentField>
+									</ChildItems>
+								</Page>
+								<Page name="ГруппаАвтотесты" id="392">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автотесты</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа автотесты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ГруппаАвтотестыРасширеннаяПодсказка" id="393"/>
+									<ChildItems>
+										<InputField name="ОписаниеТребованийКАвтотесту" id="397">
+											<DataPath>Объект.ОписаниеТребованийКАвтотесту</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MultiLine>true</MultiLine>
+											<ContextMenu name="ОписаниеТребованийКАвтотестуКонтекстноеМеню" id="398"/>
+											<ExtendedTooltip name="ОписаниеТребованийКАвтотестуРасширеннаяПодсказка" id="399"/>
+										</InputField>
+										<InputField name="ПутьКОбработкеАвтотеста" id="394">
+											<DataPath>Объект.ПутьКОбработкеАвтотеста</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="ПутьКОбработкеАвтотестаКонтекстноеМеню" id="395"/>
+											<ExtendedTooltip name="ПутьКОбработкеАвтотестаРасширеннаяПодсказка" id="396"/>
+											<Events>
+												<Event name="StartChoice">ПутьКОбработкеАвтотестаНачалоВыбора</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</Page>
 							</ChildItems>
