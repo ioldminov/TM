@@ -134,7 +134,7 @@
 	
 	Бат = Новый ТекстовыйДокумент;
 	Бат.ДобавитьСтроку(ИсполняемаяСтрока);
-	Бат.Записать(Temp+"MakeHash.bat", КодировкаТекста.Системная);
+	Бат.Записать(Temp+"MakeHash.bat", "windows-1251");
 	
 	WshShell = Новый COMОбъект("WScript.Shell");
 	WshShell.Run(Temp+"MakeHash.bat",0,1);

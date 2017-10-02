@@ -29,8 +29,8 @@
 		</Metadata>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377" configVersion="95754eec94cadb4597bd42184b2f411600000000"/>
 		<Metadata name="Catalog.Пароли.Form.ФормаСписка.Form" id="bc34e0c2-0b2a-443c-9973-0e4b6653e377.0" configVersion="30a1091f0dc3834a972f89de427fe2c900000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="eec2168fd1e331478d4e6960cee8a64600000000"/>
-		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="6164b024cd88d64b8f89294ce56df4b600000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента" id="18f0e17d-bc08-497e-a997-beb47c2d3301" configVersion="7b587c2aff79e149a6a32ce78b32854300000000"/>
+		<Metadata name="Catalog.Пароли.Form.ФормаЭлемента.Form" id="18f0e17d-bc08-497e-a997-beb47c2d3301.0" configVersion="69eb9d09d77a5e4782792b417ec1c0b200000000"/>
 		<Metadata name="Catalog.Пароли.ObjectModule" id="ac1baee3-55cb-4e02-8ddb-755831f4c700.0" configVersion="65613e7f3f3cbf45b500249ddf2ab50800000000"/>
 		<Metadata name="Catalog.Пароли.Template.gencrypt" id="51810d51-c119-4649-98d1-f125a1f9607b" configVersion="147ccc7519ec014fa0c1f14b90d516b400000000"/>
 		<Metadata name="Catalog.Пароли.Template.gencrypt.Template" id="51810d51-c119-4649-98d1-f125a1f9607b.0" configVersion="52928162dd78e14299bd99f1ac68ad3700000000"/>
