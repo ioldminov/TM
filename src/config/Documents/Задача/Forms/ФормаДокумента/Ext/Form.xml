@@ -876,6 +876,7 @@
 																</v8:item>
 															</Title>
 															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<AutoMaxWidth>false</AutoMaxWidth>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
 															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -897,6 +898,25 @@
 														</InputField>
 													</ChildItems>
 												</UsualGroup>
+												<InputField name="ОписаниеДляРуководства" id="403">
+													<DataPath>Объект.ОписаниеДляРуководства</DataPath>
+													<ToolTipRepresentation>Button</ToolTipRepresentation>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<ContextMenu name="ОписаниеДляРуководстваКонтекстноеМеню" id="404"/>
+													<ExtendedTooltip name="ОписаниеДляРуководстваРасширеннаяПодсказка" id="405">
+														<Title formatted="true">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Описание задачи, которое будет отображено в регулярном отчете для руководства.
+Необходимо кратко описать суть проделанной в задаче работы и полученный результат.
+Например, если &lt;b&gt;Суть задачи &lt;/&gt;указана как "Нужен отчет по продажам авто за период с отборами", то 
+&lt;b&gt;Описание для руководства &lt;/&gt;должно быть указано таким:
+"Разработан отчет 'Анализ продаж автомобилей' с возможностью наложения произвольных отборов".</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+												</InputField>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="КП_ФД_ОписаниеДляРелиза_" id="34">

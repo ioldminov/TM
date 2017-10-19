@@ -2091,6 +2091,7 @@
 				<InputField name="Подробности" id="17">
 					<DataPath>Items.Список.CurrentData.Подробности</DataPath>
 					<Width>50</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
 					<ContextMenu name="ПодробностиКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ПодробностиExtendedTooltip" id="266"/>
 				</InputField>

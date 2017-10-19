@@ -49,6 +49,7 @@
 		</UsualGroup>
 		<InputField name="Комментарий" id="11">
 			<DataPath>Запись.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
 			<MultiLine>true</MultiLine>
 			<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
