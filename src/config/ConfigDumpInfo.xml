@@ -57,8 +57,9 @@
 		<Metadata name="Catalog.Проекты.Form.ФормаВыбораУправляемая.Form" id="743ddc97-ef17-440e-b44f-d6a1d59a9045.0" configVersion="95dae35b4fb95c44a16b1a275c3944e100000000"/>
 		<Metadata name="Catalog.Проекты.Form.ФормаСпискаУправляемая" id="23a0b4eb-6e99-4fcc-9cc4-29e248298a46" configVersion="6d1f47c575993d4da8701e5d6ca84f3000000000"/>
 		<Metadata name="Catalog.Проекты.Form.ФормаСпискаУправляемая.Form" id="23a0b4eb-6e99-4fcc-9cc4-29e248298a46.0" configVersion="e898f0043302354c87f93f21d95b26c400000000"/>
-		<Metadata name="Catalog.РелизыКонфигураций" id="3de3a958-1871-43fb-9220-5f6c6622c411" configVersion="c0da2392b5efcd4791928da75bca2e7900000000">
+		<Metadata name="Catalog.РелизыКонфигураций" id="3de3a958-1871-43fb-9220-5f6c6622c411" configVersion="504e6b4e1aac14499a5f4fb681dc02b900000000">
 			<Metadata name="Catalog.РелизыКонфигураций.Attribute.ДатаВыпуска" id="670fdd90-9476-4809-9bd6-f653811c11c8"/>
+			<Metadata name="Catalog.РелизыКонфигураций.Attribute.ОписаниеРелиза" id="ad867b59-a398-422f-98b5-b7293ab848d1"/>
 			<Metadata name="Catalog.РелизыКонфигураций.Attribute.Проект" id="b6826eec-2368-492c-b464-63bbf7e13ced"/>
 			<Metadata name="Catalog.РелизыКонфигураций.Attribute.Выпущен" id="fe15c915-848d-4047-bcaa-8e35d6668982"/>
 		</Metadata>
@@ -66,8 +67,8 @@
 		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаВыбора.Form" id="67f1e6a6-c2d9-4663-afa9-6fb8f2bbf63e.0" configVersion="3716baab06ce784d80ca658e43fb46f500000000"/>
 		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаСписка" id="fada2b43-7052-4630-89c4-202d24b761ca" configVersion="fc6a32f99aec144bba9bdd6f93cf6c0600000000"/>
 		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаСписка.Form" id="fada2b43-7052-4630-89c4-202d24b761ca.0" configVersion="1d6431ae0fc89141b04ded4d679d78b500000000"/>
-		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаЭлемента" id="187d4582-9add-48e0-9094-9bf97471ee1a" configVersion="4341098941e77f4b82a8fe0927dbb1b100000000"/>
-		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаЭлемента.Form" id="187d4582-9add-48e0-9094-9bf97471ee1a.0" configVersion="8ee88e9ee1d4c349977ec3df9eb8f15a00000000"/>
+		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаЭлемента" id="187d4582-9add-48e0-9094-9bf97471ee1a" configVersion="1e78c2bb559d734dba61caa704296ea200000000"/>
+		<Metadata name="Catalog.РелизыКонфигураций.Form.ФормаЭлемента.Form" id="187d4582-9add-48e0-9094-9bf97471ee1a.0" configVersion="cec28977440aa142bdcc01cb881d395400000000"/>
 		<Metadata name="Catalog.РелизыКонфигураций.Predefined" id="3de3a958-1871-43fb-9220-5f6c6622c411.1c" configVersion="eafe55d4586a494db2ed7b678072e90900000000"/>
 		<Metadata name="Catalog.СобытияИстории" id="d94fb5f5-154d-4f2f-a3f2-02ebed35f174" configVersion="cb59b5a08e3a6c4ea781b8140a2c3bfb00000000"/>
 		<Metadata name="Catalog.СобытияИстории.Predefined" id="d94fb5f5-154d-4f2f-a3f2-02ebed35f174.1c" configVersion="19e641acb7aeed4c8c0243a37c2e1a7d00000000"/>

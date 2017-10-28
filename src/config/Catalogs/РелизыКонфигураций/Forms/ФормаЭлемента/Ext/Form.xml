@@ -42,6 +42,14 @@
 			<ContextMenu name="ДатаВыпускаКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ДатаВыпускаРасширеннаяПодсказка" id="18"/>
 		</InputField>
+		<InputField name="ОписаниеРелиза" id="19">
+			<DataPath>Объект.ОписаниеРелиза</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<Font faceName="Verdana" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+			<ContextMenu name="ОписаниеРелизаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОписаниеРелизаРасширеннаяПодсказка" id="21"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
