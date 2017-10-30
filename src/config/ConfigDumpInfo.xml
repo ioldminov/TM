@@ -359,8 +359,8 @@
 			<Metadata name="Document.Задача.Attribute.Статус" id="eb5b4eae-372b-432d-a549-7810e479bb7f"/>
 			<Metadata name="Document.Задача.TabularSection.Приложения.Attribute.ХЗ" id="f43e750f-5141-4c75-8508-c74175950c2f"/>
 		</Metadata>
-		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="33b71f88a2f00c4892b1e9c59578038200000000"/>
-		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="f84e3b3e27dbb645b2e77092e656603700000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента" id="ef09f7e9-4561-4824-b86d-51672c61056e" configVersion="13ec0b8e8c30a144a271266da8bee7c800000000"/>
+		<Metadata name="Document.Задача.Form.ФормаДокумента.Form" id="ef09f7e9-4561-4824-b86d-51672c61056e.0" configVersion="0ce4b3a1aa2f4742ba44f3af3fca16fe00000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML" id="a99840af-9603-472f-90fc-d9f1bc4c56fa" configVersion="f42a76444b776a45a8ab422e615164e700000000"/>
 		<Metadata name="Document.Задача.Form.ФормаПечатьHTML.Form" id="a99840af-9603-472f-90fc-d9f1bc4c56fa.0" configVersion="de313eece3c7ef4e836f327187815b5a00000000"/>
 		<Metadata name="Document.Задача.Form.ФормаСписка" id="7e95255a-48dd-48da-b7f3-26550b5246b3" configVersion="0d0bed3839da474b998f4a6bdfda818b00000000"/>
@@ -471,8 +471,9 @@
 			<Metadata name="InformationRegister.ОперативныйПланЗадач.Resource.Исполнитель" id="886c220a-2e49-4764-b25b-b0a9c0a83bf1"/>
 			<Metadata name="InformationRegister.ОперативныйПланЗадач.Resource.Порядок" id="e29a98dd-057e-4457-9a6d-fddcae798dd5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ОтслеживающиеПользователиПоУмолчанию" id="2345963b-b8af-41ea-8452-7612103f6a1b" configVersion="485158b918ebc0488fe1b4d08eaa820900000000">
+		<Metadata name="InformationRegister.ОтслеживающиеПользователиПоУмолчанию" id="2345963b-b8af-41ea-8452-7612103f6a1b" configVersion="50c380bc44c583438ea4b322391e854300000000">
 			<Metadata name="InformationRegister.ОтслеживающиеПользователиПоУмолчанию.Dimension.Пользователь" id="136f5459-5392-4147-aa42-b822f90d0a56"/>
+			<Metadata name="InformationRegister.ОтслеживающиеПользователиПоУмолчанию.Dimension.ОтПользователя" id="c6e9891c-245d-4769-827b-61752692f107"/>
 		</Metadata>
 		<Metadata name="InformationRegister.ПланВыполненияЗадач" id="2c4a5567-e67a-46da-954c-96a8055425dd" configVersion="90d459e7e98b3e45a894d780878efc8e00000000">
 			<Metadata name="InformationRegister.ПланВыполненияЗадач.Dimension.Исполнитель" id="4c4e322f-0ebf-4b69-8b8a-9d7beda511c1"/>
