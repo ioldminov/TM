@@ -568,7 +568,7 @@
 		<Metadata name="StyleItem.ЦветВРаботе" id="b9c583f1-db34-4c95-8c49-e9b68c2a7e48" configVersion="751b9cc34c37ee4c8de9680a9feb79a000000000"/>
 		<Metadata name="StyleItem.ЦветЗакрыта" id="1adc4737-4ea6-4ed7-9481-88e704fd05b6" configVersion="0b940c24875e0d4db9dd9cda1092689300000000"/>
 		<Metadata name="StyleItem.ЦветНазначена" id="471500f5-5e01-43c2-a23c-554e4f4d51b5" configVersion="d6cb6d844516614e89c7ccfe51b3cdda00000000"/>
-		<Metadata name="StyleItem.ЦветНовая" id="cf839501-d12d-4b41-9ccc-5e2e74a09c1c" configVersion="6515307fd67f324aa52d081547956a4800000000"/>
+		<Metadata name="StyleItem.ЦветНовая" id="cf839501-d12d-4b41-9ccc-5e2e74a09c1c" configVersion="adf30df22b21674f8b81ecb9d5eedc0000000000"/>
 		<Metadata name="StyleItem.ЦветНуженОткликБледный" id="48d79a26-cd1b-42fa-a9af-2d44348a2ef3" configVersion="81bcd4dd65e5d0478df4a06ff5e1051900000000"/>
 		<Metadata name="StyleItem.ЦветНуженОткликЯркий" id="ce030d5e-a763-4421-8b1f-b6df598a8864" configVersion="d23bcbb5ead6084abb73dee42042073600000000"/>
 		<Metadata name="StyleItem.ЦветОтработана" id="625e2f43-9bc1-453f-a481-dc14c32d4187" configVersion="1cdbe33d8a2a4c43af96e5b4d8c5405e00000000"/>
