@@ -392,6 +392,7 @@
 													<v8:content>Принять в работу</v8:content>
 												</v8:item>
 											</Title>
+											<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 											<Hyperlink>true</Hyperlink>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<BackColor>style:ЦветВРаботе</BackColor>
@@ -405,6 +406,9 @@
 											</Events>
 										</LabelDecoration>
 										<LabelDecoration name="тОткрытьСтраницуСтандартноеСостояние" id="337">
+											<Width>2</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
 											<TextColor>style:FieldSelectionBackColor</TextColor>
 											<Title formatted="false">
 												<v8:item>
@@ -412,7 +416,7 @@
 													<v8:content>Х</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 											<Hyperlink>true</Hyperlink>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<BackColor>style:ЦветВРаботе</BackColor>
@@ -879,9 +883,12 @@
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
-															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+															<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
 															<OpenButton>false</OpenButton>
+															<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
+															<QuickChoice>false</QuickChoice>
 															<TextEdit>false</TextEdit>
+															<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 															<ContextMenu name="РелизКонфигурацииКонтекстноеМеню" id="124"/>
 															<ExtendedTooltip name="РелизКонфигурацииРасширеннаяПодсказка" id="245">
 																<Title formatted="false">
