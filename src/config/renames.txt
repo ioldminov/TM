@@ -383,6 +383,7 @@ Documents\Статья\Forms\ФормаДокумента\Ext\Form.xml-->Documen
 Documents\Статья\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\Статья\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Enums\ВидыСвязиЗадач.xml-->Enums\ВидыСвязиЗадач.xml
 Enums\СтатусЗадачи.xml-->Enums\СтатусЗадачи.xml
+Enums\СтатусыВнедрения.xml-->Enums\СтатусыВнедрения.xml
 Enums\СтатусЗадачи\Ext\ManagerModule.bsl-->Enums\СтатусЗадачи\Ext\ManagerModule.bsl
 Ext\ClientApplicationInterface.xml-->Ext\ClientApplicationInterface.xml
 Ext\CommandInterface.xml-->Ext\CommandInterface.xml

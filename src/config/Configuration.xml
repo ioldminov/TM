@@ -234,6 +234,7 @@
 			<Document>Спринт</Document>
 			<Enum>СтатусЗадачи</Enum>
 			<Enum>ВидыСвязиЗадач</Enum>
+			<Enum>СтатусыВнедрения</Enum>
 			<Report>ОперативныйПланЗадач</Report>
 			<Report>ПланВыполненияЗадач</Report>
 			<Report>ДоработкиКРелизу</Report>
