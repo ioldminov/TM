@@ -34,8 +34,8 @@
 		<Metadata name="Catalog.Пароли.ObjectModule" id="ac1baee3-55cb-4e02-8ddb-755831f4c700.0" configVersion="65613e7f3f3cbf45b500249ddf2ab50800000000"/>
 		<Metadata name="Catalog.Пароли.Template.gencrypt" id="51810d51-c119-4649-98d1-f125a1f9607b" configVersion="147ccc7519ec014fa0c1f14b90d516b400000000"/>
 		<Metadata name="Catalog.Пароли.Template.gencrypt.Template" id="51810d51-c119-4649-98d1-f125a1f9607b.0" configVersion="52928162dd78e14299bd99f1ac68ad3700000000"/>
-		<Metadata name="Catalog.Пароли.Template.rdpConfig" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4" configVersion="c17777d92b7a2b4facd5ea7cc6abf6ca00000000"/>
-		<Metadata name="Catalog.Пароли.Template.rdpConfig.Template" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4.0" configVersion="05eef01e19998640a1dde7b2b8c1eeb100000000"/>
+		<Metadata name="Catalog.Пароли.Template.rdpConfig" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4" configVersion="2ca8bb7c0d33154d8fdbbdcb9448d74300000000"/>
+		<Metadata name="Catalog.Пароли.Template.rdpConfig.Template" id="ec9cac4a-ea08-4854-a214-59cfdf13e3b4.0" configVersion="7b8874d91e0f7045a500946dbcff9e2400000000"/>
 		<Metadata name="Catalog.Пользователи" id="e268df06-dfc1-48e1-a6d1-8ba8df187bb0" configVersion="293a93ddabbd224fb9437450ae5ed3a600000000">
 			<Metadata name="Catalog.Пользователи.Attribute.ТелефонСотовый" id="2a5afd57-6d35-4564-a51d-8b4d764154b5"/>
 			<Metadata name="Catalog.Пользователи.Attribute.ТелефонВнутренний" id="3d3b23c8-02a2-4ca1-ab68-c85cb258ebe0"/>
