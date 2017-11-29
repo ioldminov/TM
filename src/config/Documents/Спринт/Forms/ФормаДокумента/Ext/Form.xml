@@ -187,6 +187,7 @@
 									</SearchControlAddition>
 									<Events>
 										<Event name="DragCheck">СоставСпринтаПроверкаПеретаскивания</Event>
+										<Event name="Selection">СоставСпринтаВыбор</Event>
 										<Event name="Drag">СоставСпринтаПеретаскивание</Event>
 									</Events>
 									<ChildItems>
