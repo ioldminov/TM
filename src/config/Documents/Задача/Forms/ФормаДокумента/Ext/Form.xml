@@ -1011,7 +1011,7 @@ U - модернизировано/изменено (update);</v8:content>
 											<DataPath>Объект.СутьРешенияЗадачи</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
-											<Font ref="style:ШрифтСтандартный" kind="StyleItem"/>
+											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
 											<ContextMenu name="СутьРешенияЗадачиКонтекстноеМеню" id="319"/>
 											<ExtendedTooltip name="СутьРешенияЗадачиРасширеннаяПодсказка" id="320"/>
 										</InputField>
@@ -1414,6 +1414,7 @@ U - модернизировано/изменено (update);</v8:content>
 											<DataPath>Объект.ОписаниеТребованийКАвтотесту</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MultiLine>true</MultiLine>
+											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
 											<ContextMenu name="ОписаниеТребованийКАвтотестуКонтекстноеМеню" id="398"/>
 											<ExtendedTooltip name="ОписаниеТребованийКАвтотестуРасширеннаяПодсказка" id="399"/>
 										</InputField>
