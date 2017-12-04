@@ -159,7 +159,29 @@
 									<DataPath>Объект.СоставСпринта</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="СоставСпринтаКонтекстноеМеню" id="17"/>
-									<AutoCommandBar name="СоставСпринтаКоманднаяПанель" id="18"/>
+									<AutoCommandBar name="СоставСпринтаКоманднаяПанель" id="18">
+										<ChildItems>
+											<Button name="СоставСпринтаОбновитьРеквизитыСтрок" id="216">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ОбновитьРеквизитыСтрок</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.Refresh</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="СоставСпринтаОбновитьРеквизитыСтрокРасширеннаяПодсказка" id="217"/>
+											</Button>
+											<Button name="СоставСпринтаДобавитьЗадачиПоСпискуНомеров" id="218">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.ДобавитьЗадачиПоСпискуНомеров</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.CloneListItem</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="СоставСпринтаДобавитьЗадачиПоСпискуНомеровРасширеннаяПодсказка" id="219"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
 									<ExtendedTooltip name="СоставСпринтаРасширеннаяПодсказка" id="19"/>
 									<SearchStringAddition name="СоставСпринтаСтрокаПоиска" id="20">
 										<AdditionSource>
@@ -859,6 +881,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьТекЗагрузку</Action>
+		</Command>
+		<Command name="ДобавитьЗадачиПоСпискуНомеров" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить задачи по списку номеров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить задачи по списку номеров</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьЗадачиПоСпискуНомеров</Action>
+		</Command>
+		<Command name="ОбновитьРеквизитыСтрок" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить реквизиты строк</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить реквизиты строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьРеквизитыСтрок</Action>
 		</Command>
 	</Commands>
 </Form>
