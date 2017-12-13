@@ -197,10 +197,10 @@
 		<Metadata name="CommonPicture.ЦветШрифта.Picture" id="baf42adb-aca8-45b5-aa43-70369c4391b9.0" configVersion="61d0f0343518904a9f564546b139a2b000000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG" id="246e0124-ff3c-4b83-b406-331839d1459c" configVersion="a61e071a658b59458460651ded376eee00000000"/>
 		<Metadata name="CommonTemplate.CbToJPEG.Template" id="246e0124-ff3c-4b83-b406-331839d1459c.0" configVersion="95d696aa34d7e146a234f1184772114300000000"/>
-		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="2ba7ac92301fdc40855a4109169c85e300000000"/>
+		<Metadata name="Configuration.МенеджерЗадач" id="281c1cc9-8420-4fb5-99ff-7592afa2e22d" configVersion="b54e24019c1cac419d8c0d0a1f43657e00000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.ClientApplicationInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.b" configVersion="e41d38ffcd5d5941a08904ddbd77368100000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.CommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.a" configVersion="442ebd0b62da0542876ae864bdbf282200000000"/>
-		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="a96215bdc1ca5f459277e2b381baf4f400000000"/>
+		<Metadata name="Configuration.МенеджерЗадач.ExternalConnectionModule" id="2af09197-39c6-4606-b3fb-327dca5d80f9.5" configVersion="f685e494649d76418c36567ac642173600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.Help" id="2af09197-39c6-4606-b3fb-327dca5d80f9.3" configVersion="b601b496b874f04a892e1bb93248953000000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.HomePageWorkArea" id="2af09197-39c6-4606-b3fb-327dca5d80f9.8" configVersion="19c7130351624c4fbdab15d9de0ffed600000000"/>
 		<Metadata name="Configuration.МенеджерЗадач.MainSectionCommandInterface" id="2af09197-39c6-4606-b3fb-327dca5d80f9.9" configVersion="c81552fbf1b33547b0d2bdd46748ba9000000000"/>
