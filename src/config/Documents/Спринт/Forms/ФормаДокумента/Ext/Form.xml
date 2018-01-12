@@ -180,6 +180,16 @@
 												</Picture>
 												<ExtendedTooltip name="СоставСпринтаДобавитьЗадачиПоСпискуНомеровРасширеннаяПодсказка" id="219"/>
 											</Button>
+											<Button name="СоставСпринтаСортироватьПоВозрастанию" id="220">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СортироватьПоВозрастанию</CommandName>
+												<ExtendedTooltip name="СоставСпринтаСортироватьПоВозрастаниюРасширеннаяПодсказка" id="221"/>
+											</Button>
+											<Button name="СоставСпринтаСортироватьПоУбыванию" id="222">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СортироватьПоУбыванию</CommandName>
+												<ExtendedTooltip name="СоставСпринтаСортироватьПоУбываниюРасширеннаяПодсказка" id="223"/>
+											</Button>
 										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="СоставСпринтаРасширеннаяПодсказка" id="19"/>
@@ -911,6 +921,44 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбновитьРеквизитыСтрок</Action>
+		</Command>
+		<Command name="СортироватьПоВозрастанию" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по возрастанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по возрастанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SortListAsc</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СортироватьПоВозрастанию</Action>
+		</Command>
+		<Command name="СортироватьПоУбыванию" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по убыванию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по убыванию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SortListDesc</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СортироватьПоУбыванию</Action>
 		</Command>
 	</Commands>
 </Form>
