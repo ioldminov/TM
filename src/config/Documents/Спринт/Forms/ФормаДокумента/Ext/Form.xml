@@ -190,6 +190,17 @@
 												<CommandName>Form.Command.СортироватьПоУбыванию</CommandName>
 												<ExtendedTooltip name="СоставСпринтаСортироватьПоУбываниюРасширеннаяПодсказка" id="223"/>
 											</Button>
+											<Button name="СоставСпринтаНазначитьИсполнителюПоРаспределению" id="224">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.НазначитьИсполнителюПоРаспределению</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Назначить исполнителю</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="СоставСпринтаНазначитьИсполнителюПоРаспределениюРасширеннаяПодсказка" id="225"/>
+											</Button>
 										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="СоставСпринтаРасширеннаяПодсказка" id="19"/>
@@ -959,6 +970,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СортироватьПоУбыванию</Action>
+		</Command>
+		<Command name="НазначитьИсполнителюПоРаспределению" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить исполнителю по распределению</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назначить исполнителю по распределению</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.User</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НазначитьИсполнителюПоРаспределению</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>
