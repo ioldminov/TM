@@ -1817,10 +1817,6 @@
 							</ChildItems>
 						</Page>
 						<Page name="НастройкиСписка" id="61">
-							<UserVisible>
-								<xr:Common>true</xr:Common>
-								<xr:Value name="Role.ПользовательВнешний">true</xr:Value>
-							</UserVisible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1837,6 +1833,10 @@
 							<ChildItems>
 								<Table name="Отбор" id="19">
 									<Representation>Tree</Representation>
+									<UserVisible>
+										<xr:Common>true</xr:Common>
+										<xr:Value name="Role.ПользовательВнешний">true</xr:Value>
+									</UserVisible>
 									<TitleLocation>Top</TitleLocation>
 									<CommandBarLocation>None</CommandBarLocation>
 									<Autofill>true</Autofill>
@@ -2247,7 +2247,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Суть,
 	ДокументЗадача.ПометкаУдаления,
@@ -2676,7 +2676,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	АдресацияНовостей.Период КАК Период,
 	АдресацияНовостей.Объект,
 	АдресацияНовостей.Объект.Суть КАК Суть,
@@ -2860,7 +2860,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ИсторияРаботыПодробности.Период,
 	ИсторияРаботыПодробности.Объект,
 	ИсторияРаботыПодробности.Пользователь,
@@ -2907,7 +2907,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Избранное.Пользователь,
 	Избранное.Задача,
 	Избранное.Задача.Суть КАК Суть,
@@ -3059,7 +3059,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>false</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	Коментарии.ДатаДобавления КАК ДатаДобавления,
 	Коментарии.Пользователь,
 	Коментарии.Комментарий
@@ -3176,7 +3176,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Суть,
 	ДокументЗадача.ПометкаУдаления,
@@ -3251,7 +3251,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Номер,
 	ДокументЗадача.Суть,
@@ -3442,7 +3442,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Номер,
 	ДокументЗадача.Суть,
@@ -3633,7 +3633,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
+				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Номер,
 	ДокументЗадача.Суть,
@@ -3842,7 +3842,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<QueryText>ВЫБРАТЬ
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	ДокументЗадача.Ссылка,
 	ДокументЗадача.Номер,
 	ДокументЗадача.Суть,
