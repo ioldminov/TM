@@ -1410,6 +1410,41 @@ U - модернизировано/изменено (update);</v8:content>
 									</ToolTip>
 									<ExtendedTooltip name="ГруппаАвтотестыРасширеннаяПодсказка" id="393"/>
 									<ChildItems>
+										<UsualGroup name="ГруппаПутьКАвтотесту" id="409">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа путь к автотесту</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа путь к автотесту</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПутьКАвтотестуРасширеннаяПодсказка" id="410"/>
+											<ChildItems>
+												<InputField name="ПутьКОбработкеАвтотеста" id="394">
+													<DataPath>Объект.ПутьКОбработкеАвтотеста</DataPath>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<ChoiceButton>true</ChoiceButton>
+													<ContextMenu name="ПутьКОбработкеАвтотестаКонтекстноеМеню" id="395"/>
+													<ExtendedTooltip name="ПутьКОбработкеАвтотестаРасширеннаяПодсказка" id="396"/>
+													<Events>
+														<Event name="StartChoice">ПутьКОбработкеАвтотестаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+												<Button name="СоздатьАвтотест" id="411">
+													<Type>UsualButton</Type>
+													<CommandName>Form.Command.СоздатьАвтотест</CommandName>
+													<ExtendedTooltip name="СоздатьАвтотестРасширеннаяПодсказка" id="412"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 										<InputField name="ОписаниеТребованийКАвтотесту" id="397">
 											<DataPath>Объект.ОписаниеТребованийКАвтотесту</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1417,16 +1452,6 @@ U - модернизировано/изменено (update);</v8:content>
 											<Font ref="style:ШрифтТекстовыхПолей" kind="StyleItem"/>
 											<ContextMenu name="ОписаниеТребованийКАвтотестуКонтекстноеМеню" id="398"/>
 											<ExtendedTooltip name="ОписаниеТребованийКАвтотестуРасширеннаяПодсказка" id="399"/>
-										</InputField>
-										<InputField name="ПутьКОбработкеАвтотеста" id="394">
-											<DataPath>Объект.ПутьКОбработкеАвтотеста</DataPath>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ChoiceButton>true</ChoiceButton>
-											<ContextMenu name="ПутьКОбработкеАвтотестаКонтекстноеМеню" id="395"/>
-											<ExtendedTooltip name="ПутьКОбработкеАвтотестаРасширеннаяПодсказка" id="396"/>
-											<Events>
-												<Event name="StartChoice">ПутьКОбработкеАвтотестаНачалоВыбора</Event>
-											</Events>
 										</InputField>
 									</ChildItems>
 								</Page>
@@ -2495,6 +2520,21 @@ U - модернизировано/изменено (update);</v8:content>
 			</Picture>
 			<Action>ПереименоватьФайл</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="СоздатьАвтотест" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать автотест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать автотест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьАвтотест</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>
