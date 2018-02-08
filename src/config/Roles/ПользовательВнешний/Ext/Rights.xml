@@ -4,6 +4,24 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
 	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.РежимСовместимости</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ШагПорядкаЗадач</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Коментарии.Dimension.Пользователь</name>
 		<right>
 			<name>Edit</name>
@@ -19,6 +37,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Файлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -72,6 +97,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ОтслеживающиеПользователиПоУмолчанию</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ИсторияРаботыПодробности.Resource.Подробности</name>
 		<right>
 			<name>Edit</name>
@@ -96,9 +132,20 @@
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Output</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.СвязанныеЗадачи.Resource.ВидСвязи</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.ТелефонСотовый</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -110,7 +157,14 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Задача.Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>ПланВыполненияЗадач ГДЕ ПланВыполненияЗадач.Задача.Исполнитель = &amp;ТекущийПользователь
+    ИЛИ ПланВыполненияЗадач.Задача.Проект В
+            (ВЫБРАТЬ
+                НастройкиДоступаКПроектам.Проект
+            ИЗ
+                РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+            ГДЕ
+                НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -219,7 +273,36 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.МастерПароль</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ДеревоСвязанныхОбъектов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.АдресацияНовостей.Dimension.Адресат</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.ТелефонВнутренний</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -273,6 +356,24 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.ОшибкиВЗапросе</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.ОтображатьВПланеВыполненияЗадач</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Коментарии.Dimension.ID</name>
 		<right>
 			<name>Edit</name>
@@ -284,6 +385,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТипыЗадач</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -306,7 +418,14 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Объект.Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>АдресацияНовостей ГДЕ АдресацияНовостей.Объект.Исполнитель = &amp;ТекущийПользователь
+    ИЛИ АдресацияНовостей.Объект.Проект В
+            (ВЫБРАТЬ
+                НастройкиДоступаКПроектам.Проект
+            ИЗ
+                РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+            ГДЕ
+                НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -359,7 +478,14 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Объект.Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>ИсторияРаботыПодробности ГДЕ ИсторияРаботыПодробности.Объект.Исполнитель = &amp;ТекущийПользователь
+	ИЛИ ИсторияРаботыПодробности.Объект.Проект В
+			(ВЫБРАТЬ
+				НастройкиДоступаКПроектам.Проект
+			ИЗ
+				РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+			ГДЕ
+				НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -400,12 +526,38 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.Избранное</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.Коментарии</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Объект.Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>Коментарии ГДЕ Коментарии.Объект.Исполнитель = &amp;ТекущийПользователь
+    ИЛИ Коментарии.Объект.Проект В
+            (ВЫБРАТЬ
+                НастройкиДоступаКПроектам.Проект
+            ИЗ
+                РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+            ГДЕ
+                НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -492,9 +644,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Пользователи.Attribute.ЭлПочта</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.МодулиСистемы</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -517,10 +680,28 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.ПутьКХранилищу</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СвязанныеЗадачи.Dimension.Задача1</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияСостоянийЗадач</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -532,6 +713,35 @@
 	</object>
 	<object>
 		<name>InformationRegister.СвязанныеЗадачи.Resource.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.МодальностьЗапрещена</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.ICQ</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.ПутьКФайлуЗапроса</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -554,6 +764,10 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.Задача</name>
@@ -561,7 +775,44 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Исполнитель = &amp;ТекущийПользователь</condition>
+				<field>Автор</field>
+				<field>ВключатьВОписаниеПоставки</field>
+				<field>ДатаГотовностиТЗ</field>
+				<field>ДатаЗакрытия</field>
+				<field>ДатаИзменения</field>
+				<field>ДокументОснование</field>
+				<field>Исполнитель</field>
+				<field>ИсполнительОтклик</field>
+				<field>Модуль</field>
+				<field>НомерЗадачиВнешний</field>
+				<field>ОписаниеДляРелиза</field>
+				<field>ОписаниеДляРуководства</field>
+				<field>ОписаниеТребованийКАвтотесту</field>
+				<field>Ответственный</field>
+				<field>ПлановаяДатаИсполнения</field>
+				<field>Подробности</field>
+				<field>Проект</field>
+				<field>ПутьКОбработкеАвтотеста</field>
+				<field>РелизКонфигурации</field>
+				<field>СостояниеЗадачи</field>
+				<field>Срок</field>
+				<field>Статус</field>
+				<field>СтатусВнедрения</field>
+				<field>Суть</field>
+				<field>СутьРешенияЗадачи</field>
+				<field>ТипЗадачи</field>
+				<field>ТребуютсяАвтотесты</field>
+				<field>УдалитьПорядок</field>
+				<field>ХЗ_ОписаниеДляРелиза</field>
+				<field>ХЗ_Подробности</field>
+				<condition>Задача ГДЕ Задача.Исполнитель = &amp;ТекущийПользователь
+    ИЛИ Задача.Проект В
+            (ВЫБРАТЬ
+                НастройкиДоступаКПроектам.Проект
+            ИЗ
+                РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+            ГДЕ
+                НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -572,7 +823,14 @@
 			<name>Update</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>Задача ГДЕ Задача.Исполнитель = &amp;ТекущийПользователь
+	ИЛИ Задача.Проект В
+			(ВЫБРАТЬ
+				НастройкиДоступаКПроектам.Проект
+			ИЗ
+				РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+			ГДЕ
+				НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -638,44 +896,75 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Проекты.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -697,24 +986,71 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InputByString</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Predefined</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.IsFolder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Owner</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Parent</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Description</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.StandardAttribute.Code</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -737,7 +1073,14 @@
 			<name>Read</name>
 			<value>true</value>
 			<restrictionByCondition>
-				<condition>ГДЕ Задача.Исполнитель = &amp;ТекущийПользователь</condition>
+				<condition>ОперативныйПланЗадач ГДЕ ОперативныйПланЗадач.Задача.Исполнитель = &amp;ТекущийПользователь
+    ИЛИ ОперативныйПланЗадач.Задача.Проект В
+            (ВЫБРАТЬ
+                НастройкиДоступаКПроектам.Проект
+            ИЗ
+                РегистрСведений.НастройкиДоступаКПроектам КАК НастройкиДоступаКПроектам
+            ГДЕ
+                НастройкиДоступаКПроектам.Пользователь = &amp;ТекущийПользователь)</condition>
 			</restrictionByCondition>
 		</right>
 		<right>
@@ -771,6 +1114,60 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.ПутьКФайлуНаСервереПриложения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.МодальностьРазрешена</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонсольЗапросовУФ.Attribute.ВерсияПриложения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи.Attribute.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ХэшМастерПароля</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиДоступаКПроектам</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>

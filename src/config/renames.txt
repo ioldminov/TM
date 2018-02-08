@@ -403,6 +403,7 @@ InformationRegisters\ИсторияРаботыПодробности.xml-->Info
 InformationRegisters\ИсторияСостоянийЗадач.xml-->InformationRegisters\ИсторияСостоянийЗадач.xml
 InformationRegisters\ИсторияСтатей.xml-->InformationRegisters\ИсторияСтатей.xml
 InformationRegisters\Коментарии.xml-->InformationRegisters\Коментарии.xml
+InformationRegisters\НастройкиДоступаКПроектам.xml-->InformationRegisters\НастройкиДоступаКПроектам.xml
 InformationRegisters\ОперативныйПланЗадач.xml-->InformationRegisters\ОперативныйПланЗадач.xml
 InformationRegisters\ОтслеживающиеПользователиПоУмолчанию.xml-->InformationRegisters\ОтслеживающиеПользователиПоУмолчанию.xml
 InformationRegisters\ПланВыполненияЗадач.xml-->InformationRegisters\ПланВыполненияЗадач.xml
