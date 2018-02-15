@@ -117,8 +117,8 @@
 		<Metadata name="CommonModule.рсРегламентноеОбслуживание.Module" id="a3ecc5dd-ec75-4991-8e8f-b0fa9a9aad86.0" configVersion="f7471962ae0a47489797dc7d9b0d681d00000000"/>
 		<Metadata name="CommonModule.уоУсловноеОформление" id="33bea189-2a90-4831-8e0d-c459adc7cfb0" configVersion="46923f5dbfaab841bb5814a6d560a7bc00000000"/>
 		<Metadata name="CommonModule.уоУсловноеОформление.Module" id="33bea189-2a90-4831-8e0d-c459adc7cfb0.0" configVersion="ebf1ab6f9bfd4943921c63a812a9acd900000000"/>
-		<Metadata name="CommonModule.фзФоновыеЗадания" id="ae0c5e1d-4977-4dc7-bb61-02b25393eb54" configVersion="927f529757319b45bdb34ee29d04634000000000"/>
-		<Metadata name="CommonModule.фзФоновыеЗадания.Module" id="ae0c5e1d-4977-4dc7-bb61-02b25393eb54.0" configVersion="909d275abaafbd4a86de006f9c448f4400000000"/>
+		<Metadata name="CommonModule.фзФоновыеЗадания" id="ae0c5e1d-4977-4dc7-bb61-02b25393eb54" configVersion="4cb0dc58b64c2f4388b550603f2d4dcb00000000"/>
+		<Metadata name="CommonModule.фзФоновыеЗадания.Module" id="ae0c5e1d-4977-4dc7-bb61-02b25393eb54.0" configVersion="6e5a4b3d4824f94bac4605749f27973400000000"/>
 		<Metadata name="CommonPicture.БазаЗнаний" id="672e551e-ff7b-41c3-92de-d7554ad3e9c5" configVersion="059a71a082b9554ebd286ce20198370100000000"/>
 		<Metadata name="CommonPicture.БазаЗнаний.Picture" id="672e551e-ff7b-41c3-92de-d7554ad3e9c5.0" configVersion="558e40b1a298694f95fccf74b3309ce200000000"/>
 		<Metadata name="CommonPicture.Внимание" id="eb532593-80c5-49f7-86b6-26ef4a81026b" configVersion="33dfd464652b5445b8fee71ee80aba1700000000"/>
