@@ -422,6 +422,10 @@
 											<ContextMenu name="ДатаГотовностиТЗКонтекстноеМеню" id="93"/>
 											<ExtendedTooltip name="ДатаГотовностиТЗExtendedTooltip" id="200"/>
 										</InputField>
+										<LabelField name="Автор" id="8">
+											<ContextMenu name="АвторКонтекстноеМеню" id="9"/>
+											<ExtendedTooltip name="АвторExtendedTooltip" id="202"/>
+										</LabelField>
 										<LabelField name="Срок" id="90">
 											<DataPath>Список.Срок</DataPath>
 											<Title>
@@ -432,10 +436,6 @@
 											</Title>
 											<ContextMenu name="СрокКонтекстноеМеню" id="91"/>
 											<ExtendedTooltip name="СрокExtendedTooltip" id="201"/>
-										</LabelField>
-										<LabelField name="Автор" id="8">
-											<ContextMenu name="АвторКонтекстноеМеню" id="9"/>
-											<ExtendedTooltip name="АвторExtendedTooltip" id="202"/>
 										</LabelField>
 										<LabelField name="Исполнитель" id="54">
 											<DataPath>Список.Исполнитель</DataPath>
