@@ -19,8 +19,11 @@ Catalogs\Каталоги\Forms\ФормаСписка\Ext\Form\Module.bsl-->Cat
 Catalogs\Каталоги\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Каталоги\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\МодулиСистемы\Forms\ФормаВыбора.xml-->Catalogs\МодулиСистемы\Forms\ФормаВыбора.xml
 Catalogs\МодулиСистемы\Forms\ФормаСписка.xml-->Catalogs\МодулиСистемы\Forms\ФормаСписка.xml
+Catalogs\МодулиСистемы\Forms\ФормаЭлемента.xml-->Catalogs\МодулиСистемы\Forms\ФормаЭлемента.xml
 Catalogs\МодулиСистемы\Forms\ФормаВыбора\Ext\Form.xml-->Catalogs\МодулиСистемы\Forms\ФормаВыбора\Ext\Form.xml
 Catalogs\МодулиСистемы\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\МодулиСистемы\Forms\ФормаСписка\Ext\Form.xml
+Catalogs\МодулиСистемы\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\МодулиСистемы\Forms\ФормаЭлемента\Ext\Form.xml
+Catalogs\МодулиСистемы\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\МодулиСистемы\Forms\ФормаЭлемента\Ext\Form\Module.bsl
 Catalogs\Пароли\Ext\ObjectModule.bsl-->Catalogs\Пароли\Ext\ObjectModule.bsl
 Catalogs\Пароли\Forms\ФормаСписка.xml-->Catalogs\Пароли\Forms\ФормаСписка.xml
 Catalogs\Пароли\Forms\ФормаЭлемента.xml-->Catalogs\Пароли\Forms\ФормаЭлемента.xml
