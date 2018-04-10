@@ -779,6 +779,20 @@
 												<CommandBar name="КП_ФД_Подробности" id="29">
 													<CommandSource>Item.ФД_Подробности</CommandSource>
 													<ExtendedTooltip name="КП_ФД_ПодробностиРасширеннаяПодсказка" id="188"/>
+													<ChildItems>
+														<Button name="ФД_ПодробностиПодробностиПоказатьHTML" id="413">
+															<Type>CommandBarButton</Type>
+															<OnlyInAllActions>false</OnlyInAllActions>
+															<CommandName>Form.Command.ПодробностиПоказатьHTML</CommandName>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Показать HTML</v8:content>
+																</v8:item>
+															</Title>
+															<ExtendedTooltip name="ФД_ПодробностиПодробностиПоказатьHTMLРасширеннаяПодсказка" id="414"/>
+														</Button>
+													</ChildItems>
 												</CommandBar>
 											</ChildItems>
 										</UsualGroup>
@@ -2535,6 +2549,21 @@ U - модернизировано/изменено (update);</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьАвтотест</Action>
+		</Command>
+		<Command name="ПодробностиПоказатьHTML" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подробности показать HTML</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подробности показать HTML</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодробностиПоказатьHTML</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>
